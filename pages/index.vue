@@ -47,7 +47,7 @@
         <div
           class="dots"
           :class="{ bottom: !hasDown }"
-          v-if="elements[focusY].elements.length"
+          v-if="elements[focusY].elements.length > 1"
         >
           <div
             class="dot"
@@ -72,8 +72,9 @@ export default Vue.extend({
     const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
     let data = await $axios
       .get(
-        // todo change back to 'doc'
-        `https://us-central1-lix-338122.cloudfunctions.net/refresh/${contentDoc}`,
+        `https://us-central1-lix-338122.cloudfunctions.net/${
+          store.state.dev ? 'refresh' : 'doc'
+        }/${contentDoc}`,
       )
       .then((res) => {
         if (res.status === 500) return
@@ -145,7 +146,7 @@ export default Vue.extend({
   },
 
   computed: {
-    ...mapState(['mobile']),
+    ...mapState(['mobile', 'dev']),
     hasNext(): boolean {
       return (
         this.focusX !== (this as any).elements[this.focusY].elements.length - 1
