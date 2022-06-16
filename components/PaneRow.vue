@@ -31,6 +31,10 @@ export default Vue.extend({
       type: Array as PropType<any[]>,
       default: () => [],
     },
+    slug: {
+      type: String as PropType<string>,
+      default: '',
+    },
     tags: {
       type: Array as PropType<string[]>,
       default: () => [],
@@ -94,6 +98,19 @@ export default Vue.extend({
         if (this.isFocused) {
           // ;(this.$el as HTMLElement).focus?.()
           this.$emit('focusY')
+
+          setTimeout(() => {
+            if (!this.isFocused) return
+            // c.log(
+            //   'pushing history state',
+            //   encodeURIComponent(c.slugify(this.title)),
+            // )
+            history.pushState(
+              {},
+              '',
+              this.$route.path + '#' + (this.slug || ''),
+            )
+          }, 1000)
         } else {
           this.reset()
         }

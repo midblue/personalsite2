@@ -9,7 +9,7 @@
   font-size: 2rem;
 
   h1 {
-    color: var(--highlight-color);
+    // color: var(--highlight-color);
     font-size: calc(min(10rem, 10vw));
     line-height: 1;
     font-family: 'Bungee Outline', Helvetica, sans-serif;
@@ -33,7 +33,7 @@
   margin-left: -7vw;
   line-height: 1;
   font-size: calc(min(5rem, 5vw));
-  width: calc(100% + 10vw);
+  max-width: calc(100% + 10vw);
   border-radius: 5px;
   transition: left 1s ease-out;
 
@@ -62,7 +62,8 @@
   margin-top: 1rem;
 }
 
-.padImg {
+.padImg,
+.padImage {
   img {
     padding: 0.5rem;
   }

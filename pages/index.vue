@@ -122,6 +122,16 @@ export default Vue.extend({
           }
         })
         .filter((co: any) => co) || []
+    contentWithElementsBrokenOut.forEach((co: any, index: number) => {
+      if (index === 0) return
+      co.slug = encodeURIComponent(
+        c.slugify(
+          (/<h1[^>]*?>(.*)<\/h1>/.exec(co.elements[0].text || '')?.[1] || '')
+            .replace(/<[^>]*?>/g, '')
+            .trim(),
+        ),
+      )
+    })
     return {
       elements: contentWithElementsBrokenOut,
     }
@@ -152,7 +162,7 @@ export default Vue.extend({
     },
   },
 
-  mounted() {
+  async mounted() {
     // add up/down keyboard listeners
     document.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowDown') {
@@ -173,6 +183,14 @@ export default Vue.extend({
         this.next()
       }
     })
+
+    // path hash
+    const hash = window.location.hash.replace(/^#/, '')
+    await this.$nextTick()
+    const found = (this as any).elements.find((el: any) => el.slug === hash)
+    if (found) {
+      this.forceFocusY((this as any).elements.indexOf(found), true)
+    }
   },
   methods: {
     setFocusY(index: number) {
@@ -180,16 +198,19 @@ export default Vue.extend({
       this.focusX = 0
       this.forceFocusX = -1
     },
-    forceFocusY(index: number) {
+    forceFocusY(index: number, instant = false) {
       this.focusY = index
       this.focusX = 0
       this.forceFocusX = -1
-      ;(this.$refs.main as HTMLElement).scrollTo(
-        0,
-        ((this.$refs.main as HTMLElement).scrollHeight /
-          (this as any).elements.length) *
+      ;(this.$refs.main as HTMLElement).scrollTo({
+        left: 0,
+        top:
+          ((this.$refs.main as HTMLElement).scrollHeight /
+            (this as any).elements.length) *
           index,
-      )
+        // @ts-ignore
+        behavior: instant ? 'instant' : 'smooth',
+      })
     },
     setFocusX(index: number) {
       this.focusX = index

@@ -24,21 +24,11 @@ const detectMobile = () => {
     return true
 }
 
-function debounce(fn: Function, time = 700) {
-  let timeout: NodeJS.Timeout
-  return (...params: any[]) => {
-    if (timeout) clearTimeout(timeout)
-    timeout = setTimeout(() => {
-      fn(...params)
-    }, time)
-  }
-}
-
 import Vue from 'vue'
 import Lightbox from '~/components/Lightbox.vue'
 export default Vue.extend({
   mounted() {
-    window.addEventListener('resize', debounce(this.resetWindowSize, 100), {
+    window.addEventListener('resize', c.debounce(this.resetWindowSize, 100), {
       passive: true,
     })
     this.resetWindowSize()

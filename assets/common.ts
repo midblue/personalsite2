@@ -66,6 +66,15 @@ export function log(...args: any[]) {
   console.log(prefix, ...args)
 }
 
+export function debounce(fn: Function, time = 700) {
+  let timeout: NodeJS.Timeout
+  return (...params: any[]) => {
+    if (timeout) clearTimeout(timeout)
+    timeout = setTimeout(() => {
+      fn(...params)
+    }, time)
+  }
+}
 export function slugify(s: string | string[] = []) {
   if (!Array.isArray(s)) s = [s]
   return s.map((e) => e.toLowerCase().replace(/[^a-z0-9]/g, `-`)).join(`-`)

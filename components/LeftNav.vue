@@ -3,13 +3,14 @@
     <div
       class="option flexcenter flexcolumn"
       v-for="(p, index) in elements"
+      :ref="'option' + index"
       :key="index"
       :class="{ active: focusY === index, first: index === 0 }"
       :style="{ '--highlight-color': p.color }"
       @click="$emit('focusY', index)"
       v-tooltip="getTitle(p.elements[0].text)"
     >
-      <div
+      <!-- <div
         class="circle-wrap"
         :style="{
           '--percent': focusY === index ? (focusX + 1) / p.elements.length : 1,
@@ -23,7 +24,7 @@
             <div class="fill"></div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div
         class="thumb flexcenter"
@@ -33,7 +34,7 @@
         }"
       ></div>
 
-      <!-- <div class="dots flex">
+      <div class="dots flex">
         <div
           v-for="(element, elIndex) in p.elements"
           :key="'dot' + elIndex + element"
@@ -45,7 +46,7 @@
             }"
           ></div>
         </div>
-      </div> -->
+      </div>
     </div>
   </nav>
 </template>
@@ -69,12 +70,30 @@ export default Vue.extend({
   },
   computed: {
     ...mapState(['mobile']),
+    debouncedScroll(): Function {
+      return c.debounce(this.scrollToFocus, 100)
+    },
+  },
+  watch: {
+    focusY() {
+      this.debouncedScroll()
+    },
   },
   methods: {
     getTitle(p: string) {
       return (/<h1[^>]*?>(.*)<\/h1>/.exec(p || '')?.[1] || '')
-        .replace(/<.*>/g, '')
+        .replace('small', 'sub')
         .trim()
+    },
+    scrollToFocus() {
+      this.$el.scrollTo({
+        top: Math.max(
+          0,
+          ((this.$refs['option' + this.focusY] as HTMLElement[])?.[0]
+            ?.offsetTop || 0) - 100,
+        ),
+        behavior: 'smooth',
+      })
     },
   },
 })
@@ -101,53 +120,53 @@ nav {
     pointer-events: none;
   }
 
-  .circle-wrap {
-    --percent: 1;
-    position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
-    z-index: 0;
-    --circ-width: calc(var(--nav-width) * 0.8);
-    width: var(--circ-width);
-    height: var(--circ-width);
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.2);
+  // .circle-wrap {
+  //   --percent: 1;
+  //   position: absolute;
+  //   // top: 50%;
+  //   // left: 50%;
+  //   // transform: translate(-50%, -50%);
+  //   z-index: 0;
+  //   --circ-width: calc(var(--nav-width) * 0.8);
+  //   width: var(--circ-width);
+  //   height: var(--circ-width);
+  //   border-radius: 50%;
+  //   background-color: rgba(255, 255, 255, 0.2);
 
-    transition: all 0.2s ease-in-out;
-  }
+  //   transition: all 0.2s ease-in-out;
+  // }
 
-  .circle-wrap .circle .mask,
-  .circle-wrap .circle .fill {
-    width: var(--circ-width);
-    height: var(--circ-width);
-    position: absolute;
-    border-radius: 50%;
-  }
+  // .circle-wrap .circle .mask,
+  // .circle-wrap .circle .fill {
+  //   width: var(--circ-width);
+  //   height: var(--circ-width);
+  //   position: absolute;
+  //   border-radius: 50%;
+  // }
 
-  .circle-wrap .circle .mask {
-    clip: rect(
-      0px,
-      var(--circ-width),
-      var(--circ-width),
-      calc(var(--circ-width) / 2.01)
-    );
-  }
+  // .circle-wrap .circle .mask {
+  //   clip: rect(
+  //     0px,
+  //     var(--circ-width),
+  //     var(--circ-width),
+  //     calc(var(--circ-width) / 2.01)
+  //   );
+  // }
 
-  .circle-wrap .circle .mask .fill {
-    clip: rect(0px, calc(var(--circ-width) / 1.98), var(--circ-width), 0px);
-    background-color: var(--highlight-color);
-  }
+  // .circle-wrap .circle .mask .fill {
+  //   clip: rect(0px, calc(var(--circ-width) / 1.98), var(--circ-width), 0px);
+  //   background-color: var(--highlight-color);
+  // }
 
-  .circle-wrap .circle .mask.full,
-  .circle-wrap .circle .fill {
-    transition: transform 0.5s ease-in-out;
-    transform: rotate(calc(var(--percent) * 180deg));
-  }
+  // .circle-wrap .circle .mask.full,
+  // .circle-wrap .circle .fill {
+  //   transition: transform 0.5s ease-in-out;
+  //   transform: rotate(calc(var(--percent) * 180deg));
+  // }
 
   .option {
     width: var(--nav-width);
-    height: var(--nav-width);
+    height: calc(var(--nav-width) * 0.9);
     cursor: pointer;
     overflow: hidden;
     flex-shrink: 0;
@@ -159,12 +178,6 @@ nav {
       left: 0;
       width: 100%;
       height: 100%;
-      // top: 3%;
-      // left: 6%;
-      // width: 94%;
-      // height: 97%;
-      // border-top-left-radius: 1rem;
-      // border-bottom-left-radius: 1rem;
       transition: background 0.2s ease-in-out;
     }
 
@@ -178,22 +191,9 @@ nav {
       transition: all 0.3s ease-in-out;
       transform: scale(0.85);
 
-      &.circle-wrap {
-        transform: scale(0.8);
-      }
-    }
-  }
-
-  .option.active,
-  .option:hover {
-    &:before {
-      background: rgba(255, 255, 255, 0.2);
-    }
-  }
-  .option.active {
-    & > * {
-      transform: scale(1);
-      opacity: 1;
+      // &.circle-wrap {
+      //   transform: scale(0.8);
+      // }
     }
   }
 
@@ -206,18 +206,33 @@ nav {
   img {
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--highlight-color, #bbb);
   }
 
-  .tooltip {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translateY(-50%);
-    background: #555;
-    color: white;
-    padding: 0.5rem 1rem;
+  .thumb {
+    transition: transform 0.3s ease-in-out;
   }
 
+  .option.active,
+  .option:hover {
+    &:before {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+  .option.active {
+    & > * {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+
+    .thumb {
+      transform: scale(0.9) translateY(-3px);
+    }
+
+    img {
+      box-shadow: 0 0 0 3px var(--highlight-color, #bbb);
+    }
+  }
   .dots {
     position: absolute;
     bottom: calc(var(--nav-width) * 0.05);
