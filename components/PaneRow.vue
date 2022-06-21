@@ -101,18 +101,19 @@ export default Vue.extend({
 
           setTimeout(() => {
             if (!this.isFocused) return
-            c.log(
-              'force focus',
-              this.index,
-              this.$route.path.split('/')[0] +
-                (this.slug ? '/p/' + this.slug : '/'),
-            )
+            // c.log(
+            //   'force focus',
+            //   this.index,
+            //   this.$route.path.split('/')[0] +
+            //     (this.slug ? '/p/' + this.slug : '/'),
+            // )
             history.replaceState(
               {},
               '',
               this.$route.path.split('/')[0] +
                 (this.slug ? '/p/' + this.slug : '/'),
             )
+            ;(this as any).$ga?.page(this.slug ? '/p/' + this.slug : '/')
           }, 1000)
         } else {
           this.reset()

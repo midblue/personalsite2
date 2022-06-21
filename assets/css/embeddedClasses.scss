@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
-.mainIntro {
+.rowholder.first .first {
   // display: flex;
   // flex-direction: column;
   // align-items: center;
   // justify-content: center;
   // text-align: center;
-  font-size: 2rem;
+  font-size: calc(min(2rem, 5vw));
+  line-height: 1.2;
 
   h1 {
     // color: var(--highlight-color);
-    font-size: calc(min(10rem, 10vw));
+    font-size: calc(min(10rem, 11vw));
     line-height: 1;
     font-family: 'Bungee Outline', Helvetica, sans-serif;
     margin: 0;
@@ -22,6 +23,7 @@
   }
 
   .sub {
+    margin-top: 0.5rem;
     font-size: 1rem;
   }
 }
@@ -53,6 +55,20 @@
 }
 .focused .postTitle {
   left: -10vw;
+}
+
+.mobile {
+  .postTitle {
+    font-size: calc(min(5rem, 8vw));
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+
+    .small {
+      font-size: 1rem;
+      margin-top: 0.2rem;
+      line-height: 1.2;
+    }
+  }
 }
 
 .caption {
@@ -105,6 +121,13 @@
   picture,
   img {
     max-width: 100% !important;
+  }
+}
+
+.mobile {
+  .grid2,
+  .grid3 {
+    max-width: 100%;
   }
 }
 

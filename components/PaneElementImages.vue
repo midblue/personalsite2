@@ -88,7 +88,6 @@ export default Vue.extend({
       ?.querySelectorAll('img')
       .forEach((img: HTMLImageElement) => {
         img.addEventListener('click', () => {
-          c.log('click', img, img.src)
           this.$store.commit('set', { lightboxSrc: img.src })
         })
       })
@@ -161,6 +160,7 @@ export default Vue.extend({
     width: 100%;
     padding-top: 56.25%;
   }
+
   iframe {
     position: absolute;
     top: 0;
@@ -184,6 +184,17 @@ export default Vue.extend({
     iframe {
       max-width: calc(var(--pane-width) * 0.8);
     }
+  }
+}
+
+.mobile {
+  .iframeholder {
+    min-width: calc(var(--pane-width) * 0.85);
+  }
+
+  img,
+  iframe {
+    max-width: calc(var(--pane-width) * 0.85);
   }
 }
 </style>

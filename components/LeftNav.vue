@@ -1,12 +1,18 @@
 <template>
   <nav class="flexcolumn hidescrollbar" v-if="!mobile">
+    <transition name="fade">
+      <div class="xMore" v-if="xMore">{{ xMore }} more ↓</div>
+    </transition>
     <div
       class="option flexcenter flexcolumn"
       v-for="(p, index) in elements"
       :ref="'option' + index"
       :key="index"
       :class="{ active: focusY === index, first: index === 0 }"
-      :style="{ '--highlight-color': p.color }"
+      :style="{
+        '--highlight-color': p.color,
+        'box-shadow': focusY <= 1 ? 'none !important' : '',
+      }"
       @click="$emit('focusY', index)"
       v-tooltip="getTitle(p.elements[0].text)"
     >
@@ -74,14 +80,48 @@ export default Vue.extend({
   },
   computed: {
     ...mapState(['mobile']),
+    debouncedOnScroll(): Function {
+      return c.debounce(this.onScroll, 50)
+    },
     debouncedScroll(): Function {
       return c.debounce(this.scrollToFocus, 300)
     },
+  },
+  data() {
+    return {
+      xMore: 0,
+    }
   },
   watch: {
     focusY() {
       this.debouncedScroll()
     },
+    mobile() {
+      if (!this.mobile)
+        this.$el.addEventListener(
+          'scroll',
+          this.debouncedOnScroll as EventListenerOrEventListenerObject,
+        )
+      else
+        this.$el.removeEventListener(
+          'scroll',
+          this.debouncedOnScroll as EventListenerOrEventListenerObject,
+        )
+    },
+  },
+  mounted() {
+    this.$el.addEventListener(
+      'scroll',
+      this.debouncedOnScroll as EventListenerOrEventListenerObject,
+    )
+    this.debouncedOnScroll()
+  },
+  beforeDestroy() {
+    if (!this.$el) return
+    this.$el.removeEventListener(
+      'scroll',
+      this.debouncedOnScroll as EventListenerOrEventListenerObject,
+    )
   },
   methods: {
     getTitle(p: string) {
@@ -90,6 +130,7 @@ export default Vue.extend({
         .trim()
     },
     scrollToFocus() {
+      if (!this.$el) return
       this.$el.scrollTo({
         top: Math.max(
           0,
@@ -98,6 +139,22 @@ export default Vue.extend({
         ),
         behavior: 'smooth',
       })
+    },
+    onScroll(e: Event) {
+      if (!this.$el) return
+      if (this.mobile) return
+      // get count of elements out of scroll view
+      const count = Object.entries(this.$refs)
+        .filter(([k]) => k.includes('option'))
+        .filter(([k, v]) => {
+          const el: HTMLElement = (v as HTMLElement[])?.[0]
+          // c.log(v, el.offsetTop, el.offsetHeight, this.$el.scrollTop)
+          return (
+            el.offsetTop + el.offsetHeight >
+            this.$el.scrollTop + (this.$el as HTMLElement).offsetHeight
+          )
+        }).length
+      this.xMore = count
     },
   },
 })
@@ -120,8 +177,8 @@ nav {
     z-index: 5;
     left: 0;
     width: var(--nav-width);
-    height: 4rem;
-    background: linear-gradient(to bottom, transparent, #222);
+    height: 5rem;
+    background: linear-gradient(to bottom, transparent, #222 80%);
     pointer-events: none;
   }
 
@@ -195,6 +252,7 @@ nav {
       top: 0;
       z-index: 5;
       box-shadow: 0 0rem 0.8rem 0.8rem #222;
+      transition: box-shadow 0.2s ease-in-out;
 
       &:before {
         background: transparent !important;
@@ -202,8 +260,8 @@ nav {
     }
 
     &:nth-of-type(2) {
-      padding-top: 0.5rem;
-      height: calc(var(--nav-width) * 0.9 + 0.5rem);
+      padding-top: 0.2rem;
+      height: calc(var(--nav-width) * 0.9 + 0.2rem);
     }
 
     & > * {
@@ -271,6 +329,20 @@ nav {
   }
   .first .dots {
     top: 88%;
+  }
+
+  .xMore {
+    pointer-events: none;
+    position: fixed;
+    top: calc(100vh - 1.7rem);
+    left: 0;
+    width: var(--nav-width);
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    text-align: center;
+    z-index: 6;
+    white-space: nowrap;
   }
 }
 </style>

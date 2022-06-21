@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ja/bye", {data:[{}],fetch:{},mutations:[]});

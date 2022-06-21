@@ -20,6 +20,7 @@
         @focusX="setFocusX"
         :forceFocusX="forceFocusX"
         :index="index"
+        :class="{ first: index === 0 }"
       />
     </main>
 
@@ -71,7 +72,7 @@ import * as c from '~/assets/common'
 import { mapState } from 'vuex'
 
 export default Vue.extend({
-  async asyncData({ $axios, store, redirect }) {
+  async asyncData({ $axios, store, redirect, route }) {
     const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
     let data = await $axios
       .get(
@@ -107,13 +108,6 @@ export default Vue.extend({
                 const image = content
                   .split(/<\/div><div class='cell'>/g)?.[0]
                   ?.replace(/^<div[^>]*?>/, '')
-                // const imageRegex =
-                //   /<(?:div|picture|iframe).*?<\/(picture|iframe)>(?:<\/div>)?/g
-                // let imageMatch = imageRegex.exec(content)
-                // while (imageMatch) {
-                //   image.push(imageMatch[0])
-                //   imageMatch = imageRegex.exec(content)
-                // }
                 const text = content
                   .split(/<\/div><div class='cell'>/g)?.[1]
                   ?.replace(/(<\/div>)+$/g, '')
@@ -130,14 +124,58 @@ export default Vue.extend({
       if (index === 0) return
       co.slug = encodeURIComponent(
         c.slugify(
-          (/<h1[^>]*?>(.*)<\/h1>/.exec(co.elements[0].text || '')?.[1] || '')
+          (/<h1[^>]*?>([^<]*)/.exec(co.elements[0].text || '')?.[1] || '')
             .replace(/<[^>]*?>/g, '')
             .trim(),
         ),
       )
     })
+
+    const hash = route.hash.replace(/^#/, '')
+    const found = contentWithElementsBrokenOut.find(
+      (el: any) => el.slug === hash,
+    )
+
     return {
       elements: contentWithElementsBrokenOut,
+      preselectedSlug: found?.slug,
+    }
+  },
+  head() {
+    const element = (this as any).elements.find(
+      (el: any) => el.slug && el.slug === (this as any).preselectedSlug,
+    )
+    const title =
+      /<h1[^>]*?>([^<]*)/g.exec(element?.elements[0]?.text || '')?.[1] || 'Home'
+    const image =
+      /src=(?:'|")([^"']*)/g.exec(element?.elements[0]?.image || '')?.[1] ||
+      /src=(?:'|")([^'"]*)/g.exec(
+        (this as any).elements[0].elements[1]?.image || '',
+      )?.[1] ||
+      ''
+    const url = element
+      ? `https://jasperstephenson.com/p/${element.slug}`
+      : `https://jasperstephenson.com/`
+    const description = element
+      ? element.elements[0].text
+          .replace(/<h1.*<\/h1>/g, '')
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim()
+      : 'Digital Tinkerer, Friendly Ghost.'
+    return {
+      title: title + ' | ' + 'Jasper Stephenson',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Jasper Stephenson',
+        },
+        { hid: 'og:title', name: 'og:title', content: title },
+        { hid: 'og:description', name: 'og:description', content: description },
+        { hid: 'og:image', name: 'og:image', content: image },
+        { hid: 'og:url', name: 'og:url', content: url },
+      ],
     }
   },
   data() {
@@ -189,16 +227,20 @@ export default Vue.extend({
     })
 
     // path hash
-    const hash = window.location.hash.replace(/^#/, '')
     await this.$nextTick()
-    const found = (this as any).elements.find((el: any) => el.slug === hash)
+    const found = (this as any).elements.find(
+      (el: any) => el.slug === (this as any).preselectedSlug,
+    )
     if (found) {
       this.forceFocusY((this as any).elements.indexOf(found), true)
     }
     history.replaceState(
       {},
       '',
-      this.$route.path.split('/')[0] + (found && hash ? '/p/' + hash : '/'),
+      this.$route.path.split('/')[0] +
+        (found && (this as any).preselectedSlug
+          ? '/p/' + (this as any).preselectedSlug
+          : '/'),
     )
   },
   methods: {
@@ -209,6 +251,7 @@ export default Vue.extend({
 
       setTimeout(() => {
         if (this.focusY !== index) return
+        ;(this as any).preselectedSlug = (this as any).elements[index].slug
         const hasNext = index !== (this as any).elements.length - 1,
           hasPrevious = index !== 0
 
@@ -216,10 +259,11 @@ export default Vue.extend({
         if (hasPrevious) this.preload(index - 1)
       }, 200)
     },
-    forceFocusY(index: number, instant = false) {
+    async forceFocusY(index: number, instant = false) {
       this.focusY = index
       this.focusX = 0
       this.forceFocusX = -1
+      while (!(this.$refs.main as HTMLElement)) c.sleep(100)
       ;(this.$refs.main as HTMLElement).scrollTo({
         left: 0,
         top:
@@ -229,6 +273,7 @@ export default Vue.extend({
         // @ts-ignore
         behavior: instant ? 'instant' : 'smooth',
       })
+      ;(this as any).preselectedSlug = (this as any).elements[index].slug
     },
     setFocusX(index: number) {
       this.focusX = index
@@ -324,10 +369,16 @@ main {
 }
 .navigators {
   position: absolute;
+  z-index: 6;
+  pointer-events: none;
   right: 0;
   top: 0;
   height: var(--pane-height);
   width: var(--pane-width);
+
+  & > * {
+    pointer-events: auto;
+  }
 }
 
 .guide {
@@ -426,7 +477,7 @@ main {
   --s2: 1.4rem;
   background: transparent;
   color: var(--text);
-  pointer-events: none;
+  // pointer-events: none;
 }
 .up {
   left: 50%;

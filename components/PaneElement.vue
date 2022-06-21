@@ -7,18 +7,24 @@
   >
     <div class="bg" v-if="image"></div>
     <div class="contents">
-      <PaneElementImages :image="image" :class="{ noText: !text }" />
+      <PaneElementImages
+        v-if="image"
+        :image="image"
+        :class="{ noText: !text }"
+      />
 
       <div class="tags" v-if="index === 0">
         <div class="tag" v-for="tag in tags" :key="tag">{{ tag }}</div>
       </div>
 
       <div
-        class="text"
+        class="text flexcolumn"
         v-if="text"
-        v-html="text"
         :class="{ noImage: !image, first: index === 0 }"
-      ></div>
+      >
+        <div class="header" v-if="header" v-html="header"></div>
+        <div class="textScroller" v-html="textMinusHeader"></div>
+      </div>
     </div>
   </section>
 </template>
@@ -57,6 +63,13 @@ export default Vue.extend({
   },
   computed: {
     ...mapState(['mobile']),
+    header(): string | undefined {
+      return /<h1.*<\/h1>/g.exec(this.text)?.[0]
+    },
+    textMinusHeader(): string | undefined {
+      if (!this.header) return this.text
+      return this.text?.replace(this.header, '')
+    },
   },
   async mounted() {
     const observer = new IntersectionObserver(
@@ -145,8 +158,8 @@ export default Vue.extend({
   // }
 
   .text {
-    pointer-events: none;
     position: relative;
+    pointer-events: none;
     z-index: 3;
     flex-shrink: 0;
     width: calc(var(--pane-width) * 0.65);
@@ -154,8 +167,6 @@ export default Vue.extend({
     padding-left: calc(var(--pane-width) * 0.3);
     margin-left: calc(-1 * var(--pane-width) * 0.3);
     max-height: calc(max(var(--pane-height) * 0.85));
-    overflow-y: auto;
-    overflow-x: hidden;
 
     &.noImage {
       width: calc(min(var(--pane-width) * 0.9, 600px));
@@ -168,8 +179,18 @@ export default Vue.extend({
       }
     }
 
-    & > * {
+    .header {
+      h1 {
+        display: inline-block;
+      }
+    }
+
+    .textScroller {
+      width: 100%;
+      height: 100%;
       pointer-events: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
     }
   }
 
@@ -192,7 +213,7 @@ export default Vue.extend({
   &.mobile {
     .contents {
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 2rem;
       padding: 1.5rem 2rem 2.5rem 2rem;
       background: transparent;
 
@@ -200,13 +221,19 @@ export default Vue.extend({
         display: none;
       }
 
-      .paneElementImage img {
-        max-width: 100%;
-        max-height: 40vh;
+      .paneElementImage {
+        img {
+          max-width: 100%;
+          max-height: 40vh;
+        }
       }
+
       .text {
         width: 100%;
-        max-height: 40vh;
+        padding: 0 0rem;
+        max-height: 50%;
+        margin: 0;
+        pointer-events: auto;
 
         &.noImage {
           width: 100%;
@@ -220,6 +247,7 @@ export default Vue.extend({
     position: absolute;
     top: 1rem;
     right: 1rem;
+    z-index: 5;
 
     .tag {
       text-transform: uppercase;

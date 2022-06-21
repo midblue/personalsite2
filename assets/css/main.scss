@@ -27,7 +27,8 @@ html {
   overscroll-behavior-x: none; // disables swipe navigation
 
   @media only screen and (max-device-width: 768px) {
-    font-size: 15px;
+    font-size: 15.5px;
+    line-height: 1.55;
   }
 }
 body {

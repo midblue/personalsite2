@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 export const state = () => ({
   dev: process.env.NODE_ENV === `development`,
-  mobile: false,
+  mobile: true,
   winSize: [1200, 1000],
   lightboxSrc: null,
   tooltip: null,
