@@ -20,6 +20,10 @@
     // -webkit-text-fill-color: transparent;
     // color: transparent;
   }
+
+  .sub {
+    font-size: 1rem;
+  }
 }
 
 .postTitle {
@@ -69,6 +73,15 @@
   }
 }
 
+.onWhite {
+  &,
+  *,
+  *:before {
+    background-color: transparent;
+    box-shadow: none !important;
+  }
+}
+
 .roundImage {
   &:before,
   &:after {
@@ -99,7 +112,7 @@
   opacity: 0.8;
   padding: 0 1rem;
   border-left: 4px solid var(--text);
-  margin: 4rem auto;
+  margin: 2rem auto;
   position: relative;
 }
 .asideTitle {
@@ -110,4 +123,10 @@
   font-weight: 700;
   text-transform: uppercase;
   opacity: 0.5;
+}
+
+blockquote {
+  border-left: 4px solid var(--highlight-color, #bbb);
+  margin: 2rem 0;
+  padding-left: 2rem;
 }

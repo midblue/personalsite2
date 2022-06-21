@@ -23,7 +23,10 @@
       />
     </main>
 
-    <div class="navigators">
+    <div
+      class="navigators"
+      :style="{ '--highlight-color': elements[focusY].color }"
+    >
       <transition name="fade">
         <div v-if="hasUp" class="arrow up" @click="up">↑</div>
       </transition>
@@ -192,12 +195,26 @@ export default Vue.extend({
     if (found) {
       this.forceFocusY((this as any).elements.indexOf(found), true)
     }
+    history.replaceState(
+      {},
+      '',
+      this.$route.path.split('/')[0] + (found && hash ? '/p/' + hash : '/'),
+    )
   },
   methods: {
     setFocusY(index: number) {
       this.focusY = index
       this.focusX = 0
       this.forceFocusX = -1
+
+      setTimeout(() => {
+        if (this.focusY !== index) return
+        const hasNext = index !== (this as any).elements.length - 1,
+          hasPrevious = index !== 0
+
+        if (hasNext) this.preload(index + 1)
+        if (hasPrevious) this.preload(index - 1)
+      }, 200)
     },
     forceFocusY(index: number, instant = false) {
       this.focusY = index
@@ -217,6 +234,7 @@ export default Vue.extend({
       this.focusX = index
     },
     down() {
+      const prev = this.focusY
       // scroll 100% down
       if (!this.$refs.main) return
       ;(this.$refs.main as HTMLElement).scrollTop +=
@@ -225,6 +243,7 @@ export default Vue.extend({
       this.forceFocusX = -1
     },
     up() {
+      const prev = this.focusY
       // scroll 100% up
       if (!this.$refs.main) return
       ;(this.$refs.main as HTMLElement).scrollTop -=
@@ -233,13 +252,47 @@ export default Vue.extend({
       this.forceFocusX = -1
     },
     next() {
+      const prev = this.focusX
       this.forceFocusX = Math.min(
         this.focusX + 1,
         (this as any).elements[this.focusY].elements.length - 1,
       )
+      if (
+        this.forceFocusX === prev &&
+        (this as any).elements[this.focusY].elements.length - 1 === prev
+      ) {
+        ;(this.$refs.main as HTMLElement).classList.add('bounceRight')
+        setTimeout(() => {
+          ;(this.$refs.main as HTMLElement).classList.remove('bounceRight')
+        }, 300)
+      }
     },
     previous() {
+      const prev = this.focusX
       this.forceFocusX = Math.max(0, this.focusX - 1)
+      if (this.forceFocusX === prev && 0 === prev) {
+        ;(this.$refs.main as HTMLElement).classList.add('bounceLeft')
+        setTimeout(() => {
+          ;(this.$refs.main as HTMLElement).classList.remove('bounceLeft')
+        }, 300)
+      }
+    },
+    preload(index: number) {
+      // c.log('preload', index)
+      const images = [
+        ...((this as any).elements[index].elements?.[0]?.image || '').matchAll(
+          /src=(?:'|")(.*?)(?:'|")/g,
+        ),
+      ].map((m) => m[1])
+      images.forEach((i) => {
+        const img = new Image()
+        img.src = i
+      })
+      if ((this as any).elements[index].elements?.[0]?.image)
+        (this as any).elements[index].elements[0].image = (
+          this as any
+        ).elements[index].elements[0].image.replace(/loading='lazy'/g, '')
+      // c.log('preloaded', images)
     },
   },
 })
@@ -402,6 +455,8 @@ main {
   width: var(--s2);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  background: var(--highlight-color) !important;
+  opacity: 1;
 }
 .previous {
   top: 50%;
@@ -412,5 +467,31 @@ main {
   width: var(--s2);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+@keyframes bounceRight {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+}
+.bounceRight {
+  animation: 0.3s ease-in-out forwards bounceRight;
+}
+
+@keyframes bounceLeft {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+.bounceLeft {
+  animation: 0.3s ease-in-out forwards bounceLeft;
 }
 </style>

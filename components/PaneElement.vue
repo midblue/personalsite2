@@ -7,12 +7,7 @@
   >
     <div class="bg" v-if="image"></div>
     <div class="contents">
-      <div
-        class="image"
-        v-if="image"
-        v-html="image"
-        @click="$store.commit('set', { lightboxSrc: getLightboxSrc(image) })"
-      ></div>
+      <PaneElementImages :image="image" :class="{ noText: !text }" />
 
       <div class="tags" v-if="index === 0">
         <div class="tag" v-for="tag in tags" :key="tag">{{ tag }}</div>
@@ -63,7 +58,7 @@ export default Vue.extend({
   computed: {
     ...mapState(['mobile']),
   },
-  mounted() {
+  async mounted() {
     const observer = new IntersectionObserver(
       async (entries) => {
         this.isFocused = entries[0].isIntersecting
@@ -79,11 +74,7 @@ export default Vue.extend({
     )
     observer.observe(this.$el)
   },
-  methods: {
-    getLightboxSrc(s: string) {
-      return /src=(?:'|")(.*?)(?:'|")/.exec(s)?.[1] || null
-    },
-  },
+  methods: {},
 })
 </script>
 
@@ -153,81 +144,8 @@ export default Vue.extend({
   //   }
   // }
 
-  .image {
-    z-index: 2;
-    cursor: zoom-in;
-
-    picture {
-      display: block;
-    }
-
-    picture:not(:last-child) {
-      img {
-        margin-bottom: 1rem;
-      }
-    }
-
-    picture,
-    .iframeholder {
-      &:before {
-        z-index: 1;
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        box-shadow: 0 0.1rem 0.3rem var(--highlight-color, rgba(0, 0, 0, 1)),
-          0 1rem 3rem var(--highlight-color, rgba(0, 0, 0, 1));
-        border-radius: 5px;
-      }
-      // &:after {
-      //   z-index: 1;
-      //   content: '';
-      //   position: absolute;
-      //   top: 0;
-      //   left: 0;
-      //   width: 100%;
-      //   height: 100%;
-      //   // box-shadow: 0 0.05rem 0.3rem rgba(0, 0, 0, 0.5),
-      //   //   0 0.25rem 2rem rgba(0, 0, 0, 0.5);
-      //   mix-blend-mode: overlay;
-      //   border-radius: 5px;
-      // }
-    }
-
-    img,
-    iframe {
-      z-index: 2;
-      display: block;
-      max-width: calc(var(--pane-width) * 0.5);
-      max-height: calc(max(var(--pane-height) * 0.8));
-      border-radius: 5px;
-    }
-    .iframeholder {
-      min-width: calc(var(--pane-width) * 0.5);
-      width: 100%;
-      padding-top: 56.25%;
-    }
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    .grid3,
-    .grid2 {
-      picture:not(:last-child) {
-        img {
-          margin-bottom: 0rem;
-          border-radius: 0px;
-        }
-      }
-    }
-  }
   .text {
+    pointer-events: none;
     position: relative;
     z-index: 3;
     flex-shrink: 0;
@@ -248,6 +166,10 @@ export default Vue.extend({
       &.first {
         width: calc(var(--pane-width) * 0.9);
       }
+    }
+
+    & > * {
+      pointer-events: auto;
     }
   }
 
@@ -278,7 +200,7 @@ export default Vue.extend({
         display: none;
       }
 
-      .image img {
+      .paneElementImage img {
         max-width: 100%;
         max-height: 40vh;
       }

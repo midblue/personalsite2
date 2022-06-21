@@ -101,14 +101,17 @@ export default Vue.extend({
 
           setTimeout(() => {
             if (!this.isFocused) return
-            // c.log(
-            //   'pushing history state',
-            //   encodeURIComponent(c.slugify(this.title)),
-            // )
-            history.pushState(
+            c.log(
+              'force focus',
+              this.index,
+              this.$route.path.split('/')[0] +
+                (this.slug ? '/p/' + this.slug : '/'),
+            )
+            history.replaceState(
               {},
               '',
-              this.$route.path + '#' + (this.slug || ''),
+              this.$route.path.split('/')[0] +
+                (this.slug ? '/p/' + this.slug : '/'),
             )
           }, 1000)
         } else {
@@ -129,12 +132,14 @@ export default Vue.extend({
       this.current = index
       this.$emit('focusX', index)
 
-      await this.$nextTick()
-      const hasNext = index !== this.elements.length - 1,
-        hasPrevious = index !== 0
+      setTimeout(() => {
+        if (!this.isFocused) return
+        const hasNext = index !== this.elements.length - 1,
+          hasPrevious = index !== 0
 
-      if (hasNext) this.preload(index + 1)
-      if (hasPrevious) this.preload(index - 1)
+        if (hasNext) this.preload(index + 1)
+        if (hasPrevious) this.preload(index - 1)
+      }, 200)
     },
     reset() {
       // c.log('reset', this.index, this.isFocused)
@@ -155,6 +160,11 @@ export default Vue.extend({
         const img = new Image()
         img.src = i
       })
+      if (this.elements[index]?.image)
+        this.elements[index].image = this.elements[index].image.replace(
+          /loading='lazy'/g,
+          '',
+        )
       // c.log('preloaded', images)
     },
   },

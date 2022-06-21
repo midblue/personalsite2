@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ja/gathering", {data:[{}],fetch:{},mutations:[]});

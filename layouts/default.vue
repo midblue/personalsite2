@@ -25,7 +25,7 @@ const detectMobile = () => {
 }
 
 import Vue from 'vue'
-import Lightbox from '~/components/Lightbox.vue'
+
 export default Vue.extend({
   mounted() {
     window.addEventListener('resize', c.debounce(this.resetWindowSize, 100), {

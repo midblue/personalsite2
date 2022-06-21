@@ -28,7 +28,11 @@
 
       <div
         class="thumb flexcenter"
-        v-html="p.thumbnail"
+        v-html="
+          (p.thumbnail || p.image)
+            .replace(/large/g, 'tiny')
+            .replace(/lazy/g, 'auto')
+        "
         :style="{
           '--highlight-color': p.color,
         }"
@@ -71,7 +75,7 @@ export default Vue.extend({
   computed: {
     ...mapState(['mobile']),
     debouncedScroll(): Function {
-      return c.debounce(this.scrollToFocus, 100)
+      return c.debounce(this.scrollToFocus, 300)
     },
   },
   watch: {
@@ -90,7 +94,7 @@ export default Vue.extend({
         top: Math.max(
           0,
           ((this.$refs['option' + this.focusY] as HTMLElement[])?.[0]
-            ?.offsetTop || 0) - 100,
+            ?.offsetTop || 0) - 120,
         ),
         behavior: 'smooth',
       })
@@ -101,6 +105,7 @@ export default Vue.extend({
 
 <style lang="scss">
 nav {
+  z-index: 3;
   user-select: none;
   width: var(--nav-width);
   height: 100vh;
@@ -182,9 +187,23 @@ nav {
     }
 
     &.first {
+      background: #111;
+      height: calc(var(--nav-width) * 1.1);
+      justify-content: flex-start;
+      padding-top: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      box-shadow: 0 0rem 0.8rem 0.8rem #222;
+
       &:before {
-        background: rgba(255, 255, 255, 0.1) !important;
+        background: transparent !important;
       }
+    }
+
+    &:nth-of-type(2) {
+      padding-top: 0.5rem;
+      height: calc(var(--nav-width) * 0.9 + 0.5rem);
     }
 
     & > * {
@@ -249,6 +268,9 @@ nav {
         opacity: 1;
       }
     }
+  }
+  .first .dots {
+    top: 88%;
   }
 }
 </style>
