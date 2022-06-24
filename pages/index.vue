@@ -92,9 +92,19 @@ export default Vue.extend({
 
     const contentWithElementsBrokenOut =
       content
-        .map((co: any) => {
+        .map((co: any, index: number) => {
           if (!co.color) return
           return {
+            slug:
+              index === 0
+                ? undefined
+                : encodeURIComponent(
+                    c.slugify(
+                      (/<h1[^>]*?>([^<]*)/.exec(co.content || '')?.[1] || '')
+                        .replace(/<[^>]*?>/g, '')
+                        .trim(),
+                    ),
+                  ),
             color: co.color,
             thumbnail:
               co.thumbnail || /<picture.*?<\/picture>/g.exec(co.content)?.[0],
@@ -122,16 +132,6 @@ export default Vue.extend({
           }
         })
         .filter((co: any) => co) || []
-    contentWithElementsBrokenOut.forEach((co: any, index: number) => {
-      if (index === 0) return
-      co.slug = encodeURIComponent(
-        c.slugify(
-          (/<h1[^>]*?>([^<]*)/.exec(co.elements[0].text || '')?.[1] || '')
-            .replace(/<[^>]*?>/g, '')
-            .trim(),
-        ),
-      )
-    })
 
     const hash = route.hash.replace(/^#/, '').replace(/\/$/, '')
     const found = contentWithElementsBrokenOut.find(
