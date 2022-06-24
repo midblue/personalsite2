@@ -237,6 +237,7 @@ export default Vue.extend({
       ;(this as any).preSelectedSlug = found?.slug
       c.log((this as any).preSelectedSlug)
     }
+    c.log(this.elements.map((e) => e.slug))
     const found = (this as any).elements.find(
       (el: any) => el.slug === (this as any).preselectedSlug,
     )
