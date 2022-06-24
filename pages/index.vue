@@ -276,6 +276,11 @@ export default Vue.extend({
       this.focusX = 0
       this.forceFocusX = -1
       while (!(this.$refs.main as HTMLElement)) c.sleep(100)
+      c.log(
+        ((this.$refs.main as HTMLElement).scrollHeight /
+          (this as any).elements.length) *
+          index,
+      )
       ;(this.$refs.main as HTMLElement).scrollTo({
         left: 0,
         top:
