@@ -232,6 +232,12 @@ export default Vue.extend({
 
     // path hash
     await this.$nextTick()
+    if (!(this as any).preselectedSlug && this.$route.hash) {
+      c.log('h', this.$route.hash)
+      const hash = this.$route.hash.replace(/^#/, '').replace(/\/$/, '')
+      const found = (this as any).elements.find((el: any) => el.slug === hash)
+      ;(this as any).preSelectedSlug = found?.slug
+    }
     const found = (this as any).elements.find(
       (el: any) => el.slug === (this as any).preselectedSlug,
     )
