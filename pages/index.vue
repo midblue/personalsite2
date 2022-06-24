@@ -231,13 +231,17 @@ export default Vue.extend({
     // path hash
     await this.$nextTick()
     if (!(this as any).preselectedSlug && this.$route.hash) {
+      c.log('h', this.$route.hash)
       const hash = this.$route.hash.replace(/^#/, '').replace(/\/$/, '')
       const found = (this as any).elements.find((el: any) => el.slug === hash)
       ;(this as any).preselectedSlug = found?.slug
+      c.log((this as any).preselectedSlug)
     }
+    c.log((this as any).elements.map((e: any) => e.slug))
     const found = (this as any).elements.find(
       (el: any) => el.slug === (this as any).preselectedSlug,
     )
+    c.log('f', found, (this as any).elements.indexOf(found))
     if (found) {
       this.forceFocusY((this as any).elements.indexOf(found), true)
     }
