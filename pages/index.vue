@@ -134,9 +134,11 @@ export default Vue.extend({
     })
 
     const hash = route.hash.replace(/^#/, '').replace(/\/$/, '')
+    c.log('h', hash)
     const found = contentWithElementsBrokenOut.find(
       (el: any) => el.slug === hash,
     )
+    c.log('f', found?.slug)
 
     return {
       elements: contentWithElementsBrokenOut,
