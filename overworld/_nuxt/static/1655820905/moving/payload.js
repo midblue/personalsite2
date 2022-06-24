@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/moving", {data:[{}],fetch:{},mutations:[]});
