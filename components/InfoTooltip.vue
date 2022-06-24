@@ -16,7 +16,7 @@ export default Vue.extend({
   props: {},
   data() {
     return {
-      tooltipStyle: {},
+      tooltipStyle: { opacity: 0 },
       x: 0,
       y: 0,
     }

@@ -1,5 +1,5 @@
 <template>
-  <nav class="flexcolumn hidescrollbar" v-if="!mobile">
+  <nav class="flexcolumn hidescrollbar" v-show="!mobile">
     <transition name="fade">
       <div class="xMore" v-if="xMore">{{ xMore }} more ↓</div>
     </transition>
@@ -16,6 +16,7 @@
       @click="$emit('focusY', index)"
       v-tooltip="getTitle(p.elements[0].text)"
     >
+      <div class="letter" v-if="index === 0">J</div>
       <!-- <div
         class="circle-wrap"
         :style="{
@@ -109,7 +110,9 @@ export default Vue.extend({
         )
     },
   },
-  mounted() {
+  async mounted() {
+    await this.$nextTick()
+    while (!this.$el) await c.sleep(100)
     this.$el.addEventListener(
       'scroll',
       this.debouncedOnScroll as EventListenerOrEventListenerObject,
@@ -132,11 +135,14 @@ export default Vue.extend({
     scrollToFocus() {
       if (!this.$el) return
       this.$el.scrollTo({
-        top: Math.max(
-          0,
-          ((this.$refs['option' + this.focusY] as HTMLElement[])?.[0]
-            ?.offsetTop || 0) - 120,
-        ),
+        top:
+          this.focusY === 0
+            ? 0
+            : Math.max(
+                0,
+                ((this.$refs['option' + this.focusY] as HTMLElement[])?.[0]
+                  ?.offsetTop || 0) - 120,
+              ),
         behavior: 'smooth',
       })
     },
@@ -166,7 +172,7 @@ nav {
   user-select: none;
   width: var(--nav-width);
   height: 100vh;
-  background: #222;
+  background: #333;
   overflow-y: auto;
   padding-bottom: 4rem;
 
@@ -244,9 +250,8 @@ nav {
     }
 
     &.first {
-      background: #111;
-      height: calc(var(--nav-width) * 1.1);
-      justify-content: flex-start;
+      background: black;
+      height: calc(var(--nav-width) * 1) !important;
       padding-top: 1rem;
       position: sticky;
       top: 0;
@@ -254,8 +259,26 @@ nav {
       box-shadow: 0 0rem 0.8rem 0.8rem #222;
       transition: box-shadow 0.2s ease-in-out;
 
+      .thumb {
+        display: none;
+      }
+
       &:before {
         background: transparent !important;
+      }
+
+      .letter {
+        position: fixed;
+        color: white;
+        font-family: 'Bungee Outline', Helvetica, sans-serif;
+        font-size: calc(var(--nav-width) * 0.8);
+        line-height: 1;
+        font-weight: 600;
+        top: 7px;
+      }
+
+      .dots {
+        top: 83%;
       }
     }
 
@@ -326,9 +349,6 @@ nav {
         opacity: 1;
       }
     }
-  }
-  .first .dots {
-    top: 88%;
   }
 
   .xMore {

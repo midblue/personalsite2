@@ -1,5 +1,9 @@
 <template>
-  <div class="contents" :class="{ mobile }">
+  <div
+    class="contents"
+    :class="{ mobile }"
+    :style="{ '--highlight-color': elements[focusY].color }"
+  >
     <LeftNav
       :elements="elements"
       :focusY="focusY"
@@ -14,6 +18,7 @@
         v-bind="row"
         :hasDown="index !== elements.length - 1"
         :hasUp="index !== 0"
+        :ref="`row${index}`"
         @down="down"
         @up="up"
         @focusY="setFocusY(index)"
@@ -24,10 +29,7 @@
       />
     </main>
 
-    <div
-      class="navigators"
-      :style="{ '--highlight-color': elements[focusY].color }"
-    >
+    <div class="navigators">
       <transition name="fade">
         <div v-if="hasUp" class="arrow up" @click="up">↑</div>
       </transition>
@@ -303,6 +305,7 @@ export default Vue.extend({
         (this as any).elements[this.focusY].elements.length - 1,
       )
       if (
+        this.$refs.main &&
         this.forceFocusX === prev &&
         (this as any).elements[this.focusY].elements.length - 1 === prev
       ) {
@@ -315,7 +318,7 @@ export default Vue.extend({
     previous() {
       const prev = this.focusX
       this.forceFocusX = Math.max(0, this.focusX - 1)
-      if (this.forceFocusX === prev && 0 === prev) {
+      if (this.$refs.main && this.forceFocusX === prev && 0 === prev) {
         ;(this.$refs.main as HTMLElement).classList.add('bounceLeft')
         setTimeout(() => {
           ;(this.$refs.main as HTMLElement).classList.remove('bounceLeft')
@@ -333,10 +336,16 @@ export default Vue.extend({
         const img = new Image()
         img.src = i
       })
-      if ((this as any).elements[index].elements?.[0]?.image)
-        (this as any).elements[index].elements[0].image = (
-          this as any
-        ).elements[index].elements[0].image.replace(/loading='lazy'/g, '')
+      if ((this as any).elements[index].elements?.[0]?.image) {
+        ;((this.$refs[`row${index}`] as any)?.[0]?.$el as HTMLElement)
+          ?.querySelectorAll('img')
+          .forEach((img) => {
+            img.removeAttribute('loading')
+          })
+        // (this as any).elements[index].elements[0].image = (
+        //   this as any
+        // ).elements[index].elements[0].image.replace(/loading='lazy'/g, '')
+      }
       // c.log('preloaded', images)
     },
   },
@@ -366,6 +375,19 @@ main {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overscroll-behavior-x: none; // disables swipe navigation
+
+  // &:before {
+  //   position: fixed;
+  //   z-index: 0;
+  //   content: '';
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   background: var(--highlight-color);
+  //   opacity: 0.05;
+  //   transition: background 1s;
+  // }
 }
 .navigators {
   position: absolute;

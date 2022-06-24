@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <InfoTooltip />
-    <Lightbox />
+  <client-only>
     <div>
-      <nuxt />
+      <InfoTooltip />
+      <Lightbox />
+      <div>
+        <nuxt />
+      </div>
     </div>
-  </div>
+  </client-only>
 </template>
 
 <script lang="ts">

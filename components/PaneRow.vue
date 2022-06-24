@@ -1,16 +1,17 @@
 <template>
-  <div class="rowholder" :class="{ focused: isFocused }">
-    <section
-      class="pane hidescrollbar"
-      ref="pane"
-      :style="{
-        '--highlight-color': color,
-        '--element-count': elements.length,
-      }"
-    >
+  <div
+    class="rowholder"
+    :class="{ focused: isFocused }"
+    :style="{
+      '--highlight-color': color,
+      '--element-count': elements.length,
+    }"
+  >
+    <section class="pane hidescrollbar" ref="pane">
       <PaneElement
         class="paneElement"
         v-for="(p, index) in elements"
+        :ref="'element' + index"
         :key="index + ' ' + index"
         :index="index"
         @focused="focused(index)"
@@ -161,11 +162,17 @@ export default Vue.extend({
         const img = new Image()
         img.src = i
       })
-      if (this.elements[index]?.image)
-        this.elements[index].image = this.elements[index].image.replace(
-          /loading='lazy'/g,
-          '',
-        )
+      if (this.elements[index]?.image) {
+        ;((this.$refs[`element${index}`] as any)?.[0]?.$el as HTMLElement)
+          ?.querySelectorAll('img')
+          .forEach((img) => {
+            img.removeAttribute('loading')
+          })
+        // this.elements[index].image = this.elements[index].image.replace(
+        //   /loading='lazy'/g,
+        //   '',
+        // )
+      }
       // c.log('preloaded', images)
     },
   },
@@ -179,7 +186,7 @@ export default Vue.extend({
 }
 .pane {
   z-index: 1;
-  background: white; //var(--highlight-color);
+  // background: white; //var(--highlight-color);
   width: 100%;
   height: 100%;
   display: flex;

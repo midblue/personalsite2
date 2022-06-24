@@ -84,6 +84,7 @@ export default Vue.extend({
   async mounted() {
     // lightbox on images
     await this.$nextTick()
+    await c.sleep(500)
     ;(this.$refs.image as HTMLElement)
       ?.querySelectorAll('img')
       .forEach((img: HTMLImageElement) => {
@@ -124,9 +125,10 @@ export default Vue.extend({
       left: 0;
       width: 100%;
       height: 100%;
-      box-shadow: 0 0.1rem 0.3rem var(--highlight-color, rgba(0, 0, 0, 1)),
-        0 1rem 3rem var(--highlight-color, rgba(0, 0, 0, 1));
+      box-shadow: 0 0.1rem 0.3rem var(--highlight-color, rgba(0, 0, 0, 0.3)),
+        0 1rem 4rem var(--highlight-color, rgba(0, 0, 0, 0.3));
       border-radius: 5px;
+      opacity: 0.5;
     }
     // &:after {
     //   z-index: 1;
