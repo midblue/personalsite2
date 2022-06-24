@@ -271,6 +271,7 @@ export default Vue.extend({
       }, 200)
     },
     async forceFocusY(index: number, instant = false) {
+      c.log('forcefocusY', index, instant)
       this.focusY = index
       this.focusX = 0
       this.forceFocusX = -1
