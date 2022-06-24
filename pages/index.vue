@@ -276,7 +276,9 @@ export default Vue.extend({
       this.focusX = 0
       this.forceFocusX = -1
       while (!(this.$refs.main as HTMLElement)) c.sleep(100)
+      while (!(this.$refs[`row${index}`] as any)?.[0]) c.sleep(100)
       c.log(
+        (this.$refs.main as HTMLElement).scrollHeight,
         ((this.$refs.main as HTMLElement).scrollHeight /
           (this as any).elements.length) *
           index,
