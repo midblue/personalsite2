@@ -134,11 +134,9 @@ export default Vue.extend({
     })
 
     const hash = route.hash.replace(/^#/, '').replace(/\/$/, '')
-    c.log('h', hash)
     const found = contentWithElementsBrokenOut.find(
       (el: any) => el.slug === hash,
     )
-    c.log('f', found?.slug)
 
     return {
       elements: contentWithElementsBrokenOut,
@@ -237,10 +235,12 @@ export default Vue.extend({
       const hash = this.$route.hash.replace(/^#/, '').replace(/\/$/, '')
       const found = (this as any).elements.find((el: any) => el.slug === hash)
       ;(this as any).preSelectedSlug = found?.slug
+      c.log((this as any).preSelectedSlug)
     }
     const found = (this as any).elements.find(
       (el: any) => el.slug === (this as any).preselectedSlug,
     )
+    c.log('f', found)
     if (found) {
       this.forceFocusY((this as any).elements.indexOf(found), true)
     }

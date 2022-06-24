@@ -151,7 +151,7 @@ export default Vue.extend({
     },
     preload(index: number) {
       if (!this.$refs.pane || !this.isFocused) return
-      // c.log('preload', this.index, index, this.isFocused)
+      c.log('preload', this.index, index, this.isFocused)
 
       const images = [
         ...(this.elements[index]?.image || '').matchAll(
@@ -173,7 +173,7 @@ export default Vue.extend({
         //   '',
         // )
       }
-      // c.log('preloaded', images)
+      c.log('preloaded', images)
     },
   },
 })
