@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/a-game-ux-primer", {data:[{}],fetch:{},mutations:[]});
