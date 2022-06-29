@@ -2,6 +2,8 @@ import * as c from './assets/common'
 import axios from 'axios'
 
 export default {
+  target: 'static',
+
   ignore: ['/static'],
 
   head: {
