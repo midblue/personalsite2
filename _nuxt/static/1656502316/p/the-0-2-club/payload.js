@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/the-0-2-club", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("the-0-2-club")));

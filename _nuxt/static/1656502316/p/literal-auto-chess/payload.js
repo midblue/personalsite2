@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/literal-auto-chess", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("literal-auto-chess")));

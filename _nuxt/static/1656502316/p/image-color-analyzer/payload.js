@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/image-color-analyzer", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("image-color-analyzer")));

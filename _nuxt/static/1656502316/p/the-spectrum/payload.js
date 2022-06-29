@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/the-spectrum", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("the-spectrum")));

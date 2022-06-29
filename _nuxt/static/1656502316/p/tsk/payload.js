@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/tsk", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("tsk")));
