@@ -75,71 +75,11 @@ import { mapState } from 'vuex'
 
 export default Vue.extend({
   async asyncData({ $axios, store, redirect, route }) {
-    const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
-    let data = await $axios
-      .get(
-        `https://us-central1-lix-338122.cloudfunctions.net/${
-          store.state.dev ? 'refresh' : 'doc'
-        }/${contentDoc}`,
-      )
-      .then((res) => {
-        if (res.status === 500) return
-        return res.data
-      })
-    if (!data) return
-
-    let { content } = c.extractDataFrom3Lix(data) as any
-
-    const contentWithElementsBrokenOut =
-      content
-        .map((co: any, index: number) => {
-          if (!co.color) return
-          return {
-            slug:
-              index === 0
-                ? undefined
-                : encodeURIComponent(
-                    c.slugify(
-                      (/<h1[^>]*?>([^<]*)/.exec(co.content || '')?.[1] || '')
-                        .replace(/<[^>]*?>/g, '')
-                        .trim(),
-                    ),
-                  ),
-            color: co.color,
-            thumbnail:
-              co.thumbnail || /<picture.*?<\/picture>/g.exec(co.content)?.[0],
-            tags: co.tags
-              .split(',')
-              .map((t: string) => t.trim().toLowerCase())
-              .filter((t: string) => t),
-            elements: co.content
-              .replace(/<div class='table ?'>/gi, '')
-              .split(`<div class='row'>`)
-              .filter((s: any) => s)
-              .map((content: string) => {
-                const image = content
-                  .split(/<\/div><div class='cell'>/g)?.[0]
-                  ?.replace(/^<div[^>]*?>/, '')
-                const text = content
-                  .split(/<\/div><div class='cell'>/g)?.[1]
-                  ?.replace(/(<\/div>)+$/g, '')
-                return {
-                  image,
-                  text,
-                }
-              })
-              .filter((co: any) => co.image || co.text),
-          }
-        })
-        .filter((co: any) => co) || []
-
     const hash = route.hash.replace(/^#/, '').replace(/\/$/, '')
-    const found = contentWithElementsBrokenOut.find(
-      (el: any) => el.slug === hash,
-    )
+    const found = store.state.elements.find((el: any) => el.slug === hash)
 
     return {
-      elements: contentWithElementsBrokenOut,
+      elements: store.state.elements,
       preselectedSlug: found?.slug,
     }
   },
@@ -231,17 +171,13 @@ export default Vue.extend({
     // path hash
     await this.$nextTick()
     if (!(this as any).preselectedSlug && this.$route.hash) {
-      c.log('h', this.$route.hash)
       const hash = this.$route.hash.replace(/^#/, '').replace(/\/$/, '')
       const found = (this as any).elements.find((el: any) => el.slug === hash)
       ;(this as any).preselectedSlug = found?.slug
-      c.log((this as any).preselectedSlug)
     }
-    c.log((this as any).elements.map((e: any) => e.slug))
     const found = (this as any).elements.find(
       (el: any) => el.slug === (this as any).preselectedSlug,
     )
-    c.log('f', found, (this as any).elements.indexOf(found))
     if (found) {
       this.forceFocusY((this as any).elements.indexOf(found), true)
     }
@@ -271,21 +207,14 @@ export default Vue.extend({
       }, 200)
     },
     async forceFocusY(index: number, instant = false) {
-      c.log('forcefocusY', index, instant)
       this.focusY = index
       this.focusX = 0
       this.forceFocusX = -1
       while (!(this.$refs.main as HTMLElement)) await c.sleep(100)
       while (!(this.$refs[`row${index}`] as any)?.[0]) {
-        c.log(this.$refs[`row${index}`])
         await c.sleep(100)
       }
-      c.log(
-        (this.$refs.main as HTMLElement).scrollHeight,
-        ((this.$refs.main as HTMLElement).scrollHeight /
-          (this as any).elements.length) *
-          index,
-      )
+
       ;(this.$refs.main as HTMLElement).scrollTo({
         left: 0,
         top:

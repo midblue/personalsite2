@@ -3,6 +3,7 @@ import axios from 'axios'
 
 export default {
   target: 'static',
+  ssr: true,
 
   ignore: ['/static'],
 
