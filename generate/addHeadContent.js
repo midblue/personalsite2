@@ -90,7 +90,7 @@ async function go() {
         {
           hid: 'description',
           name: 'description',
-          content: 'Jasper Stephenson',
+          content: description,
         },
         { hid: 'og:title', name: 'og:title', content: title },
         { hid: 'og:description', name: 'og:description', content: description },
