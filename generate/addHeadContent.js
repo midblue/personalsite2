@@ -100,7 +100,12 @@ async function go() {
     }
     const headObjectAsTagString =
       `<title>${headObject.title}</title>` +
-      headObject.meta.map((m) => `<meta ${m.name}="${m.content}" />`).join('')
+      headObject.meta
+        .map(
+          (m) =>
+            `<meta hid="${m.hid} name="${m.name}" content="${m.content}" />`,
+        )
+        .join('')
     const newContent = generatedContent
       .replace(/<title>.*<\/title>/g, '')
       .replace('</head>', headObjectAsTagString + '</head>')
