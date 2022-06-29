@@ -48,7 +48,7 @@ export default Vue.extend({
     }
   },
   async mounted() {
-    // this.$router.replace(`/#${(this as any).slug || ''}`)
+    this.$router.replace(`/#${(this as any).slug || ''}`)
   },
   methods: {},
 })
