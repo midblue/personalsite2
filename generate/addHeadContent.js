@@ -103,7 +103,7 @@ async function go() {
       headObject.meta
         .map(
           (m) =>
-            `<meta hid="${m.hid} name="${m.name}" content="${m.content}" />`,
+            `<meta hid="${m.hid}" name="${m.name}" content="${m.content}" />`,
         )
         .join('')
     const newContent = generatedContent
