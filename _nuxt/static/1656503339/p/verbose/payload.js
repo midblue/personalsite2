@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/verbose", {data:[{}],fetch:{},mutations:[]});

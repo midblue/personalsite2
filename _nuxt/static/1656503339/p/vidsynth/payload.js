@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/vidsynth", {data:[{}],fetch:{},mutations:[]});
