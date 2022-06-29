@@ -5,19 +5,15 @@ import Vue from 'vue'
 import * as c from '~/assets/common'
 
 export default Vue.extend({
-  async asyncData({ $axios, store, redirect, route, params }) {
-    const slug = params.slug || ''
-    const found = store.state.elements.find((el: any) => el.slug === slug)
-
-    return {
-      slug,
-      preselectedSlug: found?.slug,
-    }
-  },
   head() {
+    const slug = this.$route.params.slug || ''
+    const found = this.$store.state.elements.find((el: any) => el.slug === slug)
+    const preselectedSlug = found?.slug
+
     const element = (this as any).$store.state.elements.find(
-      (el: any) => el.slug && el.slug === (this as any).preselectedSlug,
+      (el: any) => el.slug && el.slug === preselectedSlug,
     )
+    if (!element) return {}
     const title =
       /<h1[^>]*?>([^<]*)/g.exec(element?.elements[0]?.text || '')?.[1] || 'Home'
     const image =
