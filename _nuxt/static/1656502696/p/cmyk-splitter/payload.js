@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/cmyk-splitter", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("cmyk-splitter")));

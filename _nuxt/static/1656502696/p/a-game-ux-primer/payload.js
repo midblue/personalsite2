@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/a-game-ux-primer", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("a-game-ux-primer")));

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/bridge-to", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("bridge-to")));

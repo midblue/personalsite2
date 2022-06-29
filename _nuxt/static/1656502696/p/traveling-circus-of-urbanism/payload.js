@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/traveling-circus-of-urbanism", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("traveling-circus-of-urbanism")));

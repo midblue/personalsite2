@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/we-have-to-go-deeper-", {data:[{}],fetch:{},mutations:[]});

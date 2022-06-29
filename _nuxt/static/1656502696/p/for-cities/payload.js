@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/for-cities", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("for-cities")));

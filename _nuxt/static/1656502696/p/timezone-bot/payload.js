@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/timezone-bot", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("timezone-bot")));

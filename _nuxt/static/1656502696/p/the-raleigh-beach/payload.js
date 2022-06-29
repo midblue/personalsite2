@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/the-raleigh-beach", (function(a){return {data:[{slug:a,preselectedSlug:a}],fetch:{},mutations:[]}}("the-raleigh-beach")));
