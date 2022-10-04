@@ -8,13 +8,14 @@
     }"
   >
     <section class="pane hidescrollbar" ref="pane">
+      <!-- <IntroEl v-if="index === 0" /> -->
       <PaneElement
         class="paneElement"
-        v-for="(p, index) in elements"
-        :ref="'element' + index"
-        :key="index + ' ' + index"
-        :index="index"
-        @focused="focused(index)"
+        v-for="(p, elIndex) in elements"
+        :ref="'element' + elIndex"
+        :key="index + ' ' + elIndex"
+        :index="elIndex"
+        @focused="focused(elIndex)"
         v-bind="{ ...p, color }"
         :tags="tags"
       />
