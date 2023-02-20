@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/p/10-second-mixtape", {data:[{}],fetch:{},mutations:[]});
