@@ -1,0 +1,58 @@
+{
+  "packageName": "0000.0 - 0 of 2 - 7 AM - 2.63km from Raleigh - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0000.0 - 0 of 2 - 7 AM - 2.63km from Raleigh - Fri Feb 24 2023",
+  "imgPath": "0000.0 - 0 of 2 - 7 AM - 2.63km from Raleigh - Fri Feb 24 2023.png",
+  "location": [
+    35.787624,
+    -78.661633
+  ],
+  "kph": 60,
+  "angle": -55.21086769124018,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0,
+  "startDate": 1677240446721,
+  "imgPrompt": "dawn, morning, view from urban highway, center of Raleigh, NC, United States of America, Clear weather, nearby building marked 'Green Road Library', February 24th, 7am, busy colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 35,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, fisheye, night"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 16.9,
+    "windSpeed": 14.3,
+    "sunrise": "2023-02-24T06:49",
+    "sunset": "2023-02-24T18:06",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Almost Full",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-23T23:07:26.721Z"
+  },
+  "locationData": {
+    "nearestCity": "Raleigh",
+    "nearestCityCoords": [
+      35.7803977,
+      -78.6390989
+    ],
+    "distanceToCityInKm": 2.626751324909758,
+    "population": 431746,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmarks": [
+      "Raleigh Baptist Associates",
+      "West Popular Lending Library",
+      "Green Road Library",
+      "Olivia Raney Local History Library",
+      "Southgate Community Library"
+    ]
+  },
+  "distanceToCityInKm": 2.626751324909758,
+  "iterationCount": 0,
+  "totalIterations": 2
+}

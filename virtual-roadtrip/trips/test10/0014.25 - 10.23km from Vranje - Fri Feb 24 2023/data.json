@@ -1,0 +1,59 @@
+{
+  "packageName": "0014.25 - 10.23km from Vranje - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0014.25 - 10.23km from Vranje - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0014.25 - 10.23km from Vranje - Fri Feb 24 2023/result.png",
+  "location": [
+    42.5781837013707,
+    21.987118383980494
+  ],
+  "kph": 60,
+  "angle": 28.50928155271564,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 14.25,
+  "startDate": 1677195633415,
+  "imgPrompt": "afternoon, view from rural road, outside of Vranje, Serbia, Clear weather, passing by 'ЕКО Петрол', buildings in distance, February 24th, 2pm, peaceful, realistic, wide angle, sharp, HD, zoomed out, macro, wide view",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night"
+  },
+  "date": "2023-02-24T06:55:33.415Z",
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.6,
+    "windSpeed": 11.6,
+    "sunrise": "2023-02-24T06:14",
+    "sunset": "2023-02-24T17:16",
+    "timezone": "Europe/Belgrade",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T06:55:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Vranje",
+    "nearestCityCoords": [
+      42.5558337,
+      21.8976673
+    ],
+    "distanceToCityInKm": 10.234307740797853,
+    "population": 55138,
+    "continent": "",
+    "country": "Serbia",
+    "state": "",
+    "nearestLandmarks": [
+      "Црква Светог Николе",
+      "Црква Свете Петке",
+      "ЕКО Петрол",
+      "Мирков кладенац",
+      "Diskoooo"
+    ]
+  },
+  "distanceToCityInKm": 10.234307740797853,
+  "approachingOrExitingOrPassing": ""
+}

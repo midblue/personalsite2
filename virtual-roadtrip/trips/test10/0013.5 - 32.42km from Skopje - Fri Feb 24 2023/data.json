@@ -1,0 +1,59 @@
+{
+  "packageName": "0013.5 - 32.42km from Skopje - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0013.5 - 32.42km from Skopje - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0013.5 - 32.42km from Skopje - Fri Feb 24 2023/result.png",
+  "location": [
+    41.88466478035924,
+    21.70186230085257
+  ],
+  "kph": 60,
+  "angle": 154.55416969629064,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 12.5,
+  "startDate": 1677195633415,
+  "imgPrompt": "afternoon, view from rural road, far away from Skopje, North Macedonia, Partly Cloudy weather, passing by 'Okta', billboards in distance, February 24th, 1pm, traffic, realistic, wide angle, sharp, HD, zoomed out, macro, wide view",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-24T05:10:33.415Z",
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 14.4,
+    "windSpeed": 9.7,
+    "sunrise": "2023-02-24T06:14",
+    "sunset": "2023-02-24T17:18",
+    "timezone": "Europe/Skopje",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T05:10:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Skopje",
+    "nearestCityCoords": [
+      41.9961816,
+      21.4319213
+    ],
+    "distanceToCityInKm": 32.41962940249711,
+    "population": 850000,
+    "continent": "",
+    "country": "North Macedonia",
+    "state": "",
+    "nearestLandmarks": [
+      "Okta",
+      "Okta",
+      "Manastir Sveta Bogorodica",
+      "Manastir Sveti Jovan",
+      "Monastery of Saint Ellyah"
+    ]
+  },
+  "distanceToCityInKm": 32.41962940249711,
+  "approachingOrExitingOrPassing": ""
+}

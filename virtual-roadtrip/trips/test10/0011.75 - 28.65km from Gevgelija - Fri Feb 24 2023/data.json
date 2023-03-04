@@ -1,0 +1,59 @@
+{
+  "packageName": "0011.75 - 28.65km from Gevgelija - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0011.75 - 28.65km from Gevgelija - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0011.75 - 28.65km from Gevgelija - Fri Feb 24 2023/result.png",
+  "location": [
+    41.353267902499766,
+    22.35954120542288
+  ],
+  "kph": 60,
+  "angle": 152.90157637196143,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10.75,
+  "startDate": 1677195633415,
+  "imgPrompt": "morning, view from rural road, far away from Gevgelija, North Macedonia, Drizzle weather, cold, passing by 'Св. Талалеј', February 24th, 11am, quiet, realistic, wide angle, sharp, HD, zoomed out, macro, wide view",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-24T03:25:33.415Z",
+  "weather": {
+    "currentWeather": "Drizzle",
+    "temperature": 9.7,
+    "windSpeed": 8.2,
+    "sunrise": "2023-02-24T06:11",
+    "sunset": "2023-02-24T17:16",
+    "timezone": "Europe/Skopje",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T03:25:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Gevgelija",
+    "nearestCityCoords": [
+      41.1388664,
+      22.5033192
+    ],
+    "distanceToCityInKm": 28.654369112247622,
+    "population": 20664,
+    "continent": "",
+    "country": "North Macedonia",
+    "state": "",
+    "nearestLandmarks": [
+      "Makpetrol",
+      "Св. Талалеј",
+      "Monastery St. Nicholas",
+      "Makpetrol",
+      "св. Петка"
+    ]
+  },
+  "distanceToCityInKm": 28.654369112247622,
+  "approachingOrExitingOrPassing": ""
+}

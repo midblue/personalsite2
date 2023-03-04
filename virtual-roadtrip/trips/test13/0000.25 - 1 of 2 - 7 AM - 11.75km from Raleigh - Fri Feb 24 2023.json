@@ -1,0 +1,58 @@
+{
+  "packageName": "0000.25 - 1 of 2 - 7 AM - 11.75km from Raleigh - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0000.25 - 1 of 2 - 7 AM - 11.75km from Raleigh - Fri Feb 24 2023",
+  "imgPath": "0000.25 - 1 of 2 - 7 AM - 11.75km from Raleigh - Fri Feb 24 2023.png",
+  "location": [
+    35.67628057424054,
+    -78.65805101206053
+  ],
+  "kph": 60,
+  "angle": -102.28395544116785,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0.25,
+  "startDate": 1677240446721,
+  "imgPrompt": "dawn, morning, view from urban highway, outside of Raleigh, NC, United States of America, Clear weather, near 'Fellowship Baptist Church', trees in distance, February 24th, 7am, lonely colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 35,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, fisheye, night"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 17.4,
+    "windSpeed": 14.3,
+    "sunrise": "2023-02-24T06:49",
+    "sunset": "2023-02-24T18:06",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Almost Full",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-23T23:22:26.721Z"
+  },
+  "locationData": {
+    "nearestCity": "Raleigh",
+    "nearestCityCoords": [
+      35.7803977,
+      -78.6390989
+    ],
+    "distanceToCityInKm": 11.746904247118351,
+    "population": 431746,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmarks": [
+      "Southgate Community Library",
+      "Catawba Springs Church",
+      "Fellowship Baptist Church",
+      "Garner Consolidated School",
+      "Hayes Chapel"
+    ]
+  },
+  "distanceToCityInKm": 11.746904247118351,
+  "iterationCount": 1,
+  "totalIterations": 2
+}

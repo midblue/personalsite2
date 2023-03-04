@@ -1,0 +1,59 @@
+{
+  "packageName": "0015.25 - 9.02km from Leskovac - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0015.25 - 9.02km from Leskovac - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0015.25 - 9.02km from Leskovac - Fri Feb 24 2023/result.png",
+  "location": [
+    42.98920839975984,
+    22.027508445132195
+  ],
+  "kph": 60,
+  "angle": 106.46294774277179,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 15.25,
+  "startDate": 1677195633415,
+  "imgPrompt": "afternoon, view from rural highway, suburbs of Leskovac, Serbia, Partly Cloudy weather, sign for '16104 Лесковац', signs in distance, February 24th, 3pm, vibrant, realistic, wide angle, sharp, HD, zoomed out, macro, wide view",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night"
+  },
+  "date": "2023-02-24T07:55:33.415Z",
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 15.3,
+    "windSpeed": 5.4,
+    "sunrise": "2023-02-24T06:14",
+    "sunset": "2023-02-24T17:15",
+    "timezone": "Europe/Belgrade",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T07:55:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Leskovac",
+    "nearestCityCoords": [
+      42.9951304,
+      21.9464271
+    ],
+    "distanceToCityInKm": 9.02400277676119,
+    "population": 78030,
+    "continent": "",
+    "country": "Serbia",
+    "state": "",
+    "nearestLandmarks": [
+      "НИС Петрол",
+      "MOL",
+      "Грош",
+      "16104 Лесковац",
+      "Парк"
+    ]
+  },
+  "distanceToCityInKm": 9.02400277676119,
+  "approachingOrExitingOrPassing": ""
+}

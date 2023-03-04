@@ -1,0 +1,59 @@
+{
+  "packageName": "0010.25 - 1.96km from Gevgelija - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0010.25 - 1.96km from Gevgelija - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0010.25 - 1.96km from Gevgelija - Fri Feb 24 2023/result.png",
+  "location": [
+    41.15471418849938,
+    22.511174762304595
+  ],
+  "kph": 60,
+  "angle": 152.92541480964582,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10.25,
+  "startDate": 1677195633415,
+  "imgPrompt": "morning, view from rural road, downtown Gevgelija, North Macedonia, Overcast weather, nearby building marked 'Makpetrol', February 24th, 10am, lonely, realistic, wide angle, sharp, HD, zoomed out, macro, wide view",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night"
+  },
+  "date": "2023-02-24T02:55:33.415Z",
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 11,
+    "windSpeed": 8,
+    "sunrise": "2023-02-24T06:10",
+    "sunset": "2023-02-24T17:15",
+    "timezone": "Europe/Skopje",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T02:55:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Gevgelija",
+    "nearestCityCoords": [
+      41.1388664,
+      22.5033192
+    ],
+    "distanceToCityInKm": 1.96335832149731,
+    "population": 20664,
+    "continent": "",
+    "country": "North Macedonia",
+    "state": "",
+    "nearestLandmarks": [
+      "BP",
+      "BP",
+      "Javor Dzhoko",
+      "Shimov",
+      "Makpetrol"
+    ]
+  },
+  "distanceToCityInKm": 1.96335832149731,
+  "approachingOrExitingOrPassing": ""
+}

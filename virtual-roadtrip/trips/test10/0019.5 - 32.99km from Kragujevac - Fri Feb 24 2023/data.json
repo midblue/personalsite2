@@ -1,0 +1,59 @@
+{
+  "packageName": "0019.5 - 32.99km from Kragujevac - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0019.5 - 32.99km from Kragujevac - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0019.5 - 32.99km from Kragujevac - Fri Feb 24 2023/result.png",
+  "location": [
+    44.23409634522728,
+    21.117900203568183
+  ],
+  "kph": 60,
+  "angle": 73.30075576600638,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 18.5,
+  "startDate": 1677195633415,
+  "imgPrompt": "night, view from rural street, far away from Kragujevac, Serbia, Clear weather, cold, sign for 'OMV', February 24th, 7pm, Waxing Gibbous moon, no sunlight, dark, busy, realistic, wide angle, sharp, HD, zoomed out, macro, wide view, night",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, daytime, sun, bright sky, bright, sunlight, sun, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-24T11:10:33.415Z",
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-02-25T06:18",
+    "sunset": "2023-02-25T17:19",
+    "timezone": "Europe/Belgrade",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T11:10:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Kragujevac",
+    "nearestCityCoords": [
+      44.0130251,
+      20.91925
+    ],
+    "distanceToCityInKm": 32.99042479503963,
+    "population": 150835,
+    "continent": "",
+    "country": "Serbia",
+    "state": "",
+    "nearestLandmarks": [
+      "OMV",
+      "MOL",
+      "АЦ Здравковић",
+      "OMV",
+      "Престиж"
+    ]
+  },
+  "distanceToCityInKm": 32.99042479503963,
+  "approachingOrExitingOrPassing": ""
+}
