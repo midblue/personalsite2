@@ -1,0 +1,59 @@
+{
+  "packageName": "0002.75 - 37.22km from Chalkida - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0002.75 - 37.22km from Chalkida - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0002.75 - 37.22km from Chalkida - Fri Feb 24 2023/result.png",
+  "location": [
+    38.374646224401005,
+    23.271055116645606
+  ],
+  "kph": 60,
+  "angle": 166.77287033290185,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1.75,
+  "startDate": 1677195633415,
+  "imgPrompt": "night, view from rural road, far away from Chalkida, Greece, Clear weather, cold, nearby building marked 'ΕΛΤΑ', signs in distance, February 24th, 3am, Waxing Gibbous moon, no sunlight, dark, crowded, realistic, wide angle, sharp, HD, zoomed out, macro, wide view, night",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, daytime, sun, bright sky, bright, sunlight, sun, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-23T19:25:33.415Z",
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 9.4,
+    "windSpeed": 1.5,
+    "sunrise": "2023-02-24T07:04",
+    "sunset": "2023-02-24T18:15",
+    "timezone": "Europe/Athens",
+    "timezoneOffsetInMs": 7200000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-23T19:25:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Chalkida",
+    "nearestCityCoords": [
+      38.4623664,
+      23.5946877
+    ],
+    "distanceToCityInKm": 37.219423591672694,
+    "population": 59125,
+    "continent": "",
+    "country": "Greece",
+    "state": "",
+    "nearestLandmarks": [
+      "Moni Pelagias",
+      "Άγιος Νικήτας",
+      "ΚΤΕΛ Θήβας",
+      "ΕΛΤΑ",
+      "ΑΠ"
+    ]
+  },
+  "distanceToCityInKm": 37.219423591672694,
+  "approachingOrExitingOrPassing": ""
+}

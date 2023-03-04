@@ -1,0 +1,61 @@
+{
+  "packageName": "0002.25 - 9 of 11 - 12 PM - 55.61km from Braga - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0002.25 - 9 of 11 - 12 PM - 55.61km from Braga - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0002.25 - 9 of 11 - 12 PM - 55.61km from Braga - Fri Feb 24 2023/result.png",
+  "location": [
+    41.07377168387457,
+    -8.580377148594504
+  ],
+  "kph": 60,
+  "angle": 53.688439353615614,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2.25,
+  "startDate": 1677232379164,
+  "imgPrompt": "afternoon, view from rural road, far away from Braga, Portugal, Clear weather, cold, nearby building marked 'Barclays', fences in distance, February 24th, 12am, verdantrealistic, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 25,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-24T04:07:59.164Z",
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 8.3,
+    "windSpeed": 2.9,
+    "sunrise": "2023-02-24T07:14",
+    "sunset": "2023-02-24T18:20",
+    "timezone": "Europe/Lisbon",
+    "timezoneOffsetInMs": 0,
+    "moonPhase": "Almost Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T04:07:59.164Z"
+  },
+  "locationData": {
+    "nearestCity": "Braga",
+    "nearestCityCoords": [
+      41.5510583,
+      -8.4280045
+    ],
+    "distanceToCityInKm": 55.613097879502384,
+    "population": 136885,
+    "continent": "",
+    "country": "Portugal",
+    "state": "",
+    "nearestLandmarks": [
+      "Repsol",
+      "Farmácia Cardoso",
+      "CTT",
+      "Estação dos Correios de Eça de Queirós",
+      "Barclays"
+    ]
+  },
+  "distanceToCityInKm": 55.613097879502384,
+  "approachingOrExitingOrPassing": "",
+  "iterationCount": 9,
+  "totalIterations": 11
+}

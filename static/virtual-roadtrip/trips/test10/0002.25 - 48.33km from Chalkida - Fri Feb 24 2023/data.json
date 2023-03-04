@@ -1,0 +1,59 @@
+{
+  "packageName": "0002.25 - 48.33km from Chalkida - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0002.25 - 48.33km from Chalkida - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0002.25 - 48.33km from Chalkida - Fri Feb 24 2023/result.png",
+  "location": [
+    38.54867760489726,
+    23.16792586402587
+  ],
+  "kph": 60,
+  "angle": 64.86704500708949,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2.25,
+  "startDate": 1677195633415,
+  "imgPrompt": "night, view from rural highway, far away from Chalkida, Greece, Partly Cloudy weather, cold, passing by 'Φροντιστήριο Ξένων Γλωσσών', February 24th, 3am, Waxing Gibbous moon, no sunlight, dark, lonely, realistic, wide angle, sharp, HD, zoomed out, macro, wide view, night",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, daytime, sun, bright sky, bright, sunlight, sun, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-23T19:55:33.415Z",
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 8.3,
+    "windSpeed": 2.3,
+    "sunrise": "2023-02-24T07:05",
+    "sunset": "2023-02-24T18:15",
+    "timezone": "Europe/Athens",
+    "timezoneOffsetInMs": 7200000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-23T19:55:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Chalkida",
+    "nearestCityCoords": [
+      38.4623664,
+      23.5946877
+    ],
+    "distanceToCityInKm": 48.329671346925124,
+    "population": 59125,
+    "continent": "",
+    "country": "Greece",
+    "state": "",
+    "nearestLandmarks": [
+      "Ευρωσιναϊτικό Κέντρο Μελετών, Επικοινωνίας και Εκθέσεων",
+      "Άγια Αικατερίνη",
+      "Agios Georgios",
+      "Mrs. Rose",
+      "Φροντιστήριο Ξένων Γλωσσών"
+    ]
+  },
+  "distanceToCityInKm": 48.329671346925124,
+  "approachingOrExitingOrPassing": ""
+}

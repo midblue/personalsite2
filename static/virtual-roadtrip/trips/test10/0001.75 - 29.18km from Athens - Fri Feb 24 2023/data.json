@@ -1,0 +1,59 @@
+{
+  "packageName": "0001.75 - 29.18km from Athens - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0001.75 - 29.18km from Athens - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0001.75 - 29.18km from Athens - Fri Feb 24 2023/result.png",
+  "location": [
+    38.243312078256814,
+    23.771147584358026
+  ],
+  "kph": 60,
+  "angle": 134.8983517692416,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0.75,
+  "startDate": 1677195633415,
+  "imgPrompt": "night, view from rural highway, far away from Athens, Greece, Partly Cloudy weather, cold, passing by 'Agios Nikolaos', February 24th, 2am, Waxing Gibbous moon, no sunlight, dark, verdant, realistic, wide angle, sharp, HD, zoomed out, macro, wide view, night",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, daytime, sun, bright sky, bright, sunlight, sun, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-23T18:25:33.415Z",
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 9.6,
+    "windSpeed": 0.4,
+    "sunrise": "2023-02-24T07:02",
+    "sunset": "2023-02-24T18:13",
+    "timezone": "Europe/Athens",
+    "timezoneOffsetInMs": 7200000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-23T18:25:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Athens",
+    "nearestCityCoords": [
+      37.9839412,
+      23.7283052
+    ],
+    "distanceToCityInKm": 29.180277046456702,
+    "population": 3090508,
+    "continent": "",
+    "country": "Greece",
+    "state": "",
+    "nearestLandmarks": [
+      "BP",
+      "Ωρωπός",
+      "Agios Nikolaos",
+      "Agia Triada",
+      "Metamorfosi Sotiros"
+    ]
+  },
+  "distanceToCityInKm": 29.180277046456702,
+  "approachingOrExitingOrPassing": ""
+}

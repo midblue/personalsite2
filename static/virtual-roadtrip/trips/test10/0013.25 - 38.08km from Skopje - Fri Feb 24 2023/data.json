@@ -1,0 +1,59 @@
+{
+  "packageName": "0013.25 - 38.08km from Skopje - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0013.25 - 38.08km from Skopje - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0013.25 - 38.08km from Skopje - Fri Feb 24 2023/result.png",
+  "location": [
+    42.20810482249531,
+    21.701687038794855
+  ],
+  "kph": 60,
+  "angle": 85.31765448942713,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 13.25,
+  "startDate": 1677195633415,
+  "imgPrompt": "afternoon, view from rural highway, far away from Skopje, North Macedonia, Drizzle weather, nearby building marked 'Art Cafe CARIGRAD', fences in distance, February 24th, 1pm, traffic, realistic, wide angle, sharp, HD, zoomed out, macro, wide view",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, night, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-24T05:55:33.415Z",
+  "weather": {
+    "currentWeather": "Drizzle",
+    "temperature": 13.8,
+    "windSpeed": 8.6,
+    "sunrise": "2023-02-24T06:15",
+    "sunset": "2023-02-24T17:17",
+    "timezone": "Europe/Skopje",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T05:55:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Skopje",
+    "nearestCityCoords": [
+      41.9961816,
+      21.4319213
+    ],
+    "distanceToCityInKm": 38.07882560780111,
+    "population": 850000,
+    "continent": "",
+    "country": "North Macedonia",
+    "state": "",
+    "nearestLandmarks": [
+      "Satelit 2000",
+      "Detoil",
+      "Art Cafe CARIGRAD",
+      "Народен театар",
+      "Зафир"
+    ]
+  },
+  "distanceToCityInKm": 38.07882560780111,
+  "approachingOrExitingOrPassing": ""
+}

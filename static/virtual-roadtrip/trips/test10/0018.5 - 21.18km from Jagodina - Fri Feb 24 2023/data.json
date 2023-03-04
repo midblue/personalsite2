@@ -1,0 +1,59 @@
+{
+  "packageName": "0018.5 - 21.18km from Jagodina - Fri Feb 24 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0018.5 - 21.18km from Jagodina - Fri Feb 24 2023",
+  "imgName": "result.png",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0018.5 - 21.18km from Jagodina - Fri Feb 24 2023/result.png",
+  "location": [
+    43.86901358608067,
+    21.416345716782388
+  ],
+  "kph": 60,
+  "angle": 174.3022707549523,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 17.5,
+  "startDate": 1677195633415,
+  "imgPrompt": "night, view from rural highway, far away from Jagodina, Serbia, Clear weather, cold, nearby building marked 'Kapela', lights in distance, February 24th, 6pm, Waxing Gibbous moon, no sunlight, dark, traffic, realistic, wide angle, sharp, HD, zoomed out, macro, wide view, night",
+  "imgSettings": {
+    "scale": 7,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, surreal, graveyard, daytime, sun, bright sky, bright, sunlight, sun, hot, city, urban, downtown, skyscrapers"
+  },
+  "date": "2023-02-24T10:10:33.415Z",
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-02-25T06:16",
+    "sunset": "2023-02-25T17:18",
+    "timezone": "Europe/Belgrade",
+    "timezoneOffsetInMs": 3600000,
+    "moonPhase": "Waxing Gibbous",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-24T10:10:33.415Z"
+  },
+  "locationData": {
+    "nearestCity": "Jagodina",
+    "nearestCityCoords": [
+      43.9794256,
+      21.2607688
+    ],
+    "distanceToCityInKm": 21.17599277440661,
+    "population": 35589,
+    "continent": "",
+    "country": "Serbia",
+    "state": "",
+    "nearestLandmarks": [
+      "Kapela",
+      "Света Тројица",
+      "Михајловић Петрол",
+      "AVIA",
+      "Lukoil"
+    ]
+  },
+  "distanceToCityInKm": 21.17599277440661,
+  "approachingOrExitingOrPassing": ""
+}
