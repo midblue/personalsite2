@@ -1,0 +1,60 @@
+{
+  "packageName": "0078 - 7:45 AM - 9.5km from Ogori - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0078 - 7:45 AM - 9.5km from Ogori - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0078 - 7:45 AM - 9.5km from Ogori - Wed Mar 01 2023.png",
+  "location": [
+    33.375591366115266,
+    130.472397881537
+  ],
+  "kph": 38,
+  "angle": -142.41749629388806,
+  "imgPrompt": "morning, side view from rural street, suburbs of Ogori, Japan, Overcast weather, cold, passing by 'カレーの亜橋', March 1st, 7am, 7:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 5.9,
+    "windSpeed": 7.2,
+    "sunrise": "2023-03-01T06:45",
+    "sunset": "2023-03-01T18:15",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T23:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Ogori",
+    "nearestCityCoords": [
+      33.3963946,
+      130.5554371
+    ],
+    "distanceToCityInKm": 9.502200588927364,
+    "population": 58339,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "カレーの亜橋"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"A Tale for the Time Being\" by Ruth Ozeki",
+    "imageUrl": "http://books.google.com/books/content?id=lsItpf9T9qAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "conversation": "I could definitely go for some hot coffee too, this cold weather is giving me chills.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 19.5,
+  "iterationCount": 78,
+  "kmTraveledSoFar": 747.25
+}

@@ -1,0 +1,60 @@
+{
+  "packageName": "0013 - 3:30 PM - 75.59km from Naruto - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0013 - 3:30 PM - 75.59km from Naruto - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0013 - 3:30 PM - 75.59km from Naruto - Tue Feb 28 2023.png",
+  "location": [
+    34.84912519793113,
+    134.53081728853243
+  ],
+  "kph": 100,
+  "angle": -151.27684594443357,
+  "imgPrompt": "afternoon, side view from rural street, far away from Naruto, Japan, Clear weather, near the coast, outside of '姫路網干郵便局', February 28th, 3pm, 15:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 10.9,
+    "windSpeed": 12.2,
+    "sunrise": "2023-02-28T06:31",
+    "sunset": "2023-02-28T17:57",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T07:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Naruto",
+    "nearestCityCoords": [
+      34.1725784,
+      134.608408
+    ],
+    "distanceToCityInKm": 75.58895342380539,
+    "population": 57657,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "姫路網干郵便局",
+    "nearestCoastlineInKm": 8.58214984082949
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Wind-Up Bird Chronicle\" by Haruki Murakami",
+    "imageUrl": "http://books.google.com/books/content?id=sC5mAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 3.25,
+  "iterationCount": 13,
+  "kmTraveledSoFar": 168.25
+}

@@ -1,0 +1,58 @@
+{
+  "packageName": "0026 - 6:45 PM - 9.04km from Kasaoka - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0026 - 6:45 PM - 9.04km from Kasaoka - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0026 - 6:45 PM - 9.04km from Kasaoka - Tue Feb 28 2023.png",
+  "location": [
+    34.52214981814226,
+    133.42745995033462
+  ],
+  "kph": 36,
+  "angle": -153.28535182739284,
+  "imgPrompt": "night, dusk, side view from rural road, suburbs of Kasaoka, Japan, Clear weather, near the coast, outside of '井原市立高等学校', buses in distance, February 28th, 6pm, 18:00, Full moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 11,
+    "windSpeed": 11.4,
+    "sunrise": "2023-02-28T06:35",
+    "sunset": "2023-02-28T18:01",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-02-28T10:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kasaoka",
+    "nearestCityCoords": [
+      34.5071461,
+      133.5074654
+    ],
+    "distanceToCityInKm": 9.03541604606654,
+    "population": 48755,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "井原市立高等学校",
+    "nearestCoastlineInKm": 5.111470359649122
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 6.5,
+  "iterationCount": 26,
+  "kmTraveledSoFar": 310.75
+}

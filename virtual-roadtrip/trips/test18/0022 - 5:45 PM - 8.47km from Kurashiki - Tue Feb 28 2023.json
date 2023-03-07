@@ -1,0 +1,58 @@
+{
+  "packageName": "0022 - 5:45 PM - 8.47km from Kurashiki - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0022 - 5:45 PM - 8.47km from Kurashiki - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0022 - 5:45 PM - 8.47km from Kurashiki - Tue Feb 28 2023.png",
+  "location": [
+    34.59368103299507,
+    133.69621004361503
+  ],
+  "kph": 34,
+  "angle": -120.22746576361038,
+  "imgPrompt": "dusk, afternoon, side view from urban highway, suburbs of Kurashiki, Japan, Clear weather, near the coast, nearby building marked 'かがやき保育園', February 28th, 5pm, 17:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12.6,
+    "windSpeed": 11.3,
+    "sunrise": "2023-02-28T06:34",
+    "sunset": "2023-02-28T18:00",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-02-28T09:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kurashiki",
+    "nearestCityCoords": [
+      34.5850791,
+      133.7719957
+    ],
+    "distanceToCityInKm": 8.466221820101973,
+    "population": 477118,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "かがやき保育園",
+    "nearestCoastlineInKm": 8.552845934456853
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 5.5,
+  "iterationCount": 22,
+  "kmTraveledSoFar": 278
+}

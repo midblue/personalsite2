@@ -1,0 +1,58 @@
+{
+  "packageName": "0030 - 7:45 PM - 9.53km from Mihara - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0030 - 7:45 PM - 9.53km from Mihara - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0030 - 7:45 PM - 9.53km from Mihara - Tue Feb 28 2023.png",
+  "location": [
+    34.4771582272847,
+    133.1104463353305
+  ],
+  "kph": 38,
+  "angle": -173.38653951783994,
+  "imgPrompt": "night, side view from urban street, suburbs of Mihara, Japan, Clear weather, cold, near 'みどり幼稚園', February 28th, 7pm, 19:00, Full moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 8.3,
+    "windSpeed": 9,
+    "sunrise": "2023-02-28T06:37",
+    "sunset": "2023-02-28T18:03",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T11:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Mihara",
+    "nearestCityCoords": [
+      34.3974407,
+      133.0785046
+    ],
+    "distanceToCityInKm": 9.532540546059693,
+    "population": 103162,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "みどり幼稚園",
+    "nearestCoastlineInKm": 10.32938447836266
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 7.5,
+  "iterationCount": 30,
+  "kmTraveledSoFar": 349
+}

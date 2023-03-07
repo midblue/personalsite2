@@ -1,0 +1,59 @@
+{
+  "packageName": "0048 - 12:15 AM - 10.79km from Hikari - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0048 - 12:15 AM - 10.79km from Hikari - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0048 - 12:15 AM - 10.79km from Hikari - Wed Mar 01 2023.png",
+  "location": [
+    34.04465384914027,
+    131.99301893274907
+  ],
+  "kph": 41,
+  "angle": -140.23476478592895,
+  "imgPrompt": "night, side view from rural road, outside of Hikari, Japan, Clear weather, cold, passing by 'あおば幼稚園', plane in distance, March 1st, 0am, 0:00, Full moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 5.3,
+    "windSpeed": 9.3,
+    "sunrise": "2023-02-28T06:41",
+    "sunset": "2023-02-28T18:08",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T16:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Hikari",
+    "nearestCityCoords": [
+      33.9615807,
+      131.9425203
+    ],
+    "distanceToCityInKm": 10.791152611139992,
+    "population": 50594,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "あおば幼稚園"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 12,
+  "iterationCount": 48,
+  "kmTraveledSoFar": 502.75
+}

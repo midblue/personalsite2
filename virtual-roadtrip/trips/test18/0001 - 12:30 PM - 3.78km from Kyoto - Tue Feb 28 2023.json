@@ -1,0 +1,59 @@
+{
+  "packageName": "0001 - 12:30 PM - 3.78km from Kyoto - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0001 - 12:30 PM - 3.78km from Kyoto - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0001 - 12:30 PM - 3.78km from Kyoto - Tue Feb 28 2023.png",
+  "location": [
+    34.99322707150549,
+    135.77527931374556
+  ],
+  "kph": 20,
+  "angle": -126.36393461232569,
+  "imgPrompt": "afternoon, side view from urban highway, center of Kyoto, Japan, Clear weather, nearby building marked '新福菜館本店', birds in distance, February 28th, 12am, 12:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13,
+    "windSpeed": 13.1,
+    "sunrise": "2023-02-28T06:26",
+    "sunset": "2023-02-28T17:52",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T04:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kyoto",
+    "nearestCityCoords": [
+      35.021041,
+      135.7556075
+    ],
+    "distanceToCityInKm": 3.781493018202617,
+    "population": 1475183,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "新福菜館本店"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM802",
+    "track": "\"Stay Tonight\" by Junko Ohashi"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0.25,
+  "iterationCount": 1,
+  "kmTraveledSoFar": 5.5
+}

@@ -1,0 +1,59 @@
+{
+  "packageName": "0071 - 6:00 AM - 2.61km from Iizuka - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0071 - 6:00 AM - 2.61km from Iizuka - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0071 - 6:00 AM - 2.61km from Iizuka - Wed Mar 01 2023.png",
+  "location": [
+    33.62939666683225,
+    130.70723071700752
+  ],
+  "kph": 17,
+  "angle": -149.75419811341044,
+  "imgPrompt": "night, dawn, side view from urban highway, center of Iizuka, Japan, Overcast weather, cold, nearby building marked 'ぎんなん保育園', cars in distance, March 1st, 6am, 6:00, Full moon, no sunlight, dark, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 7.2,
+    "windSpeed": 8.7,
+    "sunrise": "2023-03-01T06:44",
+    "sunset": "2023-03-01T18:14",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T22:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Iizuka",
+    "nearestCityCoords": [
+      33.646594,
+      130.6911579
+    ],
+    "distanceToCityInKm": 2.612827098771404,
+    "population": 128393,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ぎんなん保育園"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM Jaga",
+    "track": "\"Dolphin's Smile\" by Minako Yoshida"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 17.75,
+  "iterationCount": 71,
+  "kmTraveledSoFar": 702
+}

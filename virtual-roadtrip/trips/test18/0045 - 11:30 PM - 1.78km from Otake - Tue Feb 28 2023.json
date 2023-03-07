@@ -1,0 +1,58 @@
+{
+  "packageName": "0045 - 11:30 PM - 1.78km from Otake - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0045 - 11:30 PM - 1.78km from Otake - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0045 - 11:30 PM - 1.78km from Otake - Tue Feb 28 2023.png",
+  "location": [
+    34.22893531119038,
+    132.20897387815737
+  ],
+  "kph": 14,
+  "angle": -142.65924124185895,
+  "imgPrompt": "night, side view from rural highway, downtown Otake, Japan, Clear weather, cold, near the coast, near '岩国東幼稚園', buildings in distance, February 28th, 11pm, 23:00, Full moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 7.8,
+    "windSpeed": 9.2,
+    "sunrise": "2023-02-28T06:40",
+    "sunset": "2023-02-28T18:07",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T15:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Otake",
+    "nearestCityCoords": [
+      34.2378742,
+      132.2223092
+    ],
+    "distanceToCityInKm": 1.782006534637414,
+    "population": 27444,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "岩国東幼稚園",
+    "nearestCoastlineInKm": 4.968300489727017
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 11.25,
+  "iterationCount": 45,
+  "kmTraveledSoFar": 468
+}

@@ -1,0 +1,60 @@
+{
+  "packageName": "0011 - 3:00 PM - 57.6km from Fukuchiyama - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0011 - 3:00 PM - 57.6km from Fukuchiyama - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0011 - 3:00 PM - 57.6km from Fukuchiyama - Tue Feb 28 2023.png",
+  "location": [
+    34.80841506639469,
+    134.95099872497715
+  ],
+  "kph": 100,
+  "angle": -148.31446650532385,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Fukuchiyama, Japan, Clear weather, outside of 'ひろの保育園', trucks in distance, February 28th, 3pm, 15:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12,
+    "windSpeed": 13.4,
+    "sunrise": "2023-02-28T06:30",
+    "sunset": "2023-02-28T17:55",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T07:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Fukuchiyama",
+    "nearestCityCoords": [
+      35.2966996,
+      135.126643
+    ],
+    "distanceToCityInKm": 57.59955643100602,
+    "population": 78003,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ひろの保育園"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Memoirs of a Geisha\" by Arthur Golden",
+    "imageUrl": "http://books.google.com/books/content?id=8yT6tgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "I can smell the fresh scent of pine trees.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2.75,
+  "iterationCount": 11,
+  "kmTraveledSoFar": 118.25
+}

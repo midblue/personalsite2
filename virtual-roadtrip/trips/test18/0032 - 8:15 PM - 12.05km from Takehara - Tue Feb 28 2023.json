@@ -1,0 +1,57 @@
+{
+  "packageName": "0032 - 8:15 PM - 12.05km from Takehara - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0032 - 8:15 PM - 12.05km from Takehara - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0032 - 8:15 PM - 12.05km from Takehara - Tue Feb 28 2023.png",
+  "location": [
+    34.43703171816104,
+    132.95926515473778
+  ],
+  "kph": 45,
+  "angle": -120.58297203774798,
+  "imgPrompt": "night, side view from rural road, outside of Takehara, Japan, Clear weather, cold, outside of '三原市消防署西部分署', buildings in distance, February 28th, 8pm, 20:00, Full moon, no sunlight, dark, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 9.8,
+    "windSpeed": 11.4,
+    "sunrise": "2023-02-28T06:37",
+    "sunset": "2023-02-28T18:03",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T12:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Takehara",
+    "nearestCityCoords": [
+      34.3418377,
+      132.9070476
+    ],
+    "distanceToCityInKm": 12.051847231384146,
+    "population": 25512,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "三原市消防署西部分署"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 8,
+  "iterationCount": 32,
+  "kmTraveledSoFar": 368
+}

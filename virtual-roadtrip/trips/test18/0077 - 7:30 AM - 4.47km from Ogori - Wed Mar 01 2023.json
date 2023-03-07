@@ -1,0 +1,60 @@
+{
+  "packageName": "0077 - 7:30 AM - 4.47km from Ogori - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0077 - 7:30 AM - 4.47km from Ogori - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0077 - 7:30 AM - 4.47km from Ogori - Wed Mar 01 2023.png",
+  "location": [
+    33.39715029628821,
+    130.5151818165952
+  ],
+  "kph": 22,
+  "angle": 179.7395664322203,
+  "imgPrompt": "morning, side view from rural street, outskirts of Ogori, Japan, Overcast weather, cold, passing by 'MOS BURGER', birds in distance, March 1st, 7am, 7:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 6.3,
+    "windSpeed": 7.2,
+    "sunrise": "2023-03-01T06:45",
+    "sunset": "2023-03-01T18:15",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T23:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Ogori",
+    "nearestCityCoords": [
+      33.3963946,
+      130.5554371
+    ],
+    "distanceToCityInKm": 4.469123732851198,
+    "population": 58339,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "MOS BURGER"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Ring\" by Koji Suzuki",
+    "imageUrl": "http://books.google.com/books/content?id=v55NEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "Have you ever tried one of their burgers before?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 19.25,
+  "iterationCount": 77,
+  "kmTraveledSoFar": 741.75
+}

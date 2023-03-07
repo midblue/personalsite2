@@ -1,0 +1,61 @@
+{
+  "packageName": "0066 - 4:45 AM - 6.35km from Shimonoseki - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0066 - 4:45 AM - 6.35km from Shimonoseki - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0066 - 4:45 AM - 6.35km from Shimonoseki - Wed Mar 01 2023.png",
+  "location": [
+    33.91167109405111,
+    130.9754673078883
+  ],
+  "kph": 28,
+  "angle": -104.13081038007893,
+  "imgPrompt": "night, side view from urban road, outskirts of Shimonoseki, Japan, Partly Cloudy weather, windy,cold, near the coast, near 'ひまわり保育園', fences in distance, March 1st, 4am, 4:00, Full moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 6.1,
+    "windSpeed": 15.1,
+    "sunrise": "2023-03-01T06:44",
+    "sunset": "2023-03-01T18:13",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T20:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Shimonoseki",
+    "nearestCityCoords": [
+      33.9577116,
+      130.9415455
+    ],
+    "distanceToCityInKm": 6.34781937320488,
+    "population": 262702,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ひまわり保育園",
+    "nearestCoastlineInKm": 9.190416222678554
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "conversation": "I always find dreams so fascinating.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 16.5,
+  "iterationCount": 66,
+  "kmTraveledSoFar": 647
+}

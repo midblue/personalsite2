@@ -1,0 +1,59 @@
+{
+  "packageName": "0007 - 2:00 PM - 11.79km from Kameoka - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0007 - 2:00 PM - 11.79km from Kameoka - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0007 - 2:00 PM - 11.79km from Kameoka - Tue Feb 28 2023.png",
+  "location": [
+    34.907229473316875,
+    135.57376904461583
+  ],
+  "kph": 44,
+  "angle": -164.7150280866374,
+  "imgPrompt": "afternoon, side view from rural road, outside of Kameoka, Japan, Clear weather, windy,nearby building marked 'McDonalds', lights in distance, February 28th, 2pm, 14:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 11.8,
+    "windSpeed": 16.3,
+    "sunrise": "2023-02-28T06:27",
+    "sunset": "2023-02-28T17:53",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T06:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kameoka",
+    "nearestCityCoords": [
+      35.0134403,
+      135.5733728
+    ],
+    "distanceToCityInKm": 11.789483806318952,
+    "population": 88273,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "McDonalds"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM802",
+    "track": "\"Windy Summer\" by Toshiki Kadomatsu"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1.75,
+  "iterationCount": 7,
+  "kmTraveledSoFar": 43.5
+}

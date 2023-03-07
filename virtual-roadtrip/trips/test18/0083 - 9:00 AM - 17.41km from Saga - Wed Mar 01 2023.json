@@ -1,0 +1,57 @@
+{
+  "packageName": "0083 - 9:00 AM - 17.41km from Saga - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0083 - 9:00 AM - 17.41km from Saga - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0083 - 9:00 AM - 17.41km from Saga - Wed Mar 01 2023.png",
+  "location": [
+    33.28761591870171,
+    130.145791359607
+  ],
+  "kph": 61,
+  "angle": 169.98589656470324,
+  "imgPrompt": "morning, side view from rural highway, far away from Saga, Japan, Clear weather, cold, near 'とうぶ保育園', March 1st, 9am, 9:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-01T06:46",
+    "sunset": "2023-03-01T18:16",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-01T01:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Saga",
+    "nearestCityCoords": [
+      33.2639134,
+      130.3008378
+    ],
+    "distanceToCityInKm": 17.410097203839122,
+    "population": 235082,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "とうぶ保育園"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 20.75,
+  "iterationCount": 83,
+  "kmTraveledSoFar": 785.75
+}

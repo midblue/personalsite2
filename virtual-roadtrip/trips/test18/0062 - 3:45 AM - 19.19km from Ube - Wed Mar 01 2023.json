@@ -1,0 +1,60 @@
+{
+  "packageName": "0062 - 3:45 AM - 19.19km from Ube - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0062 - 3:45 AM - 19.19km from Ube - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0062 - 3:45 AM - 19.19km from Ube - Wed Mar 01 2023.png",
+  "location": [
+    34.043310294066515,
+    131.10053185565798
+  ],
+  "kph": 67,
+  "angle": 173.04310458712126,
+  "imgPrompt": "night, side view from rural highway, far away from Ube, Japan, Clear weather, windy,cold, coastal road, near 'ゆめタウン長府簡易郵便局', trucks in distance, March 1st, 3am, 3:00, Full moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 7.9,
+    "windSpeed": 17.6,
+    "sunrise": "2023-03-01T06:43",
+    "sunset": "2023-03-01T18:12",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T19:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Ube",
+    "nearestCityCoords": [
+      33.9518498,
+      131.2472243
+    ],
+    "distanceToCityInKm": 19.18846029734967,
+    "population": 167077,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ゆめタウン長府簡易郵便局",
+    "nearestCoastlineInKm": 2.440683712205922
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 15.5,
+  "iterationCount": 62,
+  "kmTraveledSoFar": 614.25
+}

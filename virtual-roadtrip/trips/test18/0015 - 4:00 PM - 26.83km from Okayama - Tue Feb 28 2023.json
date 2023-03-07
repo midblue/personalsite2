@@ -1,0 +1,58 @@
+{
+  "packageName": "0015 - 4:00 PM - 26.83km from Okayama - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0015 - 4:00 PM - 26.83km from Okayama - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0015 - 4:00 PM - 26.83km from Okayama - Tue Feb 28 2023.png",
+  "location": [
+    34.73711781772383,
+    134.14697284921712
+  ],
+  "kph": 90,
+  "angle": -164.35310328864955,
+  "imgPrompt": "afternoon, side view from rural street, far away from Okayama, Japan, Clear weather, near the coast, near '仁誠会吉井川病院', birds in distance, February 28th, 4pm, 16:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12.6,
+    "windSpeed": 12.1,
+    "sunrise": "2023-02-28T06:33",
+    "sunset": "2023-02-28T17:58",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T08:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Okayama",
+    "nearestCityCoords": [
+      34.6553944,
+      133.9194595
+    ],
+    "distanceToCityInKm": 26.833785925639965,
+    "population": 719474,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "仁誠会吉井川病院",
+    "nearestCoastlineInKm": 9.335689836585251
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 3.75,
+  "iterationCount": 15,
+  "kmTraveledSoFar": 218.25
+}

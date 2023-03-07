@@ -1,0 +1,58 @@
+{
+  "packageName": "0023 - 6:00 PM - 15.06km from Kasaoka - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0023 - 6:00 PM - 15.06km from Kasaoka - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0023 - 6:00 PM - 15.06km from Kasaoka - Tue Feb 28 2023.png",
+  "location": [
+    34.56681190040026,
+    133.6293077437593
+  ],
+  "kph": 54,
+  "angle": -156.07495924234198,
+  "imgPrompt": "dusk, afternoon, side view from rural highway, far away from Kasaoka, Japan, Clear weather, near the coast, near '川面小学校', February 28th, 6pm, 18:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 10.9,
+    "windSpeed": 10.2,
+    "sunrise": "2023-02-28T06:35",
+    "sunset": "2023-02-28T18:01",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-02-28T10:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kasaoka",
+    "nearestCityCoords": [
+      34.5071461,
+      133.5074654
+    ],
+    "distanceToCityInKm": 15.059049101351501,
+    "population": 48755,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "川面小学校",
+    "nearestCoastlineInKm": 9.179320493990815
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 5.75,
+  "iterationCount": 23,
+  "kmTraveledSoFar": 286.5
+}

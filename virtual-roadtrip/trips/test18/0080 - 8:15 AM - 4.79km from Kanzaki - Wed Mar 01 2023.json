@@ -1,0 +1,59 @@
+{
+  "packageName": "0080 - 8:15 AM - 4.79km from Kanzaki - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0080 - 8:15 AM - 4.79km from Kanzaki - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0080 - 8:15 AM - 4.79km from Kanzaki - Wed Mar 01 2023.png",
+  "location": [
+    33.33817550435838,
+    130.33973043351074
+  ],
+  "kph": 23,
+  "angle": 178.46666282822227,
+  "imgPrompt": "morning, side view from rural street, outskirts of Kanzaki, Japan, Partly Cloudy weather, cold, passing by 'ひかり保育園', trees in distance, March 1st, 8am, 8:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 7.4,
+    "windSpeed": 7.6,
+    "sunrise": "2023-03-01T06:46",
+    "sunset": "2023-03-01T18:16",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-01T00:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kanzaki",
+    "nearestCityCoords": [
+      33.3107434,
+      130.3730748
+    ],
+    "distanceToCityInKm": 4.792793273309492,
+    "population": 31408,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ひかり保育園"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"A Tale for the Time Being\" by Ruth Ozeki",
+    "imageUrl": "http://books.google.com/books/content?id=lsItpf9T9qAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 20,
+  "iterationCount": 80,
+  "kmTraveledSoFar": 762.75
+}
