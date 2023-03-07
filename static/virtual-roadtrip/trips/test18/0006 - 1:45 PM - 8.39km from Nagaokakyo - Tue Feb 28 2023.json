@@ -1,0 +1,59 @@
+{
+  "packageName": "0006 - 1:45 PM - 8.39km from Nagaokakyo - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0006 - 1:45 PM - 8.39km from Nagaokakyo - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0006 - 1:45 PM - 8.39km from Nagaokakyo - Tue Feb 28 2023.png",
+  "location": [
+    34.869674356236885,
+    135.62811785312533
+  ],
+  "kph": 34,
+  "angle": 60.74260094364539,
+  "imgPrompt": "afternoon, side view from rural road, suburbs of Nagaokakyo, Japan, Clear weather, passing by '御殿山神社', lights in distance, February 28th, 1pm, 13:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.7,
+    "windSpeed": 14.5,
+    "sunrise": "2023-02-28T06:27",
+    "sunset": "2023-02-28T17:52",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T05:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Nagaokakyo",
+    "nearestCityCoords": [
+      34.924418,
+      135.680271
+    ],
+    "distanceToCityInKm": 8.39266974672778,
+    "population": 80424,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "御殿山神社"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM802",
+    "track": "\"Love Trip\" by Taeko Ohnuki"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1.5,
+  "iterationCount": 6,
+  "kmTraveledSoFar": 35
+}

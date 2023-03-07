@@ -1,0 +1,57 @@
+{
+  "packageName": "0035 - 9:00 PM - 2.85km from Higashihiroshima - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0035 - 9:00 PM - 2.85km from Higashihiroshima - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0035 - 9:00 PM - 2.85km from Higashihiroshima - Tue Feb 28 2023.png",
+  "location": [
+    34.449872288209015,
+    132.73028089363675
+  ],
+  "kph": 18,
+  "angle": 143.42974135344716,
+  "imgPrompt": "night, side view from urban street, center of Higashihiroshima, Japan, Clear weather, cold, passing by '三永保育所', trucks in distance, February 28th, 9pm, 21:00, Full moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 5.7,
+    "windSpeed": 7.4,
+    "sunrise": "2023-02-28T06:38",
+    "sunset": "2023-02-28T18:04",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T13:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Higashihiroshima",
+    "nearestCityCoords": [
+      34.42683,
+      132.741552
+    ],
+    "distanceToCityInKm": 2.847284980934448,
+    "population": 194135,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "三永保育所"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 8.75,
+  "iterationCount": 35,
+  "kmTraveledSoFar": 394.75
+}

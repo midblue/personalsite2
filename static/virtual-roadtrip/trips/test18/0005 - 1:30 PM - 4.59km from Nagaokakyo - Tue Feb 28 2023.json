@@ -1,0 +1,60 @@
+{
+  "packageName": "0005 - 1:30 PM - 4.59km from Nagaokakyo - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0005 - 1:30 PM - 4.59km from Nagaokakyo - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0005 - 1:30 PM - 4.59km from Nagaokakyo - Tue Feb 28 2023.png",
+  "location": [
+    34.88715341312665,
+    135.6623297496732
+  ],
+  "kph": 23,
+  "angle": -123.92222095378006,
+  "imgPrompt": "afternoon, side view from rural street, outskirts of Nagaokakyo, Japan, Clear weather, outside of 'Friend', plane in distance, February 28th, 1pm, 13:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.5,
+    "windSpeed": 14.5,
+    "sunrise": "2023-02-28T06:27",
+    "sunset": "2023-02-28T17:52",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T05:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Nagaokakyo",
+    "nearestCityCoords": [
+      34.924418,
+      135.680271
+    ],
+    "distanceToCityInKm": 4.590810107472222,
+    "population": 80424,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "Friend"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM802",
+    "track": "\"Tropical Nights\" by Yuji Toriyama"
+  },
+  "conversation": "What was the rarest stamp you ever got your hands on?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1.25,
+  "iterationCount": 5,
+  "kmTraveledSoFar": 29.25
+}

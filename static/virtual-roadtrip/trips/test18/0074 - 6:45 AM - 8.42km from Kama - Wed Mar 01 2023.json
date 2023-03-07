@@ -1,0 +1,60 @@
+{
+  "packageName": "0074 - 6:45 AM - 8.42km from Kama - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0074 - 6:45 AM - 8.42km from Kama - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0074 - 6:45 AM - 8.42km from Kama - Wed Mar 01 2023.png",
+  "location": [
+    33.53844496813802,
+    130.64012571208175
+  ],
+  "kph": 34,
+  "angle": -99.14223738369934,
+  "imgPrompt": "dawn, morning, side view from rural street, suburbs of Kama, Japan, Overcast weather, cold, near 'たけのこ保育園', March 1st, 6am, 6:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 5.2,
+    "windSpeed": 6.4,
+    "sunrise": "2023-03-01T06:45",
+    "sunset": "2023-03-01T18:14",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T22:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kama",
+    "nearestCityCoords": [
+      33.5632103,
+      130.7118029
+    ],
+    "distanceToCityInKm": 8.417680393065254,
+    "population": 37302,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "たけのこ保育園"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM Jaga",
+    "track": "\"Endless Love\" by Miki Matsubara"
+  },
+  "conversation": "I wonder if that's why there are so many ghost stories in this area.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 18.5,
+  "iterationCount": 74,
+  "kmTraveledSoFar": 717.25
+}

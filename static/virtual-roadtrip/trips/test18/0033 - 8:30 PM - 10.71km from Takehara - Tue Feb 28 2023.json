@@ -1,0 +1,57 @@
+{
+  "packageName": "0033 - 8:30 PM - 10.71km from Takehara - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0033 - 8:30 PM - 10.71km from Takehara - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0033 - 8:30 PM - 10.71km from Takehara - Tue Feb 28 2023.png",
+  "location": [
+    34.42901556362718,
+    132.86560749925607
+  ],
+  "kph": 41,
+  "angle": 179.42100861617556,
+  "imgPrompt": "night, side view from rural street, outside of Takehara, Japan, Clear weather, cold, nearby building marked '広島県立河内高等学校', people in distance, February 28th, 8pm, 20:00, Full moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 7.9,
+    "windSpeed": 7.3,
+    "sunrise": "2023-02-28T06:38",
+    "sunset": "2023-02-28T18:04",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T12:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Takehara",
+    "nearestCityCoords": [
+      34.3418377,
+      132.9070476
+    ],
+    "distanceToCityInKm": 10.714382078825595,
+    "population": 25512,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "広島県立河内高等学校"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 8.25,
+  "iterationCount": 33,
+  "kmTraveledSoFar": 379.25
+}

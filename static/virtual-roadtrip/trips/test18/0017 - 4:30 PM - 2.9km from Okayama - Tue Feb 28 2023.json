@@ -1,0 +1,59 @@
+{
+  "packageName": "0017 - 4:30 PM - 2.9km from Okayama - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0017 - 4:30 PM - 2.9km from Okayama - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0017 - 4:30 PM - 2.9km from Okayama - Tue Feb 28 2023.png",
+  "location": [
+    34.62931699997499,
+    133.9178849961416
+  ],
+  "kph": 18,
+  "angle": 169.39972978442879,
+  "imgPrompt": "afternoon, side view from urban street, center of Okayama, Japan, Clear weather, near the coast, outside of 'Starbucks', birds in distance, February 28th, 4pm, 16:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.5,
+    "windSpeed": 11.3,
+    "sunrise": "2023-02-28T06:34",
+    "sunset": "2023-02-28T17:59",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T08:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Okayama",
+    "nearestCityCoords": [
+      34.6553944,
+      133.9194595
+    ],
+    "distanceToCityInKm": 2.8998627410373388,
+    "population": 719474,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "Starbucks",
+    "nearestCoastlineInKm": 6.698678032610929
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "I think that embracing change and being open to new experiences can lead to some incredible opportunities and growth.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 4.25,
+  "iterationCount": 17,
+  "kmTraveledSoFar": 249
+}

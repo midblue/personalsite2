@@ -1,0 +1,58 @@
+{
+  "packageName": "0086 - 9:45 AM - 26.04km from Nagasaki - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0086 - 9:45 AM - 26.04km from Nagasaki - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0086 - 9:45 AM - 26.04km from Nagasaki - Wed Mar 01 2023.png",
+  "location": [
+    32.970610809621775,
+    129.9584180975567
+  ],
+  "kph": 87,
+  "angle": -97.235750525561,
+  "imgPrompt": "morning, side view from rural highway, far away from Nagasaki, Japan, Clear weather, cold, near the coast, passing by 'ひまわり保育園', March 1st, 9am, 9:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-01T06:47",
+    "sunset": "2023-03-01T18:17",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-01T01:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Nagasaki",
+    "nearestCityCoords": [
+      32.7501611,
+      129.8781002
+    ],
+    "distanceToCityInKm": 26.043410130914655,
+    "population": 420671,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ひまわり保育園",
+    "nearestCoastlineInKm": 7.97989459590068
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 21.5,
+  "iterationCount": 86,
+  "kmTraveledSoFar": 836.5
+}

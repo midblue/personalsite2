@@ -1,0 +1,61 @@
+{
+  "packageName": "0054 - 1:45 AM - 11.59km from Hofu - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0054 - 1:45 AM - 11.59km from Hofu - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0054 - 1:45 AM - 11.59km from Hofu - Wed Mar 01 2023.png",
+  "location": [
+    34.0710794523956,
+    131.66551521882838
+  ],
+  "kph": 44,
+  "angle": -159.50959007847598,
+  "imgPrompt": "night, side view from urban highway, outside of Hofu, Japan, Partly Cloudy weather, cold, near the coast, near '上村保育所', March 1st, 1am, 1:00, Full moon, no sunlight, dark, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 8.7,
+    "windSpeed": 7.4,
+    "sunrise": "2023-03-01T06:41",
+    "sunset": "2023-03-01T18:10",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T17:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Hofu",
+    "nearestCityCoords": [
+      34.0517226,
+      131.5629141
+    ],
+    "distanceToCityInKm": 11.589631842882342,
+    "population": 114882,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "上村保育所",
+    "nearestCoastlineInKm": 3.5152746307192073
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "conversation": "Do you think the ocean looks different at night with a full moon compared to during the day?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 13.5,
+  "iterationCount": 54,
+  "kmTraveledSoFar": 542.5
+}

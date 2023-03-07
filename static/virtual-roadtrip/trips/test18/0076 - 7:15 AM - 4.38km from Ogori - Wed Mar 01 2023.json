@@ -1,0 +1,60 @@
+{
+  "packageName": "0076 - 7:15 AM - 4.38km from Ogori - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0076 - 7:15 AM - 4.38km from Ogori - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0076 - 7:15 AM - 4.38km from Ogori - Wed Mar 01 2023.png",
+  "location": [
+    33.42899583738453,
+    130.53324649114717
+  ],
+  "kph": 22,
+  "angle": -103.12700176851241,
+  "imgPrompt": "dawn, morning, side view from rural highway, outskirts of Ogori, Japan, Overcast weather, cold, near 'Gusto', March 1st, 7am, 7:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 6.3,
+    "windSpeed": 7.2,
+    "sunrise": "2023-03-01T06:45",
+    "sunset": "2023-03-01T18:15",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T23:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Ogori",
+    "nearestCityCoords": [
+      33.3963946,
+      130.5554371
+    ],
+    "distanceToCityInKm": 4.377488467492141,
+    "population": 58339,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "Gusto"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM Jaga",
+    "track": "\"Kazetachi No Koi\" by Taeko Onuki"
+  },
+  "conversation": "I have to admit, seeing that sign for Gusto is making my stomach growl.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 19,
+  "iterationCount": 76,
+  "kmTraveledSoFar": 736.25
+}

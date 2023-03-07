@@ -1,0 +1,58 @@
+{
+  "packageName": "0092 - 11:15 AM - 13.45km from Nagasaki - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0092 - 11:15 AM - 13.45km from Nagasaki - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0092 - 11:15 AM - 13.45km from Nagasaki - Wed Mar 01 2023.png",
+  "location": [
+    32.713867999999984,
+    129.76247400000003
+  ],
+  "kph": 49,
+  "angle": 144.18512737242875,
+  "imgPrompt": "morning, side view from urban highway, outside of Nagasaki, Japan, Clear weather, cold, coastal road, near 'さくら幼稚園', trees in distance, March 1st, 11am, 11:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-01T06:48",
+    "sunset": "2023-03-01T18:18",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-01T03:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Nagasaki",
+    "nearestCityCoords": [
+      32.7501611,
+      129.8781002
+    ],
+    "distanceToCityInKm": 13.45190275502641,
+    "population": 420671,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "さくら幼稚園",
+    "nearestCoastlineInKm": 0.26569245752829074
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 23,
+  "iterationCount": 92,
+  "kmTraveledSoFar": 894.2270335648162
+}

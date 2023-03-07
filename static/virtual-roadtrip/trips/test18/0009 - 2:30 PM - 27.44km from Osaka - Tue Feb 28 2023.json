@@ -1,0 +1,60 @@
+{
+  "packageName": "0009 - 2:30 PM - 27.44km from Osaka - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0009 - 2:30 PM - 27.44km from Osaka - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0009 - 2:30 PM - 27.44km from Osaka - Tue Feb 28 2023.png",
+  "location": [
+    34.885241514491845,
+    135.34506781492735
+  ],
+  "kph": 91,
+  "angle": -157.91823499751337,
+  "imgPrompt": "afternoon, side view from rural road, far away from Osaka, Japan, Clear weather, windy,nearby building marked 'かめたに', buildings in distance, February 28th, 2pm, 14:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12.5,
+    "windSpeed": 16.4,
+    "sunrise": "2023-02-28T06:28",
+    "sunset": "2023-02-28T17:54",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T06:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Osaka",
+    "nearestCityCoords": [
+      34.6937569,
+      135.5014539
+    ],
+    "distanceToCityInKm": 27.44259561564417,
+    "population": 2691185,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "かめたに"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Memoirs of a Geisha\" by Arthur Golden",
+    "imageUrl": "http://books.google.com/books/content?id=8yT6tgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "Because I'm pretty sure that's a recipe for disaster.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2.25,
+  "iterationCount": 9,
+  "kmTraveledSoFar": 70.5
+}

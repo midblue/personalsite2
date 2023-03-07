@@ -1,0 +1,60 @@
+{
+  "packageName": "0056 - 2:15 AM - 2.4km from Hofu - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0056 - 2:15 AM - 2.4km from Hofu - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0056 - 2:15 AM - 2.4km from Hofu - Wed Mar 01 2023.png",
+  "location": [
+    34.0590389368117,
+    131.54257306659386
+  ],
+  "kph": 16,
+  "angle": -141.13431151305073,
+  "imgPrompt": "night, side view from urban road, center of Hofu, Japan, Partly Cloudy weather, cold, outside of '佐波幼稚園', March 1st, 2am, 2:00, Full moon, no sunlight, dark, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 7,
+    "windSpeed": 6.8,
+    "sunrise": "2023-03-01T06:41",
+    "sunset": "2023-03-01T18:10",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T18:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Hofu",
+    "nearestCityCoords": [
+      34.0517226,
+      131.5629141
+    ],
+    "distanceToCityInKm": 2.399465781103725,
+    "population": 114882,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "佐波幼稚園",
+    "nearestCoastlineInKm": 10.44201480121102
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 14,
+  "iterationCount": 56,
+  "kmTraveledSoFar": 557.75
+}

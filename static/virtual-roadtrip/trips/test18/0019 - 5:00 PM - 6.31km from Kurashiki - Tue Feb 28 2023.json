@@ -1,0 +1,58 @@
+{
+  "packageName": "0019 - 5:00 PM - 6.31km from Kurashiki - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0019 - 5:00 PM - 6.31km from Kurashiki - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0019 - 5:00 PM - 6.31km from Kurashiki - Tue Feb 28 2023.png",
+  "location": [
+    34.609005542075984,
+    133.82351906351548
+  ],
+  "kph": 28,
+  "angle": -143.34032608492322,
+  "imgPrompt": "afternoon, side view from urban highway, outskirts of Kurashiki, Japan, Clear weather, near 'さつき保育園', fences in distance, February 28th, 5pm, 17:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12.6,
+    "windSpeed": 11.3,
+    "sunrise": "2023-02-28T06:34",
+    "sunset": "2023-02-28T18:00",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T09:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kurashiki",
+    "nearestCityCoords": [
+      34.5850791,
+      133.7719957
+    ],
+    "distanceToCityInKm": 6.305671151421202,
+    "population": 477118,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "さつき保育園"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "So you mentioned earlier that you've traveled a lot in Japan, what's your favorite place you've visited so far?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 4.75,
+  "iterationCount": 19,
+  "kmTraveledSoFar": 260
+}

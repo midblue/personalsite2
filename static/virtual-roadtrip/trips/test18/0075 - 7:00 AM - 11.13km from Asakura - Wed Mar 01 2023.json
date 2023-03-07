@@ -1,0 +1,59 @@
+{
+  "packageName": "0075 - 7:00 AM - 11.13km from Asakura - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0075 - 7:00 AM - 11.13km from Asakura - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0075 - 7:00 AM - 11.13km from Asakura - Wed Mar 01 2023.png",
+  "location": [
+    33.49023173435854,
+    130.5909185092678
+  ],
+  "kph": 42,
+  "angle": -136.0278593261942,
+  "imgPrompt": "dawn, morning, side view from rural road, outside of Asakura, Japan, Overcast weather, cold, outside of '筑紫野警察署', cars in distance, March 1st, 7am, 7:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 5.1,
+    "windSpeed": 7.2,
+    "sunrise": "2023-03-01T06:45",
+    "sunset": "2023-03-01T18:14",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T23:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Asakura",
+    "nearestCityCoords": [
+      33.4234248,
+      130.6657037
+    ],
+    "distanceToCityInKm": 11.131031756314375,
+    "population": 51138,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "筑紫野警察署"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM Jaga",
+    "track": "\"Kimi Ni Mune Kyun\" by Yumi Matsutoya"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 18.75,
+  "iterationCount": 75,
+  "kmTraveledSoFar": 725.75
+}

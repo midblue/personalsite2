@@ -1,0 +1,59 @@
+{
+  "packageName": "0070 - 5:45 AM - 13.38km from Iizuka - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0070 - 5:45 AM - 13.38km from Iizuka - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0070 - 5:45 AM - 13.38km from Iizuka - Wed Mar 01 2023.png",
+  "location": [
+    33.655175017897626,
+    130.81140046097414
+  ],
+  "kph": 49,
+  "angle": -148.9956122867735,
+  "imgPrompt": "night, side view from urban road, outside of Iizuka, Japan, Overcast weather, cold, outside of 'ぎんなん保育園', buildings in distance, March 1st, 5am, 5:00, Full moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 7.5,
+    "windSpeed": 8.3,
+    "sunrise": "2023-03-01T06:44",
+    "sunset": "2023-03-01T18:13",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T21:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Iizuka",
+    "nearestCityCoords": [
+      33.646594,
+      130.6911579
+    ],
+    "distanceToCityInKm": 13.380868070075243,
+    "population": 128393,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ぎんなん保育園"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM Jaga",
+    "track": "\"Midnight Cruise\" by Anri"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 17.5,
+  "iterationCount": 70,
+  "kmTraveledSoFar": 689.75
+}

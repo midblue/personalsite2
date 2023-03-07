@@ -1,0 +1,58 @@
+{
+  "packageName": "0027 - 7:00 PM - 15.79km from Ibara - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0027 - 7:00 PM - 15.79km from Ibara - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0027 - 7:00 PM - 15.79km from Ibara - Tue Feb 28 2023.png",
+  "location": [
+    34.51253003035494,
+    133.3498144731966
+  ],
+  "kph": 56,
+  "angle": 179.4474472583148,
+  "imgPrompt": "night, side view from rural street, far away from Ibara, Japan, Clear weather, cold, near the coast, nearby building marked '新市小学校', houses in distance, February 28th, 7pm, 19:00, Full moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 9.8,
+    "windSpeed": 8.7,
+    "sunrise": "2023-02-28T06:36",
+    "sunset": "2023-02-28T18:02",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T11:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Ibara",
+    "nearestCityCoords": [
+      34.5976515,
+      133.4638294
+    ],
+    "distanceToCityInKm": 15.79365329527994,
+    "population": 40310,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "新市小学校",
+    "nearestCoastlineInKm": 7.252443575478721
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 6.75,
+  "iterationCount": 27,
+  "kmTraveledSoFar": 319.75
+}

@@ -1,0 +1,59 @@
+{
+  "packageName": "0028 - 7:15 PM - 7.22km from Onomichi - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0028 - 7:15 PM - 7.22km from Onomichi - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0028 - 7:15 PM - 7.22km from Onomichi - Tue Feb 28 2023.png",
+  "location": [
+    34.4629074908694,
+    133.2413573594275
+  ],
+  "kph": 31,
+  "angle": -155.19365258274658,
+  "imgPrompt": "night, side view from urban street, suburbs of Onomichi, Japan, Clear weather, cold, near the coast, passing by '福山市立済美中学校', birds in distance, February 28th, 7pm, 19:00, Full moon, no sunlight, dark, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 9.5,
+    "windSpeed": 8.7,
+    "sunrise": "2023-02-28T06:36",
+    "sunset": "2023-02-28T18:02",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T11:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Onomichi",
+    "nearestCityCoords": [
+      34.4088519,
+      133.2051549
+    ],
+    "distanceToCityInKm": 7.221507618936168,
+    "population": 135545,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "福山市立済美中学校",
+    "nearestCoastlineInKm": 3.933217187005099
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "I can see how passionate you are about your photography, and I really admire your dedication to capturing the beauty of Japan.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 7,
+  "iterationCount": 28,
+  "kmTraveledSoFar": 333.75
+}

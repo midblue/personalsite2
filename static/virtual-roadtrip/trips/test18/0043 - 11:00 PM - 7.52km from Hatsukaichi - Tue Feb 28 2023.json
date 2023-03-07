@@ -1,0 +1,58 @@
+{
+  "packageName": "0043 - 11:00 PM - 7.52km from Hatsukaichi - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0043 - 11:00 PM - 7.52km from Hatsukaichi - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0043 - 11:00 PM - 7.52km from Hatsukaichi - Tue Feb 28 2023.png",
+  "location": [
+    34.305976965388815,
+    132.279078616495
+  ],
+  "kph": 32,
+  "angle": -114.81026979704284,
+  "imgPrompt": "night, side view from urban highway, suburbs of Hatsukaichi, Japan, Clear weather, cold, near the coast, outside of '極楽寺', trucks in distance, February 28th, 11pm, 23:00, Full moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 6.8,
+    "windSpeed": 9.9,
+    "sunrise": "2023-02-28T06:40",
+    "sunset": "2023-02-28T18:06",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T15:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Hatsukaichi",
+    "nearestCityCoords": [
+      34.3485048,
+      132.331833
+    ],
+    "distanceToCityInKm": 7.521543547224736,
+    "population": 115207,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "極楽寺",
+    "nearestCoastlineInKm": 3.5045086418560514
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10.75,
+  "iterationCount": 43,
+  "kmTraveledSoFar": 456
+}

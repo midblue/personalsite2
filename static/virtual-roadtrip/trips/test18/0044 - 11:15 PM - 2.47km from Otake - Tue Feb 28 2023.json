@@ -1,0 +1,58 @@
+{
+  "packageName": "0044 - 11:15 PM - 2.47km from Otake - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0044 - 11:15 PM - 2.47km from Otake - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0044 - 11:15 PM - 2.47km from Otake - Tue Feb 28 2023.png",
+  "location": [
+    34.25974859868471,
+    132.22663067489708
+  ],
+  "kph": 16,
+  "angle": -138.8937075548972,
+  "imgPrompt": "night, side view from rural highway, center of Otake, Japan, Clear weather, cold, coastal road, passing by 'かえで幼稚園', February 28th, 11pm, 23:00, Full moon, no sunlight, dark, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 8.8,
+    "windSpeed": 9.9,
+    "sunrise": "2023-02-28T06:40",
+    "sunset": "2023-02-28T18:06",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T15:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Otake",
+    "nearestCityCoords": [
+      34.2378742,
+      132.2223092
+    ],
+    "distanceToCityInKm": 2.4749875454028465,
+    "population": 27444,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "かえで幼稚園",
+    "nearestCoastlineInKm": 1.2075804963828216
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 11,
+  "iterationCount": 44,
+  "kmTraveledSoFar": 464
+}

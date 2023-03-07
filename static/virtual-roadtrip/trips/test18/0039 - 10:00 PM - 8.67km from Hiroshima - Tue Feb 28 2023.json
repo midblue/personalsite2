@@ -1,0 +1,58 @@
+{
+  "packageName": "0039 - 10:00 PM - 8.67km from Hiroshima - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0039 - 10:00 PM - 8.67km from Hiroshima - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0039 - 10:00 PM - 8.67km from Hiroshima - Tue Feb 28 2023.png",
+  "location": [
+    34.46881091580346,
+    132.43911080333837
+  ],
+  "kph": 35,
+  "angle": 170.637344192114,
+  "imgPrompt": "night, side view from urban road, suburbs of Hiroshima, Japan, Clear weather, cold, outside of 'ENEOS', fences in distance, February 28th, 10pm, 22:00, Full moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 6.1,
+    "windSpeed": 11.1,
+    "sunrise": "2023-02-28T06:39",
+    "sunset": "2023-02-28T18:05",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T14:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Hiroshima",
+    "nearestCityCoords": [
+      34.3917241,
+      132.4517589
+    ],
+    "distanceToCityInKm": 8.671047980286094,
+    "population": 1198555,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ENEOS"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "Maybe self-driving cars will become the norm.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 9.75,
+  "iterationCount": 39,
+  "kmTraveledSoFar": 429.25
+}

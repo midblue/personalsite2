@@ -1,0 +1,60 @@
+{
+  "packageName": "0073 - 6:30 AM - 5.38km from Kama - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0073 - 6:30 AM - 5.38km from Kama - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0073 - 6:30 AM - 5.38km from Kama - Wed Mar 01 2023.png",
+  "location": [
+    33.583589330559114,
+    130.66779675299387
+  ],
+  "kph": 25,
+  "angle": -106.875031309268,
+  "imgPrompt": "night, dawn, side view from rural street, outskirts of Kama, Japan, Overcast weather, cold, passing by 'なのはな保育園', cars in distance, March 1st, 6am, 6:00, Full moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Overcast",
+    "temperature": 7.1,
+    "windSpeed": 9.3,
+    "sunrise": "2023-03-01T06:45",
+    "sunset": "2023-03-01T18:14",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T22:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kama",
+    "nearestCityCoords": [
+      33.5632103,
+      130.7118029
+    ],
+    "distanceToCityInKm": 5.3830375116286895,
+    "population": 37302,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "なのはな保育園"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM Jaga",
+    "track": "\"Bamboo Vendors\" by Masayoshi Takanaka"
+  },
+  "conversation": "I was just thinking about how the full moon makes everything look so eerie, especially with this overcast weather.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 18.25,
+  "iterationCount": 73,
+  "kmTraveledSoFar": 711
+}

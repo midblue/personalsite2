@@ -1,0 +1,58 @@
+{
+  "packageName": "0088 - 10:15 AM - 4.24km from Nagasaki - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0088 - 10:15 AM - 4.24km from Nagasaki - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0088 - 10:15 AM - 4.24km from Nagasaki - Wed Mar 01 2023.png",
+  "location": [
+    32.73590461601761,
+    129.91353297536122
+  ],
+  "kph": 22,
+  "angle": -147.72435568529508,
+  "imgPrompt": "morning, side view from urban highway, outskirts of Nagasaki, Japan, Clear weather, cold, near the coast, outside of 'Milan', people in distance, March 1st, 10am, 10:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-01T06:47",
+    "sunset": "2023-03-01T18:18",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-01T02:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Nagasaki",
+    "nearestCityCoords": [
+      32.7501611,
+      129.8781002
+    ],
+    "distanceToCityInKm": 4.239457375970921,
+    "population": 420671,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "Milan",
+    "nearestCoastlineInKm": 3.4279653796482874
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 22,
+  "iterationCount": 88,
+  "kmTraveledSoFar": 870.5
+}

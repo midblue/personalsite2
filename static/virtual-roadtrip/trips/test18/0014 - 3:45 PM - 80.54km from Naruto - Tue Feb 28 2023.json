@@ -1,0 +1,58 @@
+{
+  "packageName": "0014 - 3:45 PM - 80.54km from Naruto - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0014 - 3:45 PM - 80.54km from Naruto - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0014 - 3:45 PM - 80.54km from Naruto - Tue Feb 28 2023.png",
+  "location": [
+    34.842784660141284,
+    134.33047256732306
+  ],
+  "kph": 100,
+  "angle": 176.39434832644082,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Naruto, Japan, Clear weather, passing by '有年郵便局', birds in distance, February 28th, 3pm, 15:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 10.7,
+    "windSpeed": 12.2,
+    "sunrise": "2023-02-28T06:32",
+    "sunset": "2023-02-28T17:58",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T07:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Naruto",
+    "nearestCityCoords": [
+      34.1725784,
+      134.608408
+    ],
+    "distanceToCityInKm": 80.53618259175725,
+    "population": 57657,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "有年郵便局",
+    "nearestCoastlineInKm": 10.435096876548743
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 3.5,
+  "iterationCount": 14,
+  "kmTraveledSoFar": 193.25
+}

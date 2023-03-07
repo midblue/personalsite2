@@ -1,0 +1,60 @@
+{
+  "packageName": "0052 - 1:15 AM - 4.26km from Shunan - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0052 - 1:15 AM - 4.26km from Shunan - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0052 - 1:15 AM - 4.26km from Shunan - Wed Mar 01 2023.png",
+  "location": [
+    34.08535690291618,
+    131.78289565329214
+  ],
+  "kph": 22,
+  "angle": 150.71349025084413,
+  "imgPrompt": "night, side view from urban road, outskirts of Shunan, Japan, Partly Cloudy weather, cold, outside of 'みずほ郵便局', plane in distance, March 1st, 1am, 1:00, Full moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Partly Cloudy",
+    "temperature": 8.9,
+    "windSpeed": 7.4,
+    "sunrise": "2023-03-01T06:40",
+    "sunset": "2023-03-01T18:09",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T17:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Shunan",
+    "nearestCityCoords": [
+      34.0550595,
+      131.8064092
+    ],
+    "distanceToCityInKm": 4.256990379034569,
+    "population": 142591,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "みずほ郵便局",
+    "nearestCoastlineInKm": 11.679654115108987
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 13,
+  "iterationCount": 52,
+  "kmTraveledSoFar": 528.5
+}

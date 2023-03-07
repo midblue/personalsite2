@@ -1,0 +1,58 @@
+{
+  "packageName": "0042 - 10:45 PM - 3.86km from Hatsukaichi - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0042 - 10:45 PM - 3.86km from Hatsukaichi - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0042 - 10:45 PM - 3.86km from Hatsukaichi - Tue Feb 28 2023.png",
+  "location": [
+    34.34766929002066,
+    132.2970573691008
+  ],
+  "kph": 21,
+  "angle": -111.73564163768202,
+  "imgPrompt": "night, side view from urban road, center of Hatsukaichi, Japan, Clear weather, cold, near the coast, near 'ガスト五日市店', people in distance, February 28th, 10pm, 22:00, Full moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 7.3,
+    "windSpeed": 10.5,
+    "sunrise": "2023-02-28T06:40",
+    "sunset": "2023-02-28T18:06",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T14:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Hatsukaichi",
+    "nearestCityCoords": [
+      34.3485048,
+      132.331833
+    ],
+    "distanceToCityInKm": 3.8612089615773133,
+    "population": 115207,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "ガスト五日市店",
+    "nearestCoastlineInKm": 5.895204931021144
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10.5,
+  "iterationCount": 42,
+  "kmTraveledSoFar": 450.75
+}

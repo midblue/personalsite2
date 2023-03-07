@@ -1,0 +1,60 @@
+{
+  "packageName": "0049 - 12:30 AM - 5.21km from Kudamatsu - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0049 - 12:30 AM - 5.21km from Kudamatsu - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0049 - 12:30 AM - 5.21km from Kudamatsu - Wed Mar 01 2023.png",
+  "location": [
+    34.042220642389545,
+    131.90864401604148
+  ],
+  "kph": 25,
+  "angle": -176.28122942061032,
+  "imgPrompt": "night, side view from rural road, outskirts of Kudamatsu, Japan, Clear weather, cold, near the coast, near 'つるみ幼稚園', March 1st, 0am, 0:00, Full moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 5.3,
+    "windSpeed": 9.3,
+    "sunrise": "2023-02-28T06:41",
+    "sunset": "2023-02-28T18:08",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T16:30:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kudamatsu",
+    "nearestCityCoords": [
+      34.0149872,
+      131.8704567
+    ],
+    "distanceToCityInKm": 5.206280428347075,
+    "population": 56535,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "つるみ幼稚園",
+    "nearestCoastlineInKm": 9.165893355565949
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Zen and the Art of Motorcycle Maintenance\" by Robert M. Pirsig",
+    "imageUrl": "http://books.google.com/books/content?id=gx2ev_vwGKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 12.25,
+  "iterationCount": 49,
+  "kmTraveledSoFar": 513
+}

@@ -1,0 +1,61 @@
+{
+  "packageName": "0008 - 2:15 PM - 18.29km from Kameoka - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0008 - 2:15 PM - 18.29km from Kameoka - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0008 - 2:15 PM - 18.29km from Kameoka - Tue Feb 28 2023.png",
+  "location": [
+    34.874033837356464,
+    135.485532836695
+  ],
+  "kph": 64,
+  "angle": 169.26483593060303,
+  "imgPrompt": "afternoon, side view from rural road, far away from Kameoka, Japan, Clear weather, passing by 'DOUTOR', cars in distance, February 28th, 2pm, 14:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 11.4,
+    "windSpeed": 13,
+    "sunrise": "2023-02-28T06:27",
+    "sunset": "2023-02-28T17:53",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T06:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Kameoka",
+    "nearestCityCoords": [
+      35.0134403,
+      135.5733728
+    ],
+    "distanceToCityInKm": 18.289762395862418,
+    "population": 88273,
+    "continent": "",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "DOUTOR"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM802",
+    "track": "\"Fantasy\" by Hiromi Iwasaki",
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Features/64/cf/e3/dj.pgwxojvx.jpg/300x300bb.jpg"
+  },
+  "conversation": "So, have you ever tried to eat sushi while driving?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2,
+  "iterationCount": 8,
+  "kmTraveledSoFar": 54.5
+}

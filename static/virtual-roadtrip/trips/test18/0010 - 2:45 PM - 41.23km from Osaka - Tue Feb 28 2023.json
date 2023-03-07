@@ -1,0 +1,59 @@
+{
+  "packageName": "0010 - 2:45 PM - 41.23km from Osaka - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0010 - 2:45 PM - 41.23km from Osaka - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0010 - 2:45 PM - 41.23km from Osaka - Tue Feb 28 2023.png",
+  "location": [
+    34.831388052728244,
+    135.1564399029009
+  ],
+  "kph": 100,
+  "angle": -164.73634624771543,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Osaka, Japan, Clear weather, windy,near 'みなぎ台幼稚園', cars in distance, February 28th, 2pm, 14:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 11.8,
+    "windSpeed": 16.4,
+    "sunrise": "2023-02-28T06:29",
+    "sunset": "2023-02-28T17:54",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T06:45:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Osaka",
+    "nearestCityCoords": [
+      34.6937569,
+      135.5014539
+    ],
+    "distanceToCityInKm": 41.23123237675838,
+    "population": 2691185,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "みなぎ台幼稚園"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"Memoirs of a Geisha\" by Arthur Golden",
+    "imageUrl": "http://books.google.com/books/content?id=8yT6tgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2.5,
+  "iterationCount": 10,
+  "kmTraveledSoFar": 93.25
+}

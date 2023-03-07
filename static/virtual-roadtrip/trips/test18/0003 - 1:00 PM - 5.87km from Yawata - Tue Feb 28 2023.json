@@ -1,0 +1,59 @@
+{
+  "packageName": "0003 - 1:00 PM - 5.87km from Yawata - Tue Feb 28 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0003 - 1:00 PM - 5.87km from Yawata - Tue Feb 28 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0003 - 1:00 PM - 5.87km from Yawata - Tue Feb 28 2023.png",
+  "location": [
+    34.90186246413106,
+    135.749585161211
+  ],
+  "kph": 27,
+  "angle": -88.2812914521591,
+  "imgPrompt": "afternoon, side view from rural street, outskirts of Yawata, Japan, Clear weather, outside of '京都駅北交番', birds in distance, February 28th, 1pm, 13:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.7,
+    "windSpeed": 14.5,
+    "sunrise": "2023-02-28T06:26",
+    "sunset": "2023-02-28T17:52",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-02-28T05:00:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Yawata",
+    "nearestCityCoords": [
+      34.860714,
+      135.7164
+    ],
+    "distanceToCityInKm": 5.867744973867877,
+    "population": 71775,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "京都駅北交番"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "FM802",
+    "track": "\"Parade\" by Akira Inoue"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0.75,
+  "iterationCount": 3,
+  "kmTraveledSoFar": 17.25
+}

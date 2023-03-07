@@ -1,0 +1,57 @@
+{
+  "packageName": "0084 - 9:15 AM - 20.28km from Imari - Wed Mar 01 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0084 - 9:15 AM - 20.28km from Imari - Wed Mar 01 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0084 - 9:15 AM - 20.28km from Imari - Wed Mar 01 2023.png",
+  "location": [
+    33.20992697800617,
+    130.05524780970146
+  ],
+  "kph": 70,
+  "angle": -44.84977543723335,
+  "imgPrompt": "morning, side view from rural highway, far away from Imari, Japan, Clear weather, cold, outside of '篠田皮膚科', birds in distance, March 1st, 9am, 9:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-01T06:47",
+    "sunset": "2023-03-01T18:17",
+    "timezone": "Asia/Tokyo",
+    "timezoneOffsetInMs": 32400000,
+    "moonPhase": "Full",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-01T01:15:28.242Z"
+  },
+  "locationData": {
+    "nearestCity": "Imari",
+    "nearestCityCoords": [
+      33.2644557,
+      129.8808439
+    ],
+    "distanceToCityInKm": 20.282985152084805,
+    "population": 54573,
+    "continent": "Asia",
+    "country": "Japan",
+    "state": "",
+    "nearestLandmark": "篠田皮膚科"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1677554128242,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 21,
+  "iterationCount": 84,
+  "kmTraveledSoFar": 801
+}
