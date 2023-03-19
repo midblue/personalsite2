@@ -1,0 +1,57 @@
+{
+  "packageName": "0157 - 1:46 PM - 9.9km from Sugar Land - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0157 - 1:46 PM - 9.9km from Sugar Land - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0157 - 1:46 PM - 9.9km from Sugar Land - Wed Mar 08 2023.png",
+  "location": [
+    29.55945726430087,
+    -95.70074237367025
+  ],
+  "kph": 39,
+  "angle": -168.19347104797504,
+  "imgPrompt": "afternoon, side view from rural street, suburbs of Sugar Land, TX, United States of America, Clear weather, cold, nearby building marked 'Crockett School', fences in distance, March 8th, 1pm, 13:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:38",
+    "sunset": "2023-03-09T19:28",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T05:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Sugar Land",
+    "nearestCityCoords": [
+      29.6196787,
+      -95.6349463
+    ],
+    "distanceToCityInKm": 9.900642886330727,
+    "population": 79943,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Crockett School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 39.25,
+  "iterationCount": 157,
+  "kmTraveledSoFar": 2230.75
+}

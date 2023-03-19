@@ -1,0 +1,57 @@
+{
+  "packageName": "0061 - 2:46 PM - 11.47km from Johns Creek - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0061 - 2:46 PM - 11.47km from Johns Creek - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0061 - 2:46 PM - 11.47km from Johns Creek - Tue Mar 07 2023.png",
+  "location": [
+    33.91549856593988,
+    -84.20184216562625
+  ],
+  "kph": 43,
+  "angle": -146.133454089707,
+  "imgPrompt": "afternoon, side view from rural road, outside of Johns Creek, GA, United States of America, Clear weather, cold, passing by 'Camp Creek Cemetery', buildings in distance, March 7th, 2pm, 14:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:55",
+    "sunset": "2023-03-08T19:39",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T06:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Johns Creek",
+    "nearestCityCoords": [
+      34.0181557,
+      -84.190196
+    ],
+    "distanceToCityInKm": 11.46803543760863,
+    "population": 84350,
+    "continent": "",
+    "country": "United States of America",
+    "state": "GA",
+    "nearestLandmark": "Camp Creek Cemetery"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 15.25,
+  "iterationCount": 61,
+  "kmTraveledSoFar": 719.75
+}

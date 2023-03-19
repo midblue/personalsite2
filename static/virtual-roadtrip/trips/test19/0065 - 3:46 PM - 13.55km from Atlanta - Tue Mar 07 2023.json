@@ -1,0 +1,57 @@
+{
+  "packageName": "0065 - 3:46 PM - 13.55km from Atlanta - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0065 - 3:46 PM - 13.55km from Atlanta - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0065 - 3:46 PM - 13.55km from Atlanta - Tue Mar 07 2023.png",
+  "location": [
+    33.62947373207866,
+    -84.41525718368969
+  ],
+  "kph": 50,
+  "angle": -147.00879505176073,
+  "imgPrompt": "afternoon, side view from urban street, outside of Atlanta, GA, United States of America, Clear weather, cold, outside of 'Atlanta Christian College', fences in distance, March 7th, 3pm, 15:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:55",
+    "sunset": "2023-03-08T19:40",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T07:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Atlanta",
+    "nearestCityCoords": [
+      33.7489924,
+      -84.3902644
+    ],
+    "distanceToCityInKm": 13.553527819725408,
+    "population": 506804,
+    "continent": "",
+    "country": "United States of America",
+    "state": "GA",
+    "nearestLandmark": "Atlanta Christian College"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 16.25,
+  "iterationCount": 65,
+  "kmTraveledSoFar": 770.5
+}

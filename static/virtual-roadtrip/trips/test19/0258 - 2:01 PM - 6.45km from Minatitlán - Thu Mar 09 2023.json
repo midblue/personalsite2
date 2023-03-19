@@ -1,0 +1,59 @@
+{
+  "packageName": "0258 - 2:01 PM - 6.45km from Minatitlán - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0258 - 2:01 PM - 6.45km from Minatitlán - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0258 - 2:01 PM - 6.45km from Minatitlán - Thu Mar 09 2023.png",
+  "location": [
+    18.012435698930723,
+    -94.50201347665573
+  ],
+  "kph": 28,
+  "angle": 9.748454305804792,
+  "imgPrompt": "afternoon, side view from urban road, outskirts of Minatitlán, Mexico, Clear weather, cold, near the coast, near 'millenium Dental Care', March 9th, 2pm, 14:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:28",
+    "sunset": "2023-03-10T18:27",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T06:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Minatitlán",
+    "nearestCityCoords": [
+      17.992773,
+      -94.5567103
+    ],
+    "distanceToCityInKm": 6.451730424527482,
+    "population": 101336,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "millenium Dental Care",
+    "nearestCoastlineInKm": 7.7049830851777
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 64.5,
+  "iterationCount": 258,
+  "kmTraveledSoFar": 4009.5
+}

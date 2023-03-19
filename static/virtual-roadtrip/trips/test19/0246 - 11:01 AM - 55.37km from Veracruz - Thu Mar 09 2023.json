@@ -1,0 +1,58 @@
+{
+  "packageName": "0246 - 11:01 AM - 55.37km from Veracruz - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0246 - 11:01 AM - 55.37km from Veracruz - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0246 - 11:01 AM - 55.37km from Veracruz - Thu Mar 09 2023.png",
+  "location": [
+    18.784239129593114,
+    -96.4394370231234
+  ],
+  "kph": 100,
+  "angle": -154.1446915474242,
+  "imgPrompt": "morning, side view from rural street, far away from Veracruz, Mexico, Clear weather, cold, passing by 'Salon social Cotaxtla', March 9th, 11am, 11:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:36",
+    "sunset": "2023-03-10T18:35",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T03:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Veracruz",
+    "nearestCityCoords": [
+      19.1798858,
+      -96.135648
+    ],
+    "distanceToCityInKm": 55.369316622386286,
+    "population": 428323,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Salon social Cotaxtla"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 61.5,
+  "iterationCount": 246,
+  "kmTraveledSoFar": 3759.5
+}

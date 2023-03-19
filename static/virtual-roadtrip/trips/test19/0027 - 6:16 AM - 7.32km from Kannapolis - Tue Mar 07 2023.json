@@ -1,0 +1,58 @@
+{
+  "packageName": "0027 - 6:16 AM - 7.32km from Kannapolis - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0027 - 6:16 AM - 7.32km from Kannapolis - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0027 - 6:16 AM - 7.32km from Kannapolis - Tue Mar 07 2023.png",
+  "location": [
+    35.43400139737979,
+    -80.66002743155734
+  ],
+  "kph": 31,
+  "angle": -148.136658736563,
+  "imgPrompt": "night, side view from rural highway, suburbs of Kannapolis, NC, United States of America, Clear weather, passing by 'Bethpage Church', March 7th, 6am, 6:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.8,
+    "windSpeed": 12.5,
+    "sunrise": "2023-03-07T07:43",
+    "sunset": "2023-03-07T19:24",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T22:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Kannapolis",
+    "nearestCityCoords": [
+      35.4874708,
+      -80.621438
+    ],
+    "distanceToCityInKm": 7.319371684321464,
+    "population": 47839,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Bethpage Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 6.75,
+  "iterationCount": 27,
+  "kmTraveledSoFar": 270
+}

@@ -1,0 +1,60 @@
+{
+  "packageName": "0007 - 1:16 AM - 20.98km from Durham - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0007 - 1:16 AM - 20.98km from Durham - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0007 - 1:16 AM - 20.98km from Durham - Tue Mar 07 2023.png",
+  "location": [
+    36.024694220138024,
+    -79.08869347877855
+  ],
+  "kph": 72,
+  "angle": 102.44788734464292,
+  "imgPrompt": "night, side view from rural highway, far away from Durham, NC, United States of America, Clear weather, windy,near 'Central School', March 7th, 1am, 1:00, Half moon, no sunlight, dark, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14,
+    "windSpeed": 16.1,
+    "sunrise": "2023-03-07T07:37",
+    "sunset": "2023-03-07T19:17",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T17:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Durham",
+    "nearestCityCoords": [
+      35.996653,
+      -78.9018053
+    ],
+    "distanceToCityInKm": 20.976797912821624,
+    "population": 283506,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Central School"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "WKNC",
+    "track": "\"Shi Kéyah\" by Blackfire"
+  },
+  "conversation": "It can be nerve-wracking, especially at night.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1.75,
+  "iterationCount": 7,
+  "kmTraveledSoFar": 59.75
+}

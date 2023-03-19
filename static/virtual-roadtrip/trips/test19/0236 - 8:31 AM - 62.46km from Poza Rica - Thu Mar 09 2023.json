@@ -1,0 +1,58 @@
+{
+  "packageName": "0236 - 8:31 AM - 62.46km from Poza Rica - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0236 - 8:31 AM - 62.46km from Poza Rica - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0236 - 8:31 AM - 62.46km from Poza Rica - Thu Mar 09 2023.png",
+  "location": [
+    20.2154475542571,
+    -96.9884723281574
+  ],
+  "kph": 100,
+  "angle": -40.51731086763051,
+  "imgPrompt": "morning, side view from rural street, far away from Poza Rica, Mexico, Clear weather, cold, passing by 'PEMEX', birds in distance, March 9th, 8am, 8:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:40",
+    "sunset": "2023-03-09T18:36",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T00:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Poza Rica",
+    "nearestCityCoords": [
+      20.5320852,
+      -97.4536355
+    ],
+    "distanceToCityInKm": 62.460181827332065,
+    "population": 185242,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "PEMEX"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 59,
+  "iterationCount": 236,
+  "kmTraveledSoFar": 3540.5
+}

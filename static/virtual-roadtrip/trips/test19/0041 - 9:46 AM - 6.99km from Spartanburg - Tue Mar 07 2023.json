@@ -1,0 +1,59 @@
+{
+  "packageName": "0041 - 9:46 AM - 6.99km from Spartanburg - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0041 - 9:46 AM - 6.99km from Spartanburg - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0041 - 9:46 AM - 6.99km from Spartanburg - Tue Mar 07 2023.png",
+  "location": [
+    35.012318956499186,
+    -81.93924345456382
+  ],
+  "kph": 30,
+  "angle": 178.09829970713426,
+  "imgPrompt": "morning, side view from rural highway, outskirts of Spartanburg, SC, United States of America, Clear weather, outside of 'Seay Cemetery', March 7th, 9am, 9:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.3,
+    "windSpeed": 10.5,
+    "sunrise": "2023-03-07T07:47",
+    "sunset": "2023-03-07T19:29",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T01:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Spartanburg",
+    "nearestCityCoords": [
+      34.9498007,
+      -81.9320157
+    ],
+    "distanceToCityInKm": 6.985748496745797,
+    "population": 37013,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Seay Cemetery"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "conversation": "Speaking of goals, have you ever thought about learning a new language?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10.25,
+  "iterationCount": 41,
+  "kmTraveledSoFar": 431
+}

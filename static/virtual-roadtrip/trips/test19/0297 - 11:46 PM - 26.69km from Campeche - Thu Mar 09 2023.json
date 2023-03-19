@@ -1,0 +1,59 @@
+{
+  "packageName": "0297 - 11:46 PM - 26.69km from Campeche - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0297 - 11:46 PM - 26.69km from Campeche - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0297 - 11:46 PM - 26.69km from Campeche - Thu Mar 09 2023.png",
+  "location": [
+    19.97559868542096,
+    -90.32260286088221
+  ],
+  "kph": 89,
+  "angle": 32.834885892023635,
+  "imgPrompt": "night, side view from rural street, far away from Campeche, Mexico, Clear weather, cold, cars in distance, March 9th, 11pm, 23:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:12",
+    "sunset": "2023-03-10T18:10",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T15:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Campeche",
+    "nearestCityCoords": [
+      19.8381215,
+      -90.5198253
+    ],
+    "distanceToCityInKm": 26.68544048993635,
+    "population": 220389,
+    "continent": "North America",
+    "country": "Mexico",
+    "state": ""
+  },
+  "audio": {
+    "type": "radio",
+    "name": "Reactance Radio",
+    "track": "\"Sangre y Sacrificio\" by Here Comes the Kraken"
+  },
+  "conversation": "Hey, have you ever noticed if I have any recurring themes in my dreams?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 74.25,
+  "iterationCount": 297,
+  "kmTraveledSoFar": 4614.25
+}

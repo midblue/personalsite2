@@ -1,0 +1,58 @@
+{
+  "packageName": "0169 - 4:46 PM - 38.16km from Victoria - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0169 - 4:46 PM - 38.16km from Victoria - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0169 - 4:46 PM - 38.16km from Victoria - Wed Mar 08 2023.png",
+  "location": [
+    28.489978293392657,
+    -97.08027496053778
+  ],
+  "kph": 100,
+  "angle": -137.2652763786003,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Victoria, TX, United States of America, Clear weather, cold, near 'Sample Cemetery', cars in distance, March 8th, 4pm, 16:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:43",
+    "sunset": "2023-03-09T19:34",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T08:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Victoria",
+    "nearestCityCoords": [
+      28.8202926,
+      -96.9848646
+    ],
+    "distanceToCityInKm": 38.163775549891476,
+    "population": 65534,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Sample Cemetery"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "What's the scariest driving experience you've ever had?",
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 42.25,
+  "iterationCount": 169,
+  "kmTraveledSoFar": 2442.25
+}

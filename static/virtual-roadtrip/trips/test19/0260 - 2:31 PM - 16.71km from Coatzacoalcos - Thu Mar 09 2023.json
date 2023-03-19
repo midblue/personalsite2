@@ -1,0 +1,60 @@
+{
+  "packageName": "0260 - 2:31 PM - 16.71km from Coatzacoalcos - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0260 - 2:31 PM - 16.71km from Coatzacoalcos - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0260 - 2:31 PM - 16.71km from Coatzacoalcos - Thu Mar 09 2023.png",
+  "location": [
+    18.040624110510933,
+    -94.33676916202393
+  ],
+  "kph": 59,
+  "angle": 61.8011162263229,
+  "imgPrompt": "afternoon, side view from rural street, far away from Coatzacoalcos, Mexico, Clear weather, cold, near 'ADO Nanchital', lights in distance, March 9th, 2pm, 14:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:28",
+    "sunset": "2023-03-10T18:27",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T06:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Coatzacoalcos",
+    "nearestCityCoords": [
+      18.1396787,
+      -94.4501731
+    ],
+    "distanceToCityInKm": 16.713616460357695,
+    "population": 212540,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "ADO Nanchital",
+    "nearestCoastlineInKm": 10.085756104576582
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "conversation": "What about your family?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 65,
+  "iterationCount": 260,
+  "kmTraveledSoFar": 4028.75
+}

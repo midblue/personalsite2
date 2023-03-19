@@ -1,0 +1,57 @@
+{
+  "packageName": "0090 - 9:01 PM - 96.73km from Pensacola - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0090 - 9:01 PM - 96.73km from Pensacola - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0090 - 9:01 PM - 96.73km from Pensacola - Tue Mar 07 2023.png",
+  "location": [
+    31.292176756809262,
+    -87.18457517592631
+  ],
+  "kph": 100,
+  "angle": -142.6353821767099,
+  "imgPrompt": "night, side view from rural street, far away from Pensacola, FL, United States of America, Clear weather, cold, near 'Bethel Church', March 7th, 9pm, 21:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:05",
+    "sunset": "2023-03-08T18:53",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T13:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Pensacola",
+    "nearestCityCoords": [
+      30.421309,
+      -87.2169149
+    ],
+    "distanceToCityInKm": 96.73295007482454,
+    "population": 53248,
+    "continent": "",
+    "country": "United States of America",
+    "state": "FL",
+    "nearestLandmark": "Bethel Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 22.5,
+  "iterationCount": 90,
+  "kmTraveledSoFar": 1201.25
+}

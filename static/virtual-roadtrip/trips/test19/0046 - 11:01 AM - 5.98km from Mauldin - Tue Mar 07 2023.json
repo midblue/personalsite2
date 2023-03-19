@@ -1,0 +1,58 @@
+{
+  "packageName": "0046 - 11:01 AM - 5.98km from Mauldin - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0046 - 11:01 AM - 5.98km from Mauldin - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0046 - 11:01 AM - 5.98km from Mauldin - Tue Mar 07 2023.png",
+  "location": [
+    34.83155011776106,
+    -82.29952811424455
+  ],
+  "kph": 27,
+  "angle": -147.8337873011827,
+  "imgPrompt": "morning, side view from rural highway, outskirts of Mauldin, SC, United States of America, Clear weather, outside of 'Mayfield Cemetery', March 7th, 11am, 11:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 18.7,
+    "windSpeed": 8.2,
+    "sunrise": "2023-03-07T07:49",
+    "sunset": "2023-03-07T19:31",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T03:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Mauldin",
+    "nearestCityCoords": [
+      34.77873,
+      -82.310119
+    ],
+    "distanceToCityInKm": 5.979729483234699,
+    "population": 25409,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Mayfield Cemetery"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "I saw a billboard for a restaurant up ahead and it made me curious.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 11.5,
+  "iterationCount": 46,
+  "kmTraveledSoFar": 477.75
+}

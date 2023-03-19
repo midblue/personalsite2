@@ -1,0 +1,57 @@
+{
+  "packageName": "0139 - 9:16 AM - 1.05km from Beaumont - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0139 - 9:16 AM - 1.05km from Beaumont - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0139 - 9:16 AM - 1.05km from Beaumont - Wed Mar 08 2023.png",
+  "location": [
+    30.0945573208985,
+    -94.09764466399352
+  ],
+  "kph": 12,
+  "angle": -179.0808952164487,
+  "imgPrompt": "morning, side view from urban road, downtown Beaumont, TX, United States of America, Clear weather, cold, nearby building marked 'All Saints School', March 8th, 9am, 9:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:33",
+    "sunset": "2023-03-08T19:21",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T01:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Beaumont",
+    "nearestCityCoords": [
+      30.0860459,
+      -94.1018461
+    ],
+    "distanceToCityInKm": 1.0536019794776241,
+    "population": 115282,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "All Saints School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 34.75,
+  "iterationCount": 139,
+  "kmTraveledSoFar": 2028.5
+}

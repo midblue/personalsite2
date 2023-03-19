@@ -1,0 +1,57 @@
+{
+  "packageName": "0048 - 11:31 AM - 6.62km from Greenville - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0048 - 11:31 AM - 6.62km from Greenville - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0048 - 11:31 AM - 6.62km from Greenville - Tue Mar 07 2023.png",
+  "location": [
+    34.79239246170061,
+    -82.4074262367545
+  ],
+  "kph": 29,
+  "angle": -172.72646585488073,
+  "imgPrompt": "morning, side view from rural highway, outskirts of Greenville, SC, United States of America, Clear weather, passing by 'Saint Peters Church', lights in distance, March 7th, 11am, 11:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 18.9,
+    "windSpeed": 6.1,
+    "sunrise": "2023-03-07T07:49",
+    "sunset": "2023-03-07T19:31",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T03:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Greenville",
+    "nearestCityCoords": [
+      34.851354,
+      -82.3984882
+    ],
+    "distanceToCityInKm": 6.61950200749694,
+    "population": 70720,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Saint Peters Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 12,
+  "iterationCount": 48,
+  "kmTraveledSoFar": 490.75
+}

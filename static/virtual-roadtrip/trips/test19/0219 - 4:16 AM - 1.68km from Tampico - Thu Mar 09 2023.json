@@ -1,0 +1,60 @@
+{
+  "packageName": "0219 - 4:16 AM - 1.68km from Tampico - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0219 - 4:16 AM - 1.68km from Tampico - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0219 - 4:16 AM - 1.68km from Tampico - Thu Mar 09 2023.png",
+  "location": [
+    22.246807980459018,
+    -97.85520538307568
+  ],
+  "kph": 14,
+  "angle": -95.20681718469014,
+  "imgPrompt": "night, side view from urban highway, downtown Tampico, Mexico, Clear weather, cold, outside of 'Gasolinera Las Palmas', March 9th, 4am, 4:00, Half moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:44",
+    "sunset": "2023-03-09T18:39",
+    "timezone": "America/Monterrey",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T20:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Tampico",
+    "nearestCityCoords": [
+      22.2329889,
+      -97.8614802
+    ],
+    "distanceToCityInKm": 1.684643281589297,
+    "population": 297284,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Gasolinera Las Palmas",
+    "nearestCoastlineInKm": 15.384151427679674
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Death and Life of Great American Cities\" by Jane Jacobs",
+    "imageUrl": "http://books.google.com/books/content?id=paudDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 54.75,
+  "iterationCount": 219,
+  "kmTraveledSoFar": 3272.5
+}

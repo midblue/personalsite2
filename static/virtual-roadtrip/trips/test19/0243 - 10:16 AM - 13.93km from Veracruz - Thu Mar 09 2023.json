@@ -1,0 +1,58 @@
+{
+  "packageName": "0243 - 10:16 AM - 13.93km from Veracruz - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0243 - 10:16 AM - 13.93km from Veracruz - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0243 - 10:16 AM - 13.93km from Veracruz - Thu Mar 09 2023.png",
+  "location": [
+    19.14073559182574,
+    -96.25491093110287
+  ],
+  "kph": 51,
+  "angle": -67.55620142521005,
+  "imgPrompt": "morning, side view from urban road, outside of Veracruz, Mexico, Clear weather, cold, near 'Escuela Secundaria Técnica Industrial 136', houses in distance, March 9th, 10am, 10:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:36",
+    "sunset": "2023-03-10T18:34",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T02:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Veracruz",
+    "nearestCityCoords": [
+      19.1798858,
+      -96.135648
+    ],
+    "distanceToCityInKm": 13.933213060197657,
+    "population": 428323,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Escuela Secundaria Técnica Industrial 136"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 60.75,
+  "iterationCount": 243,
+  "kmTraveledSoFar": 3707.25
+}

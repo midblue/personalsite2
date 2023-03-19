@@ -1,0 +1,60 @@
+{
+  "packageName": "0220 - 4:31 AM - 2.78km from Tampico - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0220 - 4:31 AM - 2.78km from Tampico - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0220 - 4:31 AM - 2.78km from Tampico - Thu Mar 09 2023.png",
+  "location": [
+    22.22819882321233,
+    -97.83689389375981
+  ],
+  "kph": 17,
+  "angle": -34.503623469752654,
+  "imgPrompt": "night, side view from urban road, center of Tampico, Mexico, Clear weather, cold, near 'Estación de Bomberos', March 9th, 4am, 4:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:44",
+    "sunset": "2023-03-09T18:39",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T20:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Tampico",
+    "nearestCityCoords": [
+      22.2329889,
+      -97.8614802
+    ],
+    "distanceToCityInKm": 2.780392225238199,
+    "population": 297284,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Estación de Bomberos",
+    "nearestCoastlineInKm": 17.250982694043607
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Death and Life of Great American Cities\" by Jane Jacobs",
+    "imageUrl": "http://books.google.com/books/content?id=paudDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 55,
+  "iterationCount": 220,
+  "kmTraveledSoFar": 3276
+}

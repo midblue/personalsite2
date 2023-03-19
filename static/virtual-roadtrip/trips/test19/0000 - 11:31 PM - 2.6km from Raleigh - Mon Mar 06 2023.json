@@ -1,0 +1,60 @@
+{
+  "packageName": "0000 - 11:31 PM - 2.6km from Raleigh - Mon Mar 06 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0000 - 11:31 PM - 2.6km from Raleigh - Mon Mar 06 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0000 - 11:31 PM - 2.6km from Raleigh - Mon Mar 06 2023.png",
+  "location": [
+    35.787339,
+    -78.661435
+  ],
+  "kph": 17,
+  "angle": 124.90011829671062,
+  "imgPrompt": "night, side view from urban road, center of Raleigh, NC, United States of America, Clear weather, cold, nearby building marked 'Southgate Community Library', fences in distance, March 6th, 11pm, 23:00, Half moon, no sunlight, dark, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-07T07:35",
+    "sunset": "2023-03-07T19:16",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T15:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Raleigh",
+    "nearestCityCoords": [
+      35.7803977,
+      -78.6390989
+    ],
+    "distanceToCityInKm": 2.596268428467919,
+    "population": 431746,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Southgate Community Library"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "WKNC",
+    "track": "\"Siyotanka (Flute)\" by R.Carlos Nakai"
+  },
+  "conversation": "Hey, have you ever smelled the combination of fresh book pages and gasoline?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0,
+  "iterationCount": 0,
+  "kmTraveledSoFar": 0
+}

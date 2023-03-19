@@ -1,0 +1,59 @@
+{
+  "packageName": "0111 - 2:16 AM - 45.3km from New Orleans - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0111 - 2:16 AM - 45.3km from New Orleans - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0111 - 2:16 AM - 45.3km from New Orleans - Wed Mar 08 2023.png",
+  "location": [
+    30.35235339047189,
+    -89.92039750177011
+  ],
+  "kph": 100,
+  "angle": 152.32250286438375,
+  "imgPrompt": "night, side view from rural road, far away from New Orleans, LA, United States of America, Clear weather, cold, passing by 'Chahta-Ima High School', birds in distance, March 8th, 2am, 2:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:16",
+    "sunset": "2023-03-08T19:04",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T18:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "New Orleans",
+    "nearestCityCoords": [
+      29.9759983,
+      -90.0782127
+    ],
+    "distanceToCityInKm": 45.29953259009941,
+    "population": 383997,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Chahta-Ima High School"
+  },
+  "audio": {
+    "type": "radio",
+    "track": "\"Red Fang\" by Prehistoric Dog",
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/09/a8/48/09a848d9-7d90-3034-31b7-7134cede6012/mzi.ydyzybtx.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 27.75,
+  "iterationCount": 111,
+  "kmTraveledSoFar": 1551.5
+}

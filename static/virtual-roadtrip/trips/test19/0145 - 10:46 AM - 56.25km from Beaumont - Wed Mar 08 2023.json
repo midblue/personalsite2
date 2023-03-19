@@ -1,0 +1,57 @@
+{
+  "packageName": "0145 - 10:46 AM - 56.25km from Beaumont - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0145 - 10:46 AM - 56.25km from Beaumont - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0145 - 10:46 AM - 56.25km from Beaumont - Wed Mar 08 2023.png",
+  "location": [
+    29.83475314962743,
+    -94.54191388689884
+  ],
+  "kph": 100,
+  "angle": 175.7095248824628,
+  "imgPrompt": "morning, side view from rural street, far away from Beaumont, TX, United States of America, Clear weather, cold, passing by 'Saint Mary Church', fences in distance, March 8th, 10am, 10:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:34",
+    "sunset": "2023-03-08T19:23",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T02:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Beaumont",
+    "nearestCityCoords": [
+      30.0860459,
+      -94.1018461
+    ],
+    "distanceToCityInKm": 56.2505796794977,
+    "population": 115282,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Saint Mary Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 36.25,
+  "iterationCount": 145,
+  "kmTraveledSoFar": 2091.75
+}

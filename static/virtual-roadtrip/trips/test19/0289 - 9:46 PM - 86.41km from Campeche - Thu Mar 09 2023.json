@@ -1,0 +1,61 @@
+{
+  "packageName": "0289 - 9:46 PM - 86.41km from Campeche - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0289 - 9:46 PM - 86.41km from Campeche - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0289 - 9:46 PM - 86.41km from Campeche - Thu Mar 09 2023.png",
+  "location": [
+    19.168848815299576,
+    -90.91736946097686
+  ],
+  "kph": 100,
+  "angle": 33.98084547230378,
+  "imgPrompt": "night, side view from rural road, far away from Campeche, Mexico, Clear weather, cold, near the coast, passing by 'champoton', houses in distance, March 9th, 9pm, 21:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:14",
+    "sunset": "2023-03-10T18:13",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T13:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Campeche",
+    "nearestCityCoords": [
+      19.8381215,
+      -90.5198253
+    ],
+    "distanceToCityInKm": 86.40672969099965,
+    "population": 220389,
+    "continent": "North America",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "champoton",
+    "nearestCoastlineInKm": 4.81085730338622
+  },
+  "audio": {
+    "type": "radio",
+    "name": "RRDLMB",
+    "track": "\"Agradecido\"",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/cd/29/c5cd297a-ddf7-06f7-29f9-9181df10e333/859709098937_cover.tif/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 72.25,
+  "iterationCount": 289,
+  "kmTraveledSoFar": 4491.25
+}

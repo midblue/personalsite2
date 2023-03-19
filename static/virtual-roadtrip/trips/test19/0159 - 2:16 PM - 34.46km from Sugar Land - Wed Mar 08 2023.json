@@ -1,0 +1,58 @@
+{
+  "packageName": "0159 - 2:16 PM - 34.46km from Sugar Land - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0159 - 2:16 PM - 34.46km from Sugar Land - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0159 - 2:16 PM - 34.46km from Sugar Land - Wed Mar 08 2023.png",
+  "location": [
+    29.491708326727736,
+    -95.91782634024834
+  ],
+  "kph": 100,
+  "angle": -159.64100020052737,
+  "imgPrompt": "afternoon, side view from rural street, far away from Sugar Land, TX, United States of America, Clear weather, cold, passing by 'Beasley Elementary School', fences in distance, March 8th, 2pm, 14:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:39",
+    "sunset": "2023-03-09T19:29",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T06:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Sugar Land",
+    "nearestCityCoords": [
+      29.6196787,
+      -95.6349463
+    ],
+    "distanceToCityInKm": 34.46322694646875,
+    "population": 79943,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Beasley Elementary School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "So, have you ever driven through Texas before?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 39.75,
+  "iterationCount": 159,
+  "kmTraveledSoFar": 2257
+}

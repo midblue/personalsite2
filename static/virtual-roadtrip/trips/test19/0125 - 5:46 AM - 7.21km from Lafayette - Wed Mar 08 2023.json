@@ -1,0 +1,57 @@
+{
+  "packageName": "0125 - 5:46 AM - 7.21km from Lafayette - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0125 - 5:46 AM - 7.21km from Lafayette - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0125 - 5:46 AM - 7.21km from Lafayette - Wed Mar 08 2023.png",
+  "location": [
+    30.247162866124594,
+    -92.07873596129517
+  ],
+  "kph": 31,
+  "angle": 179.63754810228195,
+  "imgPrompt": "night, side view from urban highway, suburbs of Lafayette, LA, United States of America, Clear weather, cold, outside of 'Holy Rosary Institute', March 8th, 5am, 5:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:25",
+    "sunset": "2023-03-08T19:13",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T21:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Lafayette",
+    "nearestCityCoords": [
+      30.2043259,
+      -92.0298813
+    ],
+    "distanceToCityInKm": 7.212253163813983,
+    "population": 121324,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Holy Rosary Institute"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 31.25,
+  "iterationCount": 125,
+  "kmTraveledSoFar": 1799
+}

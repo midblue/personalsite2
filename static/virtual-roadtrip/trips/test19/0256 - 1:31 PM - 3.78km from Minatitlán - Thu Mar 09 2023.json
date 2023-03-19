@@ -1,0 +1,58 @@
+{
+  "packageName": "0256 - 1:31 PM - 3.78km from Minatitlán - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0256 - 1:31 PM - 3.78km from Minatitlán - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0256 - 1:31 PM - 3.78km from Minatitlán - Thu Mar 09 2023.png",
+  "location": [
+    18.009347262952684,
+    -94.58644629134437
+  ],
+  "kph": 20,
+  "angle": 25.328431817534117,
+  "imgPrompt": "afternoon, side view from urban road, center of Minatitlán, Mexico, Clear weather, cold, nearby building marked 'Taqueria', lights in distance, March 9th, 1pm, 13:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:29",
+    "sunset": "2023-03-10T18:28",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T05:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Minatitlán",
+    "nearestCityCoords": [
+      17.992773,
+      -94.5567103
+    ],
+    "distanceToCityInKm": 3.7787885279316358,
+    "population": 101336,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Taqueria"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 64,
+  "iterationCount": 256,
+  "kmTraveledSoFar": 3999.75
+}

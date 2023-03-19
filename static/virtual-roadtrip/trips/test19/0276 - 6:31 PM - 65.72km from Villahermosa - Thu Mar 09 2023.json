@@ -1,0 +1,60 @@
+{
+  "packageName": "0276 - 6:31 PM - 65.72km from Villahermosa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0276 - 6:31 PM - 65.72km from Villahermosa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0276 - 6:31 PM - 65.72km from Villahermosa - Thu Mar 09 2023.png",
+  "location": [
+    18.513617127335948,
+    -92.66325994815924
+  ],
+  "kph": 100,
+  "angle": -5.7596337358894525,
+  "imgPrompt": "night, dusk, side view from rural highway, far away from Villahermosa, Mexico, Clear weather, cold, near 'Farmacia Union', trees in distance, March 9th, 6pm, 18:00, Half moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:21",
+    "sunset": "2023-03-10T18:20",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-03-09T10:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Villahermosa",
+    "nearestCityCoords": [
+      17.9884657,
+      -92.9366326
+    ],
+    "distanceToCityInKm": 65.71693372798208,
+    "population": 353577,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Farmacia Union",
+    "nearestCoastlineInKm": 12.797236962734894
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 69,
+  "iterationCount": 276,
+  "kmTraveledSoFar": 4267.75
+}

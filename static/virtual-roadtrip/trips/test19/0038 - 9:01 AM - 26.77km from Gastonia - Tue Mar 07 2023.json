@@ -1,0 +1,58 @@
+{
+  "packageName": "0038 - 9:01 AM - 26.77km from Gastonia - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0038 - 9:01 AM - 26.77km from Gastonia - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0038 - 9:01 AM - 26.77km from Gastonia - Tue Mar 07 2023.png",
+  "location": [
+    35.18172078021001,
+    -81.4111228089958
+  ],
+  "kph": 89,
+  "angle": -143.17068728065783,
+  "imgPrompt": "morning, side view from rural road, far away from Gastonia, SC, United States of America, Clear weather, nearby building marked 'Ellis Cemetery', March 7th, 9am, 9:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.8,
+    "windSpeed": 11.2,
+    "sunrise": "2023-03-07T07:45",
+    "sunset": "2023-03-07T19:27",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T01:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Gastonia",
+    "nearestCityCoords": [
+      35.2622654,
+      -81.1838186
+    ],
+    "distanceToCityInKm": 26.767953034112505,
+    "population": 69904,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Ellis Cemetery"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 9.5,
+  "iterationCount": 38,
+  "kmTraveledSoFar": 368.25
+}

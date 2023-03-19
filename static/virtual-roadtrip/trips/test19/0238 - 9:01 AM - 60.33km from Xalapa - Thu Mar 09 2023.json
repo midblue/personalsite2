@@ -1,0 +1,59 @@
+{
+  "packageName": "0238 - 9:01 AM - 60.33km from Xalapa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0238 - 9:01 AM - 60.33km from Xalapa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0238 - 9:01 AM - 60.33km from Xalapa - Thu Mar 09 2023.png",
+  "location": [
+    19.99853581309093,
+    -96.62145226953538
+  ],
+  "kph": 100,
+  "angle": -32.031480971548326,
+  "imgPrompt": "morning, side view from rural road, far away from Xalapa, Mexico, Clear weather, cold, near the coast, passing by 'Cruz Roja Mexicana Delegación Vega de Alatorre', March 9th, 9am, 9:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:38",
+    "sunset": "2023-03-09T18:35",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T01:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Xalapa",
+    "nearestCityCoords": [
+      19.5408338,
+      -96.9146374
+    ],
+    "distanceToCityInKm": 60.33425942144494,
+    "population": 424755,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Cruz Roja Mexicana Delegación Vega de Alatorre",
+    "nearestCoastlineInKm": 4.470717470239898
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 59.5,
+  "iterationCount": 238,
+  "kmTraveledSoFar": 3590.5
+}

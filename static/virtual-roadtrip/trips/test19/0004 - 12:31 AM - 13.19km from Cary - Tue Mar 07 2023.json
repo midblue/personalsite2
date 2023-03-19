@@ -1,0 +1,59 @@
+{
+  "packageName": "0004 - 12:31 AM - 13.19km from Cary - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0004 - 12:31 AM - 13.19km from Cary - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0004 - 12:31 AM - 13.19km from Cary - Tue Mar 07 2023.png",
+  "location": [
+    35.888346163320506,
+    -78.84537653174309
+  ],
+  "kph": 49,
+  "angle": 136.54388013887083,
+  "imgPrompt": "night, side view from urban highway, outside of Cary, NC, United States of America, Clear weather, windy,nearby building marked 'Duke Urgent Care South', March 7th, 0am, 0:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14,
+    "windSpeed": 17.8,
+    "sunrise": "2023-03-07T07:35",
+    "sunset": "2023-03-07T19:16",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T16:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Cary",
+    "nearestCityCoords": [
+      35.7882893,
+      -78.7812081
+    ],
+    "distanceToCityInKm": 13.194050161036866,
+    "population": 176987,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Duke Urgent Care South"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "WKNC",
+    "track": "\"Apache Tear\" by Redbone"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1,
+  "iterationCount": 4,
+  "kmTraveledSoFar": 24.5
+}

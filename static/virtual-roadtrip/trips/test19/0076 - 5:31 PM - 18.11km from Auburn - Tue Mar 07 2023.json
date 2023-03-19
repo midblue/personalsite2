@@ -1,0 +1,59 @@
+{
+  "packageName": "0076 - 5:31 PM - 18.11km from Auburn - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0076 - 5:31 PM - 18.11km from Auburn - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0076 - 5:31 PM - 18.11km from Auburn - Tue Mar 07 2023.png",
+  "location": [
+    32.50568676776458,
+    -85.60638008719161
+  ],
+  "kph": 63,
+  "angle": -151.3586697659781,
+  "imgPrompt": "afternoon, side view from rural street, far away from Auburn, AL, United States of America, Clear weather, cold, passing by 'Armstrong Methodist Church', March 7th, 5pm, 17:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:00",
+    "sunset": "2023-03-08T18:46",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T09:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Auburn",
+    "nearestCityCoords": [
+      32.6098566,
+      -85.4807825
+    ],
+    "distanceToCityInKm": 18.112434262063772,
+    "population": 62059,
+    "continent": "",
+    "country": "United States of America",
+    "state": "AL",
+    "nearestLandmark": "Armstrong Methodist Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\"",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/45/d5/e7/45d5e7d5-3baf-e2f8-94f3-fc7965584487/mza_10043858782370406236.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 19,
+  "iterationCount": 76,
+  "kmTraveledSoFar": 961
+}

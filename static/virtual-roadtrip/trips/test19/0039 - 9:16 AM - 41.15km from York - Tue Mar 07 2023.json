@@ -1,0 +1,58 @@
+{
+  "packageName": "0039 - 9:16 AM - 41.15km from York - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0039 - 9:16 AM - 41.15km from York - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0039 - 9:16 AM - 41.15km from York - Tue Mar 07 2023.png",
+  "location": [
+    35.11038231256791,
+    -81.59415772362742
+  ],
+  "kph": 100,
+  "angle": -177.89999232955054,
+  "imgPrompt": "morning, side view from rural street, far away from York, SC, United States of America, Clear weather, near 'Mountain View Cemetery', fences in distance, March 7th, 9am, 9:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14,
+    "windSpeed": 11,
+    "sunrise": "2023-03-07T07:46",
+    "sunset": "2023-03-07T19:28",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T01:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "York",
+    "nearestCityCoords": [
+      34.9940654,
+      -81.2421403
+    ],
+    "distanceToCityInKm": 41.1518021373278,
+    "population": 7465,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Mountain View Cemetery"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 9.75,
+  "iterationCount": 39,
+  "kmTraveledSoFar": 390.5
+}

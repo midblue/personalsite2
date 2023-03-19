@@ -1,0 +1,57 @@
+{
+  "packageName": "0054 - 1:01 PM - 37.82km from Anderson - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0054 - 1:01 PM - 37.82km from Anderson - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0054 - 1:01 PM - 37.82km from Anderson - Tue Mar 07 2023.png",
+  "location": [
+    34.500885217338926,
+    -82.991319958161
+  ],
+  "kph": 100,
+  "angle": -169.78243318411035,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Anderson, SC, United States of America, Clear weather, cold, near 'Saint Annes Church', houses in distance, March 7th, 1pm, 13:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:50",
+    "sunset": "2023-03-08T19:34",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T05:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Anderson",
+    "nearestCityCoords": [
+      34.5068601,
+      -82.6506264
+    ],
+    "distanceToCityInKm": 37.82280001899541,
+    "population": 26708,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Saint Annes Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 13.5,
+  "iterationCount": 54,
+  "kmTraveledSoFar": 567
+}

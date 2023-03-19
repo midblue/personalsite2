@@ -1,0 +1,59 @@
+{
+  "packageName": "0031 - 7:16 AM - 6.69km from Charlotte - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0031 - 7:16 AM - 6.69km from Charlotte - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0031 - 7:16 AM - 6.69km from Charlotte - Tue Mar 07 2023.png",
+  "location": [
+    35.24200233841006,
+    -80.90150516711469
+  ],
+  "kph": 29,
+  "angle": -163.62984909998406,
+  "imgPrompt": "night, dawn, side view from urban street, outskirts of Charlotte, SC, United States of America, Clear weather, nearby building marked 'Barringer Elementary School', March 7th, 7am, 7:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12.9,
+    "windSpeed": 10.8,
+    "sunrise": "2023-03-07T07:43",
+    "sunset": "2023-03-07T19:25",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T23:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Charlotte",
+    "nearestCityCoords": [
+      35.2272086,
+      -80.8430827
+    ],
+    "distanceToCityInKm": 6.689570760033019,
+    "population": 751087,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Barringer Elementary School"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "conversation": "Did you ever have any crazy animal encounters as a kid?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 7.75,
+  "iterationCount": 31,
+  "kmTraveledSoFar": 307
+}

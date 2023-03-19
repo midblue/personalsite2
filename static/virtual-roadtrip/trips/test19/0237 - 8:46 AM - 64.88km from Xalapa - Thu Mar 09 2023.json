@@ -1,0 +1,58 @@
+{
+  "packageName": "0237 - 8:46 AM - 64.88km from Xalapa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0237 - 8:46 AM - 64.88km from Xalapa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0237 - 8:46 AM - 64.88km from Xalapa - Thu Mar 09 2023.png",
+  "location": [
+    20.11575116749204,
+    -96.80939975046194
+  ],
+  "kph": 100,
+  "angle": -24.716337308157502,
+  "imgPrompt": "morning, side view from rural street, far away from Xalapa, Mexico, Clear weather, cold, passing by 'BBVA Bancomer', trees in distance, March 9th, 8am, 8:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:39",
+    "sunset": "2023-03-09T18:36",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T00:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Xalapa",
+    "nearestCityCoords": [
+      19.5408338,
+      -96.9146374
+    ],
+    "distanceToCityInKm": 64.87614734536382,
+    "population": 424755,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "BBVA Bancomer"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 59.25,
+  "iterationCount": 237,
+  "kmTraveledSoFar": 3565.5
+}

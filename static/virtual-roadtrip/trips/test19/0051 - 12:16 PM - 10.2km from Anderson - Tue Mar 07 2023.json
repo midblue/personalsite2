@@ -1,0 +1,57 @@
+{
+  "packageName": "0051 - 12:16 PM - 10.2km from Anderson - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0051 - 12:16 PM - 10.2km from Anderson - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0051 - 12:16 PM - 10.2km from Anderson - Tue Mar 07 2023.png",
+  "location": [
+    34.59840838496415,
+    -82.6582822393014
+  ],
+  "kph": 40,
+  "angle": -155.10869987605605,
+  "imgPrompt": "afternoon, side view from rural road, outside of Anderson, SC, United States of America, Clear weather, cold, passing by 'Simpson Cemetery', March 7th, 12am, 12:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:49",
+    "sunset": "2023-03-08T19:33",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T04:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Anderson",
+    "nearestCityCoords": [
+      34.5068601,
+      -82.6506264
+    ],
+    "distanceToCityInKm": 10.197330438771319,
+    "population": 26708,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Simpson Cemetery"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 12.75,
+  "iterationCount": 51,
+  "kmTraveledSoFar": 528
+}

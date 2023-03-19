@@ -1,0 +1,58 @@
+{
+  "packageName": "0096 - 10:31 PM - 4.57km from Mobile - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0096 - 10:31 PM - 4.57km from Mobile - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0096 - 10:31 PM - 4.57km from Mobile - Tue Mar 07 2023.png",
+  "location": [
+    30.69888543733799,
+    -88.12424679323672
+  ],
+  "kph": 23,
+  "angle": -102.03238586251832,
+  "imgPrompt": "night, side view from urban highway, outskirts of Mobile, FL, United States of America, Clear weather, cold, near 'Chickasaw Terrace School', March 7th, 10pm, 22:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:09",
+    "sunset": "2023-03-08T18:57",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T14:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Mobile",
+    "nearestCityCoords": [
+      30.6867339,
+      -88.0848929
+    ],
+    "distanceToCityInKm": 4.5717836854732345,
+    "population": 187041,
+    "continent": "",
+    "country": "United States of America",
+    "state": "FL",
+    "nearestLandmark": "Chickasaw Terrace School",
+    "nearestCoastlineInKm": 11.976497097386261
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 24,
+  "iterationCount": 96,
+  "kmTraveledSoFar": 1333
+}

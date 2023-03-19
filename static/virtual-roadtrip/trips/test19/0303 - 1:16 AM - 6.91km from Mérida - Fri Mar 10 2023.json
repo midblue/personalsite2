@@ -1,0 +1,59 @@
+{
+  "packageName": "0303 - 1:16 AM - 6.91km from Mérida - Fri Mar 10 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0303 - 1:16 AM - 6.91km from Mérida - Fri Mar 10 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0303 - 1:16 AM - 6.91km from Mérida - Fri Mar 10 2023.png",
+  "location": [
+    20.90520599508511,
+    -89.63050136775394
+  ],
+  "kph": 30,
+  "angle": 29.24047783155661,
+  "imgPrompt": "night, side view from urban road, outskirts of Mérida, Mexico, Clear weather, cold, passing by 'CUAHTEMOC', houses in distance, March 10th, 1am, 1:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:10",
+    "sunset": "2023-03-10T18:07",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T17:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Mérida",
+    "nearestCityCoords": [
+      20.9670759,
+      -89.6237402
+    ],
+    "distanceToCityInKm": 6.908444644705437,
+    "population": 777615,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "CUAHTEMOC"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "Reactance Radio",
+    "track": "\"Necrorrófagos\" by Ritual of Flesh"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 75.75,
+  "iterationCount": 303,
+  "kmTraveledSoFar": 4754.5
+}

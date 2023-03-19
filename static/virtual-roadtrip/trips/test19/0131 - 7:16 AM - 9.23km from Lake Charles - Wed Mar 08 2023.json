@@ -1,0 +1,57 @@
+{
+  "packageName": "0131 - 7:16 AM - 9.23km from Lake Charles - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0131 - 7:16 AM - 9.23km from Lake Charles - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0131 - 7:16 AM - 9.23km from Lake Charles - Wed Mar 08 2023.png",
+  "location": [
+    30.24420909915436,
+    -93.13170478898058
+  ],
+  "kph": 37,
+  "angle": -169.7377654234702,
+  "imgPrompt": "night, dawn, side view from rural street, suburbs of Lake Charles, LA, United States of America, Clear weather, cold, nearby building marked 'Boston High School', lights in distance, March 8th, 7am, 7:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:29",
+    "sunset": "2023-03-08T19:17",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T23:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Lake Charles",
+    "nearestCityCoords": [
+      30.2072293,
+      -93.2061609
+    ],
+    "distanceToCityInKm": 9.22784466416526,
+    "population": 84872,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Boston High School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 32.75,
+  "iterationCount": 131,
+  "kmTraveledSoFar": 1916.5
+}

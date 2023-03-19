@@ -1,0 +1,60 @@
+{
+  "packageName": "0261 - 2:46 PM - 25.94km from Coatzacoalcos - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0261 - 2:46 PM - 25.94km from Coatzacoalcos - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0261 - 2:46 PM - 25.94km from Coatzacoalcos - Thu Mar 09 2023.png",
+  "location": [
+    18.066132036437168,
+    -94.22832879893559
+  ],
+  "kph": 87,
+  "angle": -43.3690836813297,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Coatzacoalcos, Mexico, Clear weather, cold, passing by 'Pemex', lights in distance, March 9th, 2pm, 14:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:27",
+    "sunset": "2023-03-10T18:26",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T06:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Coatzacoalcos",
+    "nearestCityCoords": [
+      18.1396787,
+      -94.4501731
+    ],
+    "distanceToCityInKm": 25.94267475494602,
+    "population": 212540,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Pemex"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "Have they taught you anything that has stayed with you?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 65.25,
+  "iterationCount": 261,
+  "kmTraveledSoFar": 4043.5
+}

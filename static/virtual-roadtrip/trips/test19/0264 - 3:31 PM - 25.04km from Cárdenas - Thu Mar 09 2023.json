@@ -1,0 +1,58 @@
+{
+  "packageName": "0264 - 3:31 PM - 25.04km from Cárdenas - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0264 - 3:31 PM - 25.04km from Cárdenas - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0264 - 3:31 PM - 25.04km from Cárdenas - Thu Mar 09 2023.png",
+  "location": [
+    17.998456049987617,
+    -93.60080031781662
+  ],
+  "kph": 84,
+  "angle": -0.047967190363519326,
+  "imgPrompt": "afternoon, side view from rural road, far away from Cárdenas, Mexico, Clear weather, cold, cars in distance, March 9th, 3pm, 15:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:25",
+    "sunset": "2023-03-10T18:24",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T07:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Cárdenas",
+    "nearestCityCoords": [
+      17.990878,
+      -93.3753314
+    ],
+    "distanceToCityInKm": 25.041181715200644,
+    "population": 91558,
+    "continent": "",
+    "country": "Mexico",
+    "state": ""
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 66,
+  "iterationCount": 264,
+  "kmTraveledSoFar": 4115.25
+}

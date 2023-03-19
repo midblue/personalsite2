@@ -1,0 +1,58 @@
+{
+  "packageName": "0034 - 8:01 AM - 2.73km from Gastonia - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0034 - 8:01 AM - 2.73km from Gastonia - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0034 - 8:01 AM - 2.73km from Gastonia - Tue Mar 07 2023.png",
+  "location": [
+    35.28324823941281,
+    -81.1710118956538
+  ],
+  "kph": 17,
+  "angle": 151.9703190181862,
+  "imgPrompt": "dawn, morning, side view from rural highway, center of Gastonia, SC, United States of America, Clear weather, nearby building marked 'Abernathy School', fences in distance, March 7th, 8am, 8:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13,
+    "windSpeed": 11.6,
+    "sunrise": "2023-03-07T07:45",
+    "sunset": "2023-03-07T19:26",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T00:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Gastonia",
+    "nearestCityCoords": [
+      35.2622654,
+      -81.1838186
+    ],
+    "distanceToCityInKm": 2.728639257207582,
+    "population": 69904,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Abernathy School"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 8.5,
+  "iterationCount": 34,
+  "kmTraveledSoFar": 338.25
+}

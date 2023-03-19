@@ -1,0 +1,57 @@
+{
+  "packageName": "0049 - 11:46 AM - 11.62km from Greenville - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0049 - 11:46 AM - 11.62km from Greenville - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0049 - 11:46 AM - 11.62km from Greenville - Tue Mar 07 2023.png",
+  "location": [
+    34.77212194604261,
+    -82.46689845313014
+  ],
+  "kph": 44,
+  "angle": -139.4794604520037,
+  "imgPrompt": "morning, side view from rural road, outside of Greenville, SC, United States of America, Clear weather, passing by 'White Horse Church', March 7th, 11am, 11:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 18.8,
+    "windSpeed": 6.1,
+    "sunrise": "2023-03-07T07:49",
+    "sunset": "2023-03-07T19:31",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T03:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Greenville",
+    "nearestCityCoords": [
+      34.851354,
+      -82.3984882
+    ],
+    "distanceToCityInKm": 11.619362673020861,
+    "population": 70720,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "White Horse Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 12.25,
+  "iterationCount": 49,
+  "kmTraveledSoFar": 498
+}

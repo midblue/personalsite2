@@ -1,0 +1,58 @@
+{
+  "packageName": "0134 - 8:01 AM - 12.07km from Lake Charles - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0134 - 8:01 AM - 12.07km from Lake Charles - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0134 - 8:01 AM - 12.07km from Lake Charles - Wed Mar 08 2023.png",
+  "location": [
+    30.22292323273656,
+    -93.31372727124925
+  ],
+  "kph": 45,
+  "angle": -156.6351992697446,
+  "imgPrompt": "dawn, morning, side view from rural street, outside of Lake Charles, TX, United States of America, Clear weather, cold, near 'Fourth Ward School', houses in distance, March 8th, 8am, 8:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:30",
+    "sunset": "2023-03-08T19:17",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T00:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Lake Charles",
+    "nearestCityCoords": [
+      30.2072293,
+      -93.2061609
+    ],
+    "distanceToCityInKm": 12.066278854929049,
+    "population": 84872,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Fourth Ward School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "Do you remember those old schoolyard games we used to play?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 33.5,
+  "iterationCount": 134,
+  "kmTraveledSoFar": 1937.5
+}

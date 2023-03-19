@@ -1,0 +1,57 @@
+{
+  "packageName": "0055 - 1:16 PM - 53.77km from Athens - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0055 - 1:16 PM - 53.77km from Athens - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0055 - 1:16 PM - 53.77km from Athens - Tue Mar 07 2023.png",
+  "location": [
+    34.408243446255966,
+    -83.1933521217284
+  ],
+  "kph": 100,
+  "angle": -154.54946496986278,
+  "imgPrompt": "afternoon, side view from rural street, far away from Athens, SC, United States of America, Clear weather, cold, nearby building marked 'Greater Hope Church', March 7th, 1pm, 13:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:51",
+    "sunset": "2023-03-08T19:35",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T05:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Athens",
+    "nearestCityCoords": [
+      33.9597677,
+      -83.376398
+    ],
+    "distanceToCityInKm": 53.76758978235486,
+    "population": 127064,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Greater Hope Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 13.75,
+  "iterationCount": 55,
+  "kmTraveledSoFar": 592
+}
