@@ -1,0 +1,56 @@
+{
+  "packageName": "0230 - 7:01 AM - 12.44km from Túxpam - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0230 - 7:01 AM - 12.44km from Túxpam - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0230 - 7:01 AM - 12.44km from Túxpam - Thu Mar 09 2023.png",
+  "location": [
+    20.86119531942494,
+    -97.470461341723
+  ],
+  "kph": 46,
+  "angle": -107.4561630445836,
+  "imgPrompt": "dawn, morning, side view from rural highway, outside of Túxpam, Mexico, Clear weather, cold, March 9th, 7am, 7:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:42",
+    "sunset": "2023-03-09T18:38",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T23:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Túxpam",
+    "nearestCityCoords": [
+      20.9518378,
+      -97.4045371
+    ],
+    "distanceToCityInKm": 12.440948598143684,
+    "population": 84750,
+    "continent": "",
+    "country": "Mexico",
+    "state": ""
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 57.5,
+  "iterationCount": 230,
+  "kmTraveledSoFar": 3442
+}

@@ -1,0 +1,57 @@
+{
+  "packageName": "0056 - 1:31 PM - 38.43km from Athens - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0056 - 1:31 PM - 38.43km from Athens - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0056 - 1:31 PM - 38.43km from Athens - Tue Mar 07 2023.png",
+  "location": [
+    34.30565397918866,
+    -83.39191570824055
+  ],
+  "kph": 100,
+  "angle": -151.43133877966116,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Athens, GA, United States of America, Clear weather, cold, outside of 'Arnold Chapel', houses in distance, March 7th, 1pm, 13:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:52",
+    "sunset": "2023-03-08T19:36",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T05:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Athens",
+    "nearestCityCoords": [
+      33.9597677,
+      -83.376398
+    ],
+    "distanceToCityInKm": 38.431995582920145,
+    "population": 127064,
+    "continent": "",
+    "country": "United States of America",
+    "state": "GA",
+    "nearestLandmark": "Arnold Chapel"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 14,
+  "iterationCount": 56,
+  "kmTraveledSoFar": 617
+}

@@ -1,0 +1,59 @@
+{
+  "packageName": "0302 - 1:01 AM - 20.97km from Mérida - Fri Mar 10 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0302 - 1:01 AM - 20.97km from Mérida - Fri Mar 10 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0302 - 1:01 AM - 20.97km from Mérida - Fri Mar 10 2023.png",
+  "location": [
+    20.834667060470807,
+    -89.75855238656393
+  ],
+  "kph": 72,
+  "angle": 24.543686236721037,
+  "imgPrompt": "night, side view from rural street, far away from Mérida, Mexico, Clear weather, cold, near 'Iglesia', March 10th, 1am, 1:00, Half moon, no sunlight, dark, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:10",
+    "sunset": "2023-03-10T18:07",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T17:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Mérida",
+    "nearestCityCoords": [
+      20.9670759,
+      -89.6237402
+    ],
+    "distanceToCityInKm": 20.974720023493827,
+    "population": 777615,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Iglesia"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "Reactance Radio",
+    "track": "\"Venganza\" by Descomunal"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 75.5,
+  "iterationCount": 302,
+  "kmTraveledSoFar": 4736.5
+}

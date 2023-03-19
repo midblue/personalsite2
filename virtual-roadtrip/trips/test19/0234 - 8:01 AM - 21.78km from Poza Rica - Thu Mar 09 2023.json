@@ -1,0 +1,59 @@
+{
+  "packageName": "0234 - 8:01 AM - 21.78km from Poza Rica - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0234 - 8:01 AM - 21.78km from Poza Rica - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0234 - 8:01 AM - 21.78km from Poza Rica - Thu Mar 09 2023.png",
+  "location": [
+    20.481273838989345,
+    -97.26411359116648
+  ],
+  "kph": 74,
+  "angle": -53.69085851993047,
+  "imgPrompt": "morning, side view from rural road, far away from Poza Rica, Mexico, Clear weather, cold, nearby building marked 'Cristo Rey', March 9th, 8am, 8:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:41",
+    "sunset": "2023-03-09T18:37",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T00:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Poza Rica",
+    "nearestCityCoords": [
+      20.5320852,
+      -97.4536355
+    ],
+    "distanceToCityInKm": 21.77987125406511,
+    "population": 185242,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Cristo Rey"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "conversation": "I didn't expect Mexican food to be this good in the States.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 58.5,
+  "iterationCount": 234,
+  "kmTraveledSoFar": 3497
+}

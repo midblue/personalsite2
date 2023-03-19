@@ -1,0 +1,58 @@
+{
+  "packageName": "0251 - 12:16 PM - 64.78km from Tuxtepec - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0251 - 12:16 PM - 64.78km from Tuxtepec - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0251 - 12:16 PM - 64.78km from Tuxtepec - Thu Mar 09 2023.png",
+  "location": [
+    18.160857674571595,
+    -95.5438446045585
+  ],
+  "kph": 100,
+  "angle": -32.00113718934768,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Tuxtepec, Mexico, Clear weather, cold, birds in distance, March 9th, 12am, 12:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:33",
+    "sunset": "2023-03-10T18:31",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T04:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Tuxtepec",
+    "nearestCityCoords": [
+      18.0874632,
+      -96.1227767
+    ],
+    "distanceToCityInKm": 64.7758111326192,
+    "population": 101810,
+    "continent": "",
+    "country": "Mexico",
+    "state": ""
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "conversation": "When we're in the US, we're always rushing to get things done, but here in Mexico, things seem to move at a more relaxed pace.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 62.75,
+  "iterationCount": 251,
+  "kmTraveledSoFar": 3884.5
+}

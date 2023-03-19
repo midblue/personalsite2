@@ -1,0 +1,57 @@
+{
+  "packageName": "0144 - 10:31 AM - 34.81km from Beaumont - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0144 - 10:31 AM - 34.81km from Beaumont - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0144 - 10:31 AM - 34.81km from Beaumont - Wed Mar 08 2023.png",
+  "location": [
+    29.87709683416474,
+    -94.33572292585772
+  ],
+  "kph": 100,
+  "angle": -140.65781329197318,
+  "imgPrompt": "morning, side view from rural road, far away from Beaumont, TX, United States of America, Clear weather, cold, near 'Saint Luke Church', March 8th, 10am, 10:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:34",
+    "sunset": "2023-03-08T19:22",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T02:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Beaumont",
+    "nearestCityCoords": [
+      30.0860459,
+      -94.1018461
+    ],
+    "distanceToCityInKm": 34.81192217752498,
+    "population": 115282,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Saint Luke Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 36,
+  "iterationCount": 144,
+  "kmTraveledSoFar": 2066.75
+}

@@ -1,0 +1,59 @@
+{
+  "packageName": "0017 - 3:46 AM - 7.69km from High Point - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0017 - 3:46 AM - 7.69km from High Point - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0017 - 3:46 AM - 7.69km from High Point - Tue Mar 07 2023.png",
+  "location": [
+    35.888787719153534,
+    -79.9874048074926
+  ],
+  "kph": 32,
+  "angle": -152.88300242683317,
+  "imgPrompt": "night, side view from urban highway, suburbs of High Point, NC, United States of America, Clear weather, windy,nearby building marked 'Brentwood School', trucks in distance, March 7th, 3am, 3:00, Half moon, no sunlight, dark, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14.7,
+    "windSpeed": 17.4,
+    "sunrise": "2023-03-07T07:40",
+    "sunset": "2023-03-07T19:21",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T19:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "High Point",
+    "nearestCityCoords": [
+      35.9556924,
+      -80.0053176
+    ],
+    "distanceToCityInKm": 7.687985690991111,
+    "population": 104371,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Brentwood School"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Stuff You Should Know\"",
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Podcasts112/v4/63/23/09/63230959-e594-c48e-715e-491997eac009/mza_1068286170855981376.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 4.25,
+  "iterationCount": 17,
+  "kmTraveledSoFar": 171.5
+}

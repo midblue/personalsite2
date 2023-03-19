@@ -1,0 +1,59 @@
+{
+  "packageName": "0267 - 4:16 PM - 4.81km from Cárdenas - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0267 - 4:16 PM - 4.81km from Cárdenas - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0267 - 4:16 PM - 4.81km from Cárdenas - Thu Mar 09 2023.png",
+  "location": [
+    17.99902831767057,
+    -93.33279205473113
+  ],
+  "kph": 23,
+  "angle": -0.11220556783876975,
+  "imgPrompt": "afternoon, side view from rural road, outskirts of Cárdenas, Mexico, Clear weather, cold, outside of 'Colegio Latino', March 9th, 4pm, 16:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:24",
+    "sunset": "2023-03-10T18:23",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T08:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Cárdenas",
+    "nearestCityCoords": [
+      17.990878,
+      -93.3753314
+    ],
+    "distanceToCityInKm": 4.807752744857367,
+    "population": 91558,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Colegio Latino"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 66.75,
+  "iterationCount": 267,
+  "kmTraveledSoFar": 4145
+}

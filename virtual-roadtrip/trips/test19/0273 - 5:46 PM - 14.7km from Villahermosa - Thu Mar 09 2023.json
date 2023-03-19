@@ -1,0 +1,60 @@
+{
+  "packageName": "0273 - 5:46 PM - 14.7km from Villahermosa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0273 - 5:46 PM - 14.7km from Villahermosa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0273 - 5:46 PM - 14.7km from Villahermosa - Thu Mar 09 2023.png",
+  "location": [
+    18.10000890794884,
+    -92.86522308939338
+  ],
+  "kph": 53,
+  "angle": 90.28664849643579,
+  "imgPrompt": "dusk, afternoon, side view from urban highway, outside of Villahermosa, Mexico, Clear weather, cold, nearby building marked 'infotab', houses in distance, March 9th, 5pm, 17:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:22",
+    "sunset": "2023-03-10T18:21",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-03-09T09:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Villahermosa",
+    "nearestCityCoords": [
+      17.9884657,
+      -92.9366326
+    ],
+    "distanceToCityInKm": 14.7011969676911,
+    "population": 353577,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "infotab"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "It's like a mix of spices and smoke.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 68.25,
+  "iterationCount": 273,
+  "kmTraveledSoFar": 4207
+}

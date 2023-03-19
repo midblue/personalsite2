@@ -1,0 +1,58 @@
+{
+  "packageName": "0105 - 12:46 AM - 9.6km from Gulfport - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0105 - 12:46 AM - 9.6km from Gulfport - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0105 - 12:46 AM - 9.6km from Gulfport - Wed Mar 08 2023.png",
+  "location": [
+    30.441843938609413,
+    -89.04869496948179
+  ],
+  "kph": 38,
+  "angle": -171.49169397186802,
+  "imgPrompt": "night, side view from rural road, suburbs of Gulfport, MS, United States of America, Clear weather, cold, near the coast, near 'Waffle House', people in distance, March 8th, 0am, 0:00, Half moon, no sunlight, dark, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:13",
+    "sunset": "2023-03-08T19:00",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T16:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Gulfport",
+    "nearestCityCoords": [
+      30.3674198,
+      -89.0928155
+    ],
+    "distanceToCityInKm": 9.603632259924819,
+    "population": 64316,
+    "continent": "",
+    "country": "United States of America",
+    "state": "MS",
+    "nearestLandmark": "Waffle House",
+    "nearestCoastlineInKm": 5.824914502139644
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 26.25,
+  "iterationCount": 105,
+  "kmTraveledSoFar": 1451.25
+}

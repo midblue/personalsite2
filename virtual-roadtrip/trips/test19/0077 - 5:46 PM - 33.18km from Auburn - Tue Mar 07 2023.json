@@ -1,0 +1,59 @@
+{
+  "packageName": "0077 - 5:46 PM - 33.18km from Auburn - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0077 - 5:46 PM - 33.18km from Auburn - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0077 - 5:46 PM - 33.18km from Auburn - Tue Mar 07 2023.png",
+  "location": [
+    32.45343961499853,
+    -85.73548060429769
+  ],
+  "kph": 100,
+  "angle": -164.21659928713504,
+  "imgPrompt": "afternoon, side view from rural road, far away from Auburn, AL, United States of America, Clear weather, cold, near 'East End Church', buildings in distance, March 7th, 5pm, 17:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:00",
+    "sunset": "2023-03-08T18:46",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T09:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Auburn",
+    "nearestCityCoords": [
+      32.6098566,
+      -85.4807825
+    ],
+    "distanceToCityInKm": 33.177192089815215,
+    "population": 62059,
+    "continent": "",
+    "country": "United States of America",
+    "state": "AL",
+    "nearestLandmark": "East End Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\"",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/45/d5/e7/45d5e7d5-3baf-e2f8-94f3-fc7965584487/mza_10043858782370406236.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 19.25,
+  "iterationCount": 77,
+  "kmTraveledSoFar": 976.75
+}

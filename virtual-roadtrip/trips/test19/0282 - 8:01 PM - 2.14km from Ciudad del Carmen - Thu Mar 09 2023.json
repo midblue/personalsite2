@@ -1,0 +1,61 @@
+{
+  "packageName": "0282 - 8:01 PM - 2.14km from Ciudad del Carmen - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0282 - 8:01 PM - 2.14km from Ciudad del Carmen - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0282 - 8:01 PM - 2.14km from Ciudad del Carmen - Thu Mar 09 2023.png",
+  "location": [
+    18.649977253785757,
+    -91.79576127926606
+  ],
+  "kph": 15,
+  "angle": 134.92500556734763,
+  "imgPrompt": "night, side view from urban road, center of Ciudad del Carmen, Mexico, Clear weather, cold, coastal road, passing by 'Iglesia del Jésus', March 9th, 8pm, 20:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:18",
+    "sunset": "2023-03-10T18:16",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T12:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Ciudad del Carmen",
+    "nearestCityCoords": [
+      18.651739,
+      -91.81492
+    ],
+    "distanceToCityInKm": 2.1355901817781873,
+    "population": 169466,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Iglesia del Jésus",
+    "nearestCoastlineInKm": 1.7193093088548579
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "I mean, you have to admit, it's a little strange that you've never heard of the Voynich Hotel before.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 70.5,
+  "iterationCount": 282,
+  "kmTraveledSoFar": 4375.25
+}

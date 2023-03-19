@@ -1,0 +1,57 @@
+{
+  "packageName": "0126 - 6:01 AM - 14.02km from Lafayette - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0126 - 6:01 AM - 14.02km from Lafayette - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0126 - 6:01 AM - 14.02km from Lafayette - Wed Mar 08 2023.png",
+  "location": [
+    30.24759995862384,
+    -92.14855432240476
+  ],
+  "kph": 51,
+  "angle": 179.72013400855232,
+  "imgPrompt": "night, side view from urban highway, outside of Lafayette, LA, United States of America, Clear weather, cold, passing by 'Kimball Chapel Methodist Church', March 8th, 6am, 6:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:25",
+    "sunset": "2023-03-08T19:13",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T22:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Lafayette",
+    "nearestCityCoords": [
+      30.2043259,
+      -92.0298813
+    ],
+    "distanceToCityInKm": 14.02116323329834,
+    "population": 121324,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Kimball Chapel Methodist Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 31.5,
+  "iterationCount": 126,
+  "kmTraveledSoFar": 1806.75
+}

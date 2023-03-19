@@ -1,0 +1,60 @@
+{
+  "packageName": "0284 - 8:31 PM - 11.9km from Ciudad del Carmen - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0284 - 8:31 PM - 11.9km from Ciudad del Carmen - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0284 - 8:31 PM - 11.9km from Ciudad del Carmen - Thu Mar 09 2023.png",
+  "location": [
+    18.68985942532697,
+    -91.71470655503418
+  ],
+  "kph": 45,
+  "angle": 38.01942400949159,
+  "imgPrompt": "night, side view from urban road, outside of Ciudad del Carmen, Mexico, Clear weather, cold, near the coast, passing by 'Jangadeiro Frutos Do Mar', trees in distance, March 9th, 8pm, 20:00, Half moon, no sunlight, dark, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:17",
+    "sunset": "2023-03-10T18:16",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T12:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Ciudad del Carmen",
+    "nearestCityCoords": [
+      18.651739,
+      -91.81492
+    ],
+    "distanceToCityInKm": 11.901302487164097,
+    "population": 169466,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Jangadeiro Frutos Do Mar",
+    "nearestCoastlineInKm": 3.0904070684340286
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 71,
+  "iterationCount": 284,
+  "kmTraveledSoFar": 4385.5
+}

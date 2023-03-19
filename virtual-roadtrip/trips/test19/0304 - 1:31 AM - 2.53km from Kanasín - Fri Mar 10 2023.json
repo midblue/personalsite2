@@ -1,0 +1,57 @@
+{
+  "packageName": "0304 - 1:31 AM - 2.53km from Kanasín - Fri Mar 10 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0304 - 1:31 AM - 2.53km from Kanasín - Fri Mar 10 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0304 - 1:31 AM - 2.53km from Kanasín - Fri Mar 10 2023.png",
+  "location": [
+    20.943611344472462,
+    -89.57888234753888
+  ],
+  "kph": 17,
+  "angle": 160.08220515235612,
+  "imgPrompt": "night, side view from rural highway, center of Kanasín, Mexico, Clear weather, cold, passing by 'Templo de la Candelaria', March 10th, 1am, 1:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:09",
+    "sunset": "2023-03-10T18:07",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T17:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Kanasín",
+    "nearestCityCoords": [
+      20.9350466,
+      -89.5577239
+    ],
+    "distanceToCityInKm": 2.5337066042465444,
+    "population": 77240,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Templo de la Candelaria"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 76,
+  "iterationCount": 304,
+  "kmTraveledSoFar": 4762
+}

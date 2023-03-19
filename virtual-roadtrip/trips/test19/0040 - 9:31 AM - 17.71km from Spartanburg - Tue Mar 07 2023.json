@@ -1,0 +1,58 @@
+{
+  "packageName": "0040 - 9:31 AM - 17.71km from Spartanburg - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0040 - 9:31 AM - 17.71km from Spartanburg - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0040 - 9:31 AM - 17.71km from Spartanburg - Tue Mar 07 2023.png",
+  "location": [
+    35.048315914092406,
+    -81.80648264885012
+  ],
+  "kph": 62,
+  "angle": -157.7943004598811,
+  "imgPrompt": "morning, side view from rural street, far away from Spartanburg, SC, United States of America, Clear weather, outside of 'Macedonia Baptist Church', March 7th, 9am, 9:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.6,
+    "windSpeed": 10.5,
+    "sunrise": "2023-03-07T07:47",
+    "sunset": "2023-03-07T19:29",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T01:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Spartanburg",
+    "nearestCityCoords": [
+      34.9498007,
+      -81.9320157
+    ],
+    "distanceToCityInKm": 17.712690649552616,
+    "population": 37013,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Macedonia Baptist Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10,
+  "iterationCount": 40,
+  "kmTraveledSoFar": 415.5
+}

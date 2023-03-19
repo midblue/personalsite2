@@ -1,0 +1,61 @@
+{
+  "packageName": "0292 - 10:31 PM - 17.11km from Campeche - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0292 - 10:31 PM - 17.11km from Campeche - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0292 - 10:31 PM - 17.11km from Campeche - Thu Mar 09 2023.png",
+  "location": [
+    19.717821366957523,
+    -90.61620063012626
+  ],
+  "kph": 60,
+  "angle": 40.60351572725589,
+  "imgPrompt": "night, side view from rural road, far away from Campeche, Mexico, Clear weather, cold, outside of 'Terminal Xkeulil', people in distance, March 9th, 10pm, 22:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:13",
+    "sunset": "2023-03-10T18:11",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T14:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Campeche",
+    "nearestCityCoords": [
+      19.8381215,
+      -90.5198253
+    ],
+    "distanceToCityInKm": 17.109967268686123,
+    "population": 220389,
+    "continent": "North America",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Terminal Xkeulil",
+    "nearestCoastlineInKm": 11.117068960272128
+  },
+  "audio": {
+    "type": "radio",
+    "name": "RRDLMB",
+    "track": "\"Setenta veces siete\"",
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/55/61/2f/55612fd5-5044-cb4f-2220-be0e7d29d3c7/859700626382_cover.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 73,
+  "iterationCount": 292,
+  "kmTraveledSoFar": 4566.25
+}

@@ -1,0 +1,59 @@
+{
+  "packageName": "0101 - 11:46 PM - 32.22km from Biloxi - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0101 - 11:46 PM - 32.22km from Biloxi - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0101 - 11:46 PM - 32.22km from Biloxi - Tue Mar 07 2023.png",
+  "location": [
+    30.43804010099521,
+    -88.6015587731172
+  ],
+  "kph": 100,
+  "angle": -179.52363170901904,
+  "imgPrompt": "night, side view from rural highway, far away from Biloxi, MS, United States of America, Clear weather, cold, near the coast, nearby building marked 'Hibachi Buffet', March 7th, 11pm, 23:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:11",
+    "sunset": "2023-03-08T18:59",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T15:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Biloxi",
+    "nearestCityCoords": [
+      30.4007626,
+      -88.8893818
+    ],
+    "distanceToCityInKm": 32.21519611181859,
+    "population": 49449,
+    "continent": "",
+    "country": "United States of America",
+    "state": "MS",
+    "nearestLandmark": "Hibachi Buffet",
+    "nearestCoastlineInKm": 8.649846076447139
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "I just feel like my eyes are heavy, you know?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 25.25,
+  "iterationCount": 101,
+  "kmTraveledSoFar": 1400.25
+}

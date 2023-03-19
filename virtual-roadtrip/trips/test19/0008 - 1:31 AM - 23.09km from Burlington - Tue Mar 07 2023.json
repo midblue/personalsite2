@@ -1,0 +1,60 @@
+{
+  "packageName": "0008 - 1:31 AM - 23.09km from Burlington - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0008 - 1:31 AM - 23.09km from Burlington - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0008 - 1:31 AM - 23.09km from Burlington - Tue Mar 07 2023.png",
+  "location": [
+    36.07897340540788,
+    -79.23041191089455
+  ],
+  "kph": 78,
+  "angle": -175.35573564854582,
+  "imgPrompt": "night, side view from rural highway, far away from Burlington, NC, United States of America, Clear weather, windy,passing by 'Cross Roads Church', March 7th, 1am, 1:00, Half moon, no sunlight, dark, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14.1,
+    "windSpeed": 16.2,
+    "sunrise": "2023-03-07T07:37",
+    "sunset": "2023-03-07T19:18",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T17:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Burlington",
+    "nearestCityCoords": [
+      36.0956918,
+      -79.4377991
+    ],
+    "distanceToCityInKm": 23.094656618357476,
+    "population": 49963,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Cross Roads Church"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "WKNC",
+    "track": "\"The Ghost Dance\" by Robbie Robertson and Martin Scorsese"
+  },
+  "conversation": "If you need to take a break and switch drivers or just pull over for a bit, let me know.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2,
+  "iterationCount": 8,
+  "kmTraveledSoFar": 77.75
+}

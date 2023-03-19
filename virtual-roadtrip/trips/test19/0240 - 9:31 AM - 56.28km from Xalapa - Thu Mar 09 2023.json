@@ -1,0 +1,60 @@
+{
+  "packageName": "0240 - 9:31 AM - 56.28km from Xalapa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0240 - 9:31 AM - 56.28km from Xalapa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0240 - 9:31 AM - 56.28km from Xalapa - Thu Mar 09 2023.png",
+  "location": [
+    19.652479073104104,
+    -96.42006344072266
+  ],
+  "kph": 100,
+  "angle": -137.31988240638083,
+  "imgPrompt": "morning, side view from rural highway, far away from Xalapa, Mexico, Clear weather, cold, near the coast, outside of 'CICOLMA', birds in distance, March 9th, 9am, 9:00, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:37",
+    "sunset": "2023-03-09T18:34",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T01:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Xalapa",
+    "nearestCityCoords": [
+      19.5408338,
+      -96.9146374
+    ],
+    "distanceToCityInKm": 56.27908730882088,
+    "population": 424755,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "CICOLMA",
+    "nearestCoastlineInKm": 3.3698646657032736
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "conversation": "I don't know about you, but I definitely need a coffee pit stop soon.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 60,
+  "iterationCount": 240,
+  "kmTraveledSoFar": 3640.5
+}

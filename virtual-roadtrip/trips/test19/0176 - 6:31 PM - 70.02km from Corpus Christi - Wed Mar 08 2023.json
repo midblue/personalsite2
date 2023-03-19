@@ -1,0 +1,58 @@
+{
+  "packageName": "0176 - 6:31 PM - 70.02km from Corpus Christi - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0176 - 6:31 PM - 70.02km from Corpus Christi - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0176 - 6:31 PM - 70.02km from Corpus Christi - Wed Mar 08 2023.png",
+  "location": [
+    27.27608542102597,
+    -97.80374103385691
+  ],
+  "kph": 100,
+  "angle": -74.1564796200936,
+  "imgPrompt": "afternoon, side view from rural street, far away from Corpus Christi, TX, United States of America, Clear weather, cold, passing by 'Sarita Elementary School', birds in distance, March 8th, 6pm, 18:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:45",
+    "sunset": "2023-03-09T19:37",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T10:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Corpus Christi",
+    "nearestCityCoords": [
+      27.7635302,
+      -97.4033191
+    ],
+    "distanceToCityInKm": 70.02157122017951,
+    "population": 317863,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Sarita Elementary School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "I totally agree with you, I think the best way to learn about a new culture is to immerse yourself in it.",
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 44,
+  "iterationCount": 176,
+  "kmTraveledSoFar": 2614.5
+}

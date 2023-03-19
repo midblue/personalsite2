@@ -1,0 +1,57 @@
+{
+  "packageName": "0053 - 12:46 PM - 20.66km from Anderson - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0053 - 12:46 PM - 20.66km from Anderson - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0053 - 12:46 PM - 20.66km from Anderson - Tue Mar 07 2023.png",
+  "location": [
+    34.530563856343015,
+    -82.83522451132663
+  ],
+  "kph": 71,
+  "angle": -153.49720426314704,
+  "imgPrompt": "afternoon, side view from rural highway, far away from Anderson, SC, United States of America, Clear weather, cold, near 'New Prospect Church', fences in distance, March 7th, 12am, 12:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:49",
+    "sunset": "2023-03-08T19:34",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T04:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Anderson",
+    "nearestCityCoords": [
+      34.5068601,
+      -82.6506264
+    ],
+    "distanceToCityInKm": 20.658627094237787,
+    "population": 26708,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "New Prospect Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 13.25,
+  "iterationCount": 53,
+  "kmTraveledSoFar": 549.25
+}

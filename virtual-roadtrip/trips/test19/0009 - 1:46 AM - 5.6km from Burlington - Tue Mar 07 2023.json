@@ -1,0 +1,59 @@
+{
+  "packageName": "0009 - 1:46 AM - 5.6km from Burlington - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0009 - 1:46 AM - 5.6km from Burlington - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0009 - 1:46 AM - 5.6km from Burlington - Tue Mar 07 2023.png",
+  "location": [
+    36.06010662697684,
+    -79.40202199904382
+  ],
+  "kph": 26,
+  "angle": 171.56423248699897,
+  "imgPrompt": "night, side view from rural highway, outskirts of Burlington, NC, United States of America, Clear weather, windy,outside of 'Archs Grove Church', buildings in distance, March 7th, 1am, 1:00, Half moon, no sunlight, dark, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14.6,
+    "windSpeed": 16.9,
+    "sunrise": "2023-03-07T07:38",
+    "sunset": "2023-03-07T19:18",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T17:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Burlington",
+    "nearestCityCoords": [
+      36.0956918,
+      -79.4377991
+    ],
+    "distanceToCityInKm": 5.6011632689922495,
+    "population": 49963,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Archs Grove Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Stuff You Should Know\"",
+    "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Podcasts112/v4/63/23/09/63230959-e594-c48e-715e-491997eac009/mza_1068286170855981376.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 2.25,
+  "iterationCount": 9,
+  "kmTraveledSoFar": 97.25
+}

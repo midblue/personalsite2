@@ -1,0 +1,58 @@
+{
+  "packageName": "0183 - 8:16 PM - 3.91km from Harlingen - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0183 - 8:16 PM - 3.91km from Harlingen - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0183 - 8:16 PM - 3.91km from Harlingen - Wed Mar 08 2023.png",
+  "location": [
+    26.159238522869973,
+    -97.68035819484507
+  ],
+  "kph": 21,
+  "angle": -35.61435060876661,
+  "imgPrompt": "night, dusk, side view from rural street, center of Harlingen, TX, United States of America, Clear weather, cold, near 'Saint Theresa School', fences in distance, March 8th, 8pm, 20:00, Half moon, no sunlight, dark, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:44",
+    "sunset": "2023-03-09T19:37",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-03-08T12:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Harlingen",
+    "nearestCityCoords": [
+      26.1907543,
+      -97.6960599
+    ],
+    "distanceToCityInKm": 3.9083788075433636,
+    "population": 71829,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Saint Theresa School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "It was her little slice of paradise.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 45.75,
+  "iterationCount": 183,
+  "kmTraveledSoFar": 2744
+}

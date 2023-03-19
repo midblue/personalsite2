@@ -1,0 +1,58 @@
+{
+  "packageName": "0250 - 12:01 PM - 48.36km from Tuxtepec - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0250 - 12:01 PM - 48.36km from Tuxtepec - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0250 - 12:01 PM - 48.36km from Tuxtepec - Thu Mar 09 2023.png",
+  "location": [
+    18.28238761861891,
+    -95.73316861574307
+  ],
+  "kph": 100,
+  "angle": -30.69177764388175,
+  "imgPrompt": "afternoon, side view from rural road, far away from Tuxtepec, Mexico, Clear weather, cold, March 9th, 12am, 12:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:33",
+    "sunset": "2023-03-10T18:32",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T04:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Tuxtepec",
+    "nearestCityCoords": [
+      18.0874632,
+      -96.1227767
+    ],
+    "distanceToCityInKm": 48.35703098567125,
+    "population": 101810,
+    "continent": "",
+    "country": "Mexico",
+    "state": ""
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "conversation": "You: I think it's fascinating how different cultures have unique perspectives on the concept of time.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 62.5,
+  "iterationCount": 250,
+  "kmTraveledSoFar": 3859.5
+}

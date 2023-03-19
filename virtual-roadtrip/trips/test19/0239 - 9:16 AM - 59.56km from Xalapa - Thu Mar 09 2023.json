@@ -1,0 +1,59 @@
+{
+  "packageName": "0239 - 9:16 AM - 59.56km from Xalapa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0239 - 9:16 AM - 59.56km from Xalapa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0239 - 9:16 AM - 59.56km from Xalapa - Thu Mar 09 2023.png",
+  "location": [
+    19.838359835109262,
+    -96.46812368902623
+  ],
+  "kph": 100,
+  "angle": -54.792403765470404,
+  "imgPrompt": "morning, side view from rural road, far away from Xalapa, Mexico, Clear weather, cold, coastal road, near 'hotel & restaurant la quinta del sol', March 9th, 9am, 9:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T06:38",
+    "sunset": "2023-03-09T18:34",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T01:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Xalapa",
+    "nearestCityCoords": [
+      19.5408338,
+      -96.9146374
+    ],
+    "distanceToCityInKm": 59.55811883790738,
+    "population": 424755,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "hotel & restaurant la quinta del sol",
+    "nearestCoastlineInKm": 2.623158331040229
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 59.75,
+  "iterationCount": 239,
+  "kmTraveledSoFar": 3615.5
+}

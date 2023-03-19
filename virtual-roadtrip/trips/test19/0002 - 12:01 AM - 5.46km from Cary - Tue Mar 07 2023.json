@@ -1,0 +1,59 @@
+{
+  "packageName": "0002 - 12:01 AM - 5.46km from Cary - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0002 - 12:01 AM - 5.46km from Cary - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0002 - 12:01 AM - 5.46km from Cary - Tue Mar 07 2023.png",
+  "location": [
+    35.82144903578556,
+    -78.74488815931275
+  ],
+  "kph": 25,
+  "angle": 151.09320224806217,
+  "imgPrompt": "night, side view from urban road, outskirts of Cary, NC, United States of America, Clear weather, windy,passing by 'Oberlin Regional Library', birds in distance, March 7th, 0am, 0:00, Half moon, no sunlight, dark, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 13.9,
+    "windSpeed": 18.2,
+    "sunrise": "2023-03-07T07:35",
+    "sunset": "2023-03-07T19:16",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T16:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Cary",
+    "nearestCityCoords": [
+      35.7882893,
+      -78.7812081
+    ],
+    "distanceToCityInKm": 5.459018108317332,
+    "population": 176987,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "Oberlin Regional Library"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "WKNC",
+    "track": "\"Ancient Echoes\" by Joanne Shenandoah"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 0.5,
+  "iterationCount": 2,
+  "kmTraveledSoFar": 11
+}

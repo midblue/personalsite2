@@ -1,0 +1,57 @@
+{
+  "packageName": "0172 - 5:31 PM - 31.29km from Corpus Christi - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0172 - 5:31 PM - 31.29km from Corpus Christi - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0172 - 5:31 PM - 31.29km from Corpus Christi - Wed Mar 08 2023.png",
+  "location": [
+    28.015334795625748,
+    -97.52995363552711
+  ],
+  "kph": 100,
+  "angle": -86.15754687198617,
+  "imgPrompt": "afternoon, side view from rural road, far away from Corpus Christi, TX, United States of America, Clear weather, cold, near 'Sinton Presbyterian Church', fences in distance, March 8th, 5pm, 17:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:44",
+    "sunset": "2023-03-09T19:36",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T09:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Corpus Christi",
+    "nearestCityCoords": [
+      27.7635302,
+      -97.4033191
+    ],
+    "distanceToCityInKm": 31.285829965755163,
+    "population": 317863,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Sinton Presbyterian Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 43,
+  "iterationCount": 172,
+  "kmTraveledSoFar": 2517.25
+}

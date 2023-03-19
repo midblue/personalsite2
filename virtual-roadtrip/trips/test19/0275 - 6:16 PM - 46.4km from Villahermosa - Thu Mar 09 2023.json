@@ -1,0 +1,60 @@
+{
+  "packageName": "0275 - 6:16 PM - 46.4km from Villahermosa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0275 - 6:16 PM - 46.4km from Villahermosa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0275 - 6:16 PM - 46.4km from Villahermosa - Thu Mar 09 2023.png",
+  "location": [
+    18.382042028306728,
+    -92.79582778200181
+  ],
+  "kph": 100,
+  "angle": 100.23370266126307,
+  "imgPrompt": "dusk, afternoon, side view from rural road, far away from Villahermosa, Mexico, Clear weather, cold, passing by 'Iglesia de Allende', people in distance, March 9th, 6pm, 18:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:22",
+    "sunset": "2023-03-10T18:20",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-03-09T10:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Villahermosa",
+    "nearestCityCoords": [
+      17.9884657,
+      -92.9366326
+    ],
+    "distanceToCityInKm": 46.39857397996032,
+    "population": 353577,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Iglesia de Allende"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "conversation": "Have you ever had any traditional Mexican food?",
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 68.75,
+  "iterationCount": 275,
+  "kmTraveledSoFar": 4242.75
+}

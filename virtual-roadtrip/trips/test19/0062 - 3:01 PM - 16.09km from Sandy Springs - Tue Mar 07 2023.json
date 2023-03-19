@@ -1,0 +1,57 @@
+{
+  "packageName": "0062 - 3:01 PM - 16.09km from Sandy Springs - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0062 - 3:01 PM - 16.09km from Sandy Springs - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0062 - 3:01 PM - 16.09km from Sandy Springs - Tue Mar 07 2023.png",
+  "location": [
+    33.86125277609039,
+    -84.24798301505956
+  ],
+  "kph": 57,
+  "angle": -77.78560847915632,
+  "imgPrompt": "afternoon, side view from rural street, far away from Sandy Springs, GA, United States of America, Clear weather, cold, nearby building marked 'Winters Chapel', March 7th, 3pm, 15:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:55",
+    "sunset": "2023-03-08T19:40",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T07:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Sandy Springs",
+    "nearestCityCoords": [
+      33.9242688,
+      -84.3785379
+    ],
+    "distanceToCityInKm": 16.09140061436176,
+    "population": 106739,
+    "continent": "",
+    "country": "United States of America",
+    "state": "GA",
+    "nearestLandmark": "Winters Chapel"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 15.5,
+  "iterationCount": 62,
+  "kmTraveledSoFar": 730.5
+}

@@ -1,0 +1,60 @@
+{
+  "packageName": "0114 - 3:01 AM - 63.28km from Baton Rouge - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0114 - 3:01 AM - 63.28km from Baton Rouge - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0114 - 3:01 AM - 63.28km from Baton Rouge - Wed Mar 08 2023.png",
+  "location": [
+    30.478600511966047,
+    -90.5696957630369
+  ],
+  "kph": 100,
+  "angle": -175.61038488443216,
+  "imgPrompt": "night, side view from rural road, far away from Baton Rouge, LA, United States of America, Clear weather, cold, near 'Blood River Church', buses in distance, March 8th, 3am, 3:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:19",
+    "sunset": "2023-03-08T19:06",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T19:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Baton Rouge",
+    "nearestCityCoords": [
+      30.4507936,
+      -91.1391153
+    ],
+    "distanceToCityInKm": 63.28088810747485,
+    "population": 227470,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Blood River Church"
+  },
+  "audio": {
+    "type": "radio",
+    "track": "\"Toxicity\" by System of a Down",
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/82/51/52/825152b4-9423-b23b-c036-cc67ead732d4/888888046775.jpg/300x300bb.jpg"
+  },
+  "conversation": "My family's always been more into cremation and scattering ashes, but maybe your family values keeping the physical remains close by.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 28.5,
+  "iterationCount": 114,
+  "kmTraveledSoFar": 1626.5
+}

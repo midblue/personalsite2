@@ -1,0 +1,57 @@
+{
+  "packageName": "0132 - 7:31 AM - 3.23km from Lake Charles - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0132 - 7:31 AM - 3.23km from Lake Charles - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0132 - 7:31 AM - 3.23km from Lake Charles - Wed Mar 08 2023.png",
+  "location": [
+    30.235913727526395,
+    -93.21089438868775
+  ],
+  "kph": 19,
+  "angle": -179.90728846364982,
+  "imgPrompt": "dawn, morning, side view from rural highway, center of Lake Charles, LA, United States of America, Clear weather, cold, outside of 'Brownsville School', March 8th, 7am, 7:00, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:29",
+    "sunset": "2023-03-08T19:17",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": true,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T23:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Lake Charles",
+    "nearestCityCoords": [
+      30.2072293,
+      -93.2061609
+    ],
+    "distanceToCityInKm": 3.227032306878964,
+    "population": 84872,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Brownsville School"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 33,
+  "iterationCount": 132,
+  "kmTraveledSoFar": 1925.75
+}

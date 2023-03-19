@@ -1,0 +1,58 @@
+{
+  "packageName": "0180 - 7:31 PM - 23.69km from Harlingen - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0180 - 7:31 PM - 23.69km from Harlingen - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0180 - 7:31 PM - 23.69km from Harlingen - Wed Mar 08 2023.png",
+  "location": [
+    26.38473608171988,
+    -97.78496009127566
+  ],
+  "kph": 80,
+  "angle": -88.97098846116728,
+  "imgPrompt": "dusk, afternoon, side view from rural street, far away from Harlingen, TX, United States of America, Clear weather, cold, nearby building marked 'Raymondville Instructional Center', plane in distance, March 8th, 7pm, 19:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:45",
+    "sunset": "2023-03-09T19:37",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": true,
+    "timeThere": "2023-03-08T11:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Harlingen",
+    "nearestCityCoords": [
+      26.1907543,
+      -97.6960599
+    ],
+    "distanceToCityInKm": 23.685479436985695,
+    "population": 71829,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX",
+    "nearestLandmark": "Raymondville Instructional Center"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "So, you mentioned your grandmother's love for gardening earlier.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 45,
+  "iterationCount": 180,
+  "kmTraveledSoFar": 2714.5
+}

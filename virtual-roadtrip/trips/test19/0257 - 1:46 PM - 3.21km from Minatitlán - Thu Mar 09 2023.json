@@ -1,0 +1,59 @@
+{
+  "packageName": "0257 - 1:46 PM - 3.21km from Minatitlán - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0257 - 1:46 PM - 3.21km from Minatitlán - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0257 - 1:46 PM - 3.21km from Minatitlán - Thu Mar 09 2023.png",
+  "location": [
+    18.0188078021539,
+    -94.54420345828228
+  ],
+  "kph": 19,
+  "angle": -9.739689263553062,
+  "imgPrompt": "afternoon, side view from urban street, center of Minatitlán, Mexico, Clear weather, cold, near the coast, near 'Pemex', cars in distance, March 9th, 1pm, 13:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:28",
+    "sunset": "2023-03-10T18:27",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T05:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Minatitlán",
+    "nearestCityCoords": [
+      17.992773,
+      -94.5567103
+    ],
+    "distanceToCityInKm": 3.2060213086464557,
+    "population": 101336,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Pemex",
+    "nearestCoastlineInKm": 9.368905790506632
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "decoration": {
+    "dog": true
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 64.25,
+  "iterationCount": 257,
+  "kmTraveledSoFar": 4004.75
+}

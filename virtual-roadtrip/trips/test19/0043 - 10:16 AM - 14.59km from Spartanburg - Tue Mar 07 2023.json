@@ -1,0 +1,58 @@
+{
+  "packageName": "0043 - 10:16 AM - 14.59km from Spartanburg - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0043 - 10:16 AM - 14.59km from Spartanburg - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0043 - 10:16 AM - 14.59km from Spartanburg - Tue Mar 07 2023.png",
+  "location": [
+    34.95504502820978,
+    -82.06330815567117
+  ],
+  "kph": 53,
+  "angle": -142.65674073026037,
+  "imgPrompt": "morning, side view from rural highway, outside of Spartanburg, SC, United States of America, Clear weather, outside of 'Mosse Cemetery', trucks in distance, March 7th, 10am, 10:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 16.5,
+    "windSpeed": 8.9,
+    "sunrise": "2023-03-07T07:48",
+    "sunset": "2023-03-07T19:30",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T02:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Spartanburg",
+    "nearestCityCoords": [
+      34.9498007,
+      -81.9320157
+    ],
+    "distanceToCityInKm": 14.58508401595995,
+    "population": 37013,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Mosse Cemetery"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 10.75,
+  "iterationCount": 43,
+  "kmTraveledSoFar": 447.25
+}

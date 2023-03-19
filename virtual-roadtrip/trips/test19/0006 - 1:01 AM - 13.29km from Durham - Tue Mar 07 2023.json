@@ -1,0 +1,60 @@
+{
+  "packageName": "0006 - 1:01 AM - 13.29km from Durham - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0006 - 1:01 AM - 13.29km from Durham - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0006 - 1:01 AM - 13.29km from Durham - Tue Mar 07 2023.png",
+  "location": [
+    35.96220493236092,
+    -79.01650461325951
+  ],
+  "kph": 49,
+  "angle": 151.81272759445378,
+  "imgPrompt": "night, side view from urban road, outside of Durham, NC, United States of America, Clear weather, windy,nearby building marked 'The Original Q Shack', trees in distance, March 7th, 1am, 1:00, Half moon, no sunlight, dark, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 14.3,
+    "windSpeed": 16.1,
+    "sunrise": "2023-03-07T07:36",
+    "sunset": "2023-03-07T19:17",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-06T17:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Durham",
+    "nearestCityCoords": [
+      35.996653,
+      -78.9018053
+    ],
+    "distanceToCityInKm": 13.293426838158213,
+    "population": 283506,
+    "continent": "",
+    "country": "United States of America",
+    "state": "NC",
+    "nearestLandmark": "The Original Q Shack"
+  },
+  "audio": {
+    "type": "radio",
+    "name": "WKNC",
+    "track": "\"Akkadian Empire\" by Tool"
+  },
+  "conversation": "I completely understand what you mean about feeling anxious driving on these windy roads.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 1.5,
+  "iterationCount": 6,
+  "kmTraveledSoFar": 47.5
+}

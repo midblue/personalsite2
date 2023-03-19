@@ -1,0 +1,59 @@
+{
+  "packageName": "0271 - 5:16 PM - 7.36km from Villahermosa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0271 - 5:16 PM - 7.36km from Villahermosa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0271 - 5:16 PM - 7.36km from Villahermosa - Thu Mar 09 2023.png",
+  "location": [
+    18.044920242551086,
+    -92.97142266427662
+  ],
+  "kph": 31,
+  "angle": 40.125943741985836,
+  "imgPrompt": "afternoon, side view from urban highway, suburbs of Villahermosa, Mexico, Clear weather, cold, passing by 'Orsan', March 9th, 5pm, 17:00, peaceful, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:22",
+    "sunset": "2023-03-10T18:21",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T09:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Villahermosa",
+    "nearestCityCoords": [
+      17.9884657,
+      -92.9366326
+    ],
+    "distanceToCityInKm": 7.360784828486804,
+    "population": 353577,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Orsan"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 67.75,
+  "iterationCount": 271,
+  "kmTraveledSoFar": 4189.25
+}

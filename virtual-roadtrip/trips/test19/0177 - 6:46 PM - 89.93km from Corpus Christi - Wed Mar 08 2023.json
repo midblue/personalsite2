@@ -1,0 +1,57 @@
+{
+  "packageName": "0177 - 6:46 PM - 89.93km from Corpus Christi - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0177 - 6:46 PM - 89.93km from Corpus Christi - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0177 - 6:46 PM - 89.93km from Corpus Christi - Wed Mar 08 2023.png",
+  "location": [
+    27.053783526708816,
+    -97.79395912444586
+  ],
+  "kph": 100,
+  "angle": -91.49207816277834,
+  "imgPrompt": "afternoon, side view from rural street, far away from Corpus Christi, TX, United States of America, Clear weather, cold, people in distance, March 8th, 6pm, 18:00, crowded, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-09T07:45",
+    "sunset": "2023-03-09T19:37",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-08T10:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Corpus Christi",
+    "nearestCityCoords": [
+      27.7635302,
+      -97.4033191
+    ],
+    "distanceToCityInKm": 89.92644081356472,
+    "population": 317863,
+    "continent": "",
+    "country": "United States of America",
+    "state": "TX"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "conversation": "That's why I'm so excited about exploring Merida once we get there.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 44.25,
+  "iterationCount": 177,
+  "kmTraveledSoFar": 2639.5
+}

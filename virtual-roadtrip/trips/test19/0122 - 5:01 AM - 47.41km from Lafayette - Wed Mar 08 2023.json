@@ -1,0 +1,56 @@
+{
+  "packageName": "0122 - 5:01 AM - 47.41km from Lafayette - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0122 - 5:01 AM - 47.41km from Lafayette - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0122 - 5:01 AM - 47.41km from Lafayette - Wed Mar 08 2023.png",
+  "location": [
+    30.366279704937973,
+    -91.63467645795487
+  ],
+  "kph": 100,
+  "angle": -164.89713892114878,
+  "imgPrompt": "night, side view from rural highway, far away from Lafayette, LA, United States of America, Clear weather, cold, March 8th, 5am, 5:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:23",
+    "sunset": "2023-03-08T19:11",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T21:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Lafayette",
+    "nearestCityCoords": [
+      30.2043259,
+      -92.0298813
+    ],
+    "distanceToCityInKm": 47.40829389352566,
+    "population": 121324,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 30.5,
+  "iterationCount": 122,
+  "kmTraveledSoFar": 1747.75
+}

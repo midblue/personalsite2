@@ -1,0 +1,62 @@
+{
+  "packageName": "0293 - 10:46 PM - 4.86km from Campeche - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0293 - 10:46 PM - 4.86km from Campeche - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0293 - 10:46 PM - 4.86km from Campeche - Thu Mar 09 2023.png",
+  "location": [
+    19.794991903492324,
+    -90.5124994907224
+  ],
+  "kph": 24,
+  "angle": -10.827183482339668,
+  "imgPrompt": "night, side view from urban highway, outskirts of Campeche, Mexico, Clear weather, cold, nearby building marked 'Pemex', people in distance, March 9th, 10pm, 22:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:13",
+    "sunset": "2023-03-10T18:11",
+    "timezone": "America/Merida",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T14:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Campeche",
+    "nearestCityCoords": [
+      19.8381215,
+      -90.5198253
+    ],
+    "distanceToCityInKm": 4.855954510895911,
+    "population": 220389,
+    "continent": "North America",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Pemex",
+    "nearestCoastlineInKm": 13.131268364370829
+  },
+  "audio": {
+    "type": "radio",
+    "name": "RRDLMB",
+    "track": "\"El lado oscuro del corazón\"",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d0/1f/f3/d01ff379-ad03-b685-851c-1aa767784629/196589545541.jpg/300x300bb.jpg"
+  },
+  "conversation": "So you were saying earlier about your dream of traveling abroad, have you thought about any specific destinations?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 73.25,
+  "iterationCount": 293,
+  "kmTraveledSoFar": 4581.25
+}

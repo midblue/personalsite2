@@ -1,0 +1,59 @@
+{
+  "packageName": "0037 - 8:46 AM - 14.43km from Gastonia - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0037 - 8:46 AM - 14.43km from Gastonia - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0037 - 8:46 AM - 14.43km from Gastonia - Tue Mar 07 2023.png",
+  "location": [
+    35.239721267543594,
+    -81.31180955480839
+  ],
+  "kph": 52,
+  "angle": -127.14257032587211,
+  "imgPrompt": "morning, side view from rural street, outside of Gastonia, SC, United States of America, Clear weather, outside of 'Bethlehem Baptist Church', trees in distance, March 7th, 8am, 8:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 12.8,
+    "windSpeed": 11.6,
+    "sunrise": "2023-03-07T07:45",
+    "sunset": "2023-03-07T19:27",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T00:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Gastonia",
+    "nearestCityCoords": [
+      35.2622654,
+      -81.1838186
+    ],
+    "distanceToCityInKm": 14.425697007384265,
+    "population": 69904,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Bethlehem Baptist Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\" by Sarah Koenig"
+  },
+  "conversation": "Will they have to adapt and learn new skills constantly?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 9.25,
+  "iterationCount": 37,
+  "kmTraveledSoFar": 355.25
+}

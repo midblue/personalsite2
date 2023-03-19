@@ -1,0 +1,60 @@
+{
+  "packageName": "0259 - 2:16 PM - 13.19km from Minatitlán - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0259 - 2:16 PM - 13.19km from Minatitlán - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0259 - 2:16 PM - 13.19km from Minatitlán - Thu Mar 09 2023.png",
+  "location": [
+    18.013258593995246,
+    -94.4396701687462
+  ],
+  "kph": 49,
+  "angle": -7.209381129445173,
+  "imgPrompt": "afternoon, side view from urban street, outside of Minatitlán, Mexico, Clear weather, cold, coastal road, outside of 'Gasolinera 0411', March 9th, 2pm, 14:00, busy, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:28",
+    "sunset": "2023-03-10T18:27",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T06:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Minatitlán",
+    "nearestCityCoords": [
+      17.992773,
+      -94.5567103
+    ],
+    "distanceToCityInKm": 13.188954366366833,
+    "population": 101336,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Gasolinera 0411",
+    "nearestCoastlineInKm": 2.777542091554778
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Comedy Bang! Bang!\""
+  },
+  "conversation": "I know my family has had their struggles, but they've also shown me the importance of resilience and sticking together.",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 64.75,
+  "iterationCount": 259,
+  "kmTraveledSoFar": 4016.5
+}

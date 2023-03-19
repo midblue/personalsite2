@@ -1,0 +1,57 @@
+{
+  "packageName": "0044 - 10:31 AM - 8.99km from Greer - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0044 - 10:31 AM - 8.99km from Greer - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0044 - 10:31 AM - 8.99km from Greer - Tue Mar 07 2023.png",
+  "location": [
+    34.892514220277235,
+    -82.1603009816292
+  ],
+  "kph": 36,
+  "angle": -146.52213809466986,
+  "imgPrompt": "morning, side view from rural highway, suburbs of Greer, SC, United States of America, Clear weather, outside of 'Liberty Hill Church', trees in distance, March 7th, 10am, 10:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": 16.7,
+    "windSpeed": 6.4,
+    "sunrise": "2023-03-07T07:48",
+    "sunset": "2023-03-07T19:30",
+    "timezone": "America/New_York",
+    "timezoneOffsetInMs": -14400000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T02:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Greer",
+    "nearestCityCoords": [
+      34.9381361,
+      -82.2272119
+    ],
+    "distanceToCityInKm": 8.989236781672771,
+    "population": 35308,
+    "continent": "",
+    "country": "United States of America",
+    "state": "SC",
+    "nearestLandmark": "Liberty Hill Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 11,
+  "iterationCount": 44,
+  "kmTraveledSoFar": 460.5
+}

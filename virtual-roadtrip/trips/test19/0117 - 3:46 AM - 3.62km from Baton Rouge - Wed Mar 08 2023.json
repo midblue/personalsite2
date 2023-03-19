@@ -1,0 +1,57 @@
+{
+  "packageName": "0117 - 3:46 AM - 3.62km from Baton Rouge - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0117 - 3:46 AM - 3.62km from Baton Rouge - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0117 - 3:46 AM - 3.62km from Baton Rouge - Wed Mar 08 2023.png",
+  "location": [
+    30.421329861580908,
+    -91.12503207111837
+  ],
+  "kph": 20,
+  "angle": 168.49669358247908,
+  "imgPrompt": "night, side view from urban street, center of Baton Rouge, LA, United States of America, Clear weather, cold, near 'Elm Park Church', houses in distance, March 8th, 3am, 3:00, Half moon, no sunlight, dark, quiet, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:21",
+    "sunset": "2023-03-08T19:09",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T19:46:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Baton Rouge",
+    "nearestCityCoords": [
+      30.4507936,
+      -91.1391153
+    ],
+    "distanceToCityInKm": 3.6248752815933636,
+    "population": 227470,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Elm Park Church"
+  },
+  "audio": {
+    "type": "silence"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 29.25,
+  "iterationCount": 117,
+  "kmTraveledSoFar": 1689
+}

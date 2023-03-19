@@ -1,0 +1,60 @@
+{
+  "packageName": "0112 - 2:31 AM - 52.02km from New Orleans - Wed Mar 08 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0112 - 2:31 AM - 52.02km from New Orleans - Wed Mar 08 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0112 - 2:31 AM - 52.02km from New Orleans - Wed Mar 08 2023.png",
+  "location": [
+    30.44220281294626,
+    -90.12571033269836
+  ],
+  "kph": 100,
+  "angle": 160.99421541859445,
+  "imgPrompt": "night, side view from rural road, far away from New Orleans, LA, United States of America, Clear weather, cold, outside of 'Galatas Cemetery', birds in distance, March 8th, 2am, 2:00, Half moon, no sunlight, dark, verdant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece, night, nighttime, dark mode",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, daytime, sun, bright sky, bright, sunlight, sun, shadows, long shadows, autumn, autumn colors, hot, city, urban, downtown, skyscrapers"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T07:17",
+    "sunset": "2023-03-08T19:05",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": true,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T18:31:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "New Orleans",
+    "nearestCityCoords": [
+      29.9759983,
+      -90.0782127
+    ],
+    "distanceToCityInKm": 52.01657941536511,
+    "population": 383997,
+    "continent": "",
+    "country": "United States of America",
+    "state": "LA",
+    "nearestLandmark": "Galatas Cemetery"
+  },
+  "audio": {
+    "type": "radio",
+    "track": "\"Lexicon Devil\" by The Germs",
+    "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/b2/3f/1a/b23f1a52-618c-6d8d-7d63-f451c01bb1aa/603497908042.jpg/300x300bb.jpg"
+  },
+  "conversation": "Do you think your ancestors were buried in a cemetery like this?",
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 28,
+  "iterationCount": 112,
+  "kmTraveledSoFar": 1576.5
+}

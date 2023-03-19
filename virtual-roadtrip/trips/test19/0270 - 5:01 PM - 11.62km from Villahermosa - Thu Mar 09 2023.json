@@ -1,0 +1,59 @@
+{
+  "packageName": "0270 - 5:01 PM - 11.62km from Villahermosa - Thu Mar 09 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0270 - 5:01 PM - 11.62km from Villahermosa - Thu Mar 09 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0270 - 5:01 PM - 11.62km from Villahermosa - Thu Mar 09 2023.png",
+  "location": [
+    17.979935849758782,
+    -93.04094069826235
+  ],
+  "kph": 44,
+  "angle": 2.870935445750651,
+  "imgPrompt": "afternoon, side view from urban highway, outside of Villahermosa, Mexico, Clear weather, cold, near 'Colegio Ingles de Villahermosa', March 9th, 5pm, 17:00, vibrant, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-10T06:22",
+    "sunset": "2023-03-10T18:21",
+    "timezone": "America/Mexico_City",
+    "timezoneOffsetInMs": -21600000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-09T09:01:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Villahermosa",
+    "nearestCityCoords": [
+      17.9884657,
+      -92.9366326
+    ],
+    "distanceToCityInKm": 11.616847485583026,
+    "population": 353577,
+    "continent": "",
+    "country": "Mexico",
+    "state": "",
+    "nearestLandmark": "Colegio Ingles de Villahermosa"
+  },
+  "audio": {
+    "type": "audiobook",
+    "name": "\"The Voynich Hotel\" by Seiman Douman",
+    "imageUrl": "http://books.google.com/books/content?id=TYGQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 67.5,
+  "iterationCount": 270,
+  "kmTraveledSoFar": 4178.25
+}

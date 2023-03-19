@@ -1,0 +1,59 @@
+{
+  "packageName": "0075 - 5:16 PM - 9.34km from Auburn - Tue Mar 07 2023",
+  "packagePath": "/Users/jasper/Code/virtual-roadtrip/output/0075 - 5:16 PM - 9.34km from Auburn - Tue Mar 07 2023",
+  "imgPath": "/Users/jasper/Code/virtual-roadtrip/output/0075 - 5:16 PM - 9.34km from Auburn - Tue Mar 07 2023.png",
+  "location": [
+    32.543932795391356,
+    -85.53303120369252
+  ],
+  "kph": 37,
+  "angle": -142.68057265176748,
+  "imgPrompt": "afternoon, side view from rural street, suburbs of Auburn, AL, United States of America, Clear weather, cold, near 'Shiloh Church', buses in distance, March 7th, 5pm, 17:00, lonely, colored photograph, wide angle, ultra-wide angle, side-view, field of view, sharp, HD, zoomed out, wide view, ground level, standing, moody lighting, DSLR, Nikon D750, Canon Eos 5D, 10mm lens, analog photo, Sigma 10mm, F2.8, Nikon Z9, masterpiece",
+  "imgSettings": {
+    "scale": 6,
+    "steps": 15,
+    "height": 384,
+    "width": 768,
+    "negativePrompt": "watermark, signature, username, frame, collage, text, border, error, grayscale, black and white, worst quality, low quality, jpeg artifacts, blurry, blur, aurora, northern lights, boring, galaxy, nebula, supermoon, huge moon, two moons, big moon, surreal, graveyard, fisheye, aerial, aerial view, drone, drone shot, drone view, oversaturated, night, autumn, autumn colors, hot"
+  },
+  "weather": {
+    "currentWeather": "Clear",
+    "temperature": null,
+    "windSpeed": null,
+    "sunrise": "2023-03-08T06:59",
+    "sunset": "2023-03-08T18:45",
+    "timezone": "America/Chicago",
+    "timezoneOffsetInMs": -18000000,
+    "moonPhase": "Half",
+    "isDark": false,
+    "sunIsRising": false,
+    "sunIsSetting": false,
+    "timeThere": "2023-03-07T09:16:29.022Z"
+  },
+  "locationData": {
+    "nearestCity": "Auburn",
+    "nearestCityCoords": [
+      32.6098566,
+      -85.4807825
+    ],
+    "distanceToCityInKm": 9.337122496309703,
+    "population": 62059,
+    "continent": "",
+    "country": "United States of America",
+    "state": "AL",
+    "nearestLandmark": "Shiloh Church"
+  },
+  "audio": {
+    "type": "podcast",
+    "name": "\"Serial\"",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/45/d5/e7/45d5e7d5-3baf-e2f8-94f3-fc7965584487/mza_10043858782370406236.jpg/300x300bb.jpg"
+  },
+  "decoration": {
+    "dog": false
+  },
+  "startDate": 1678159889022,
+  "hoursPerIteration": 0.25,
+  "hoursFromStart": 18.75,
+  "iterationCount": 75,
+  "kmTraveledSoFar": 951.75
+}
