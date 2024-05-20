@@ -69,7 +69,9 @@ import * as c from '~/assets/common'
 
 export default Vue.extend({
   props: {
-    elements: {},
+    elements: {
+      type: Array as any,
+    },
     focusY: {
       type: Number,
       default: 0,
@@ -80,7 +82,9 @@ export default Vue.extend({
     },
   },
   computed: {
-    ...mapState(['mobile']),
+    mobile(): boolean {
+      return this.$store.state.mobile
+    },
     debouncedOnScroll(): Function {
       return c.debounce(this.onScroll, 50)
     },

@@ -2,7 +2,7 @@
   <div
     class="contents"
     :class="{ mobile }"
-    :style="{ '--highlight-color': elements[focusY].color }"
+    :style="{ '--highlight-color': elements[focusY] && elements[focusY].color }"
   >
     <LeftNav
       :elements="elements"
@@ -53,7 +53,7 @@
         <div
           class="dots"
           :class="{ bottom: !hasDown }"
-          v-if="elements[focusY].elements.length > 1"
+          v-if="elements[focusY] && elements[focusY].elements.length > 1"
         >
           <div
             class="dot"
@@ -74,25 +74,17 @@ import * as c from '~/assets/common'
 import { mapState } from 'vuex'
 
 export default Vue.extend({
-  async asyncData({ $axios, store, redirect, route }) {
-    const hash = route.hash.replace(/^#/, '').replace(/\/$/, '')
-    const found = store.state.elements.find((el: any) => el.slug === hash)
-
-    return {
-      elements: store.state.elements,
-      preselectedSlug: found?.slug,
-    }
-  },
   head() {
     const element = (this as any).elements.find(
       (el: any) => el.slug && el.slug === (this as any).preselectedSlug,
     )
     const title =
-      /<h1[^>]*?>([^<]*)/g.exec(element?.elements[0]?.text || '')?.[1] || 'Home'
+      /<h1[^>]*?>([^<]*)/g.exec(element?.elements?.[0]?.text || '')?.[1] ||
+      'Home'
     const image =
-      /src=(?:'|")([^"']*)/g.exec(element?.elements[0]?.image || '')?.[1] ||
+      /src=(?:'|")([^"']*)/g.exec(element?.elements?.[0]?.image || '')?.[1] ||
       /src=(?:'|")([^'"]*)/g.exec(
-        (this as any).elements[0].elements[1]?.image || '',
+        (this as any).elements?.[0]?.elements[1]?.image || '',
       )?.[1] ||
       ''
     const url = element
@@ -122,6 +114,7 @@ export default Vue.extend({
   },
   data() {
     return {
+      hash: this.$route.hash.replace(/^#/, '').replace(/\/$/, ''),
       focusX: 0,
       focusY: 0,
       forceFocusX: 0,
@@ -129,10 +122,20 @@ export default Vue.extend({
   },
 
   computed: {
-    ...mapState(['mobile', 'dev']),
+    ...mapState(['dev']),
+
+    elements(): any {
+      return this.$store.state.elements
+    },
+    preselectedSlug(): string {
+      return this.$store.state.preselectedSlug
+    },
+    mobile(): boolean {
+      return this.$store.state.mobile
+    },
     hasNext(): boolean {
       return (
-        this.focusX !== (this as any).elements[this.focusY].elements.length - 1
+        this.focusX !== (this as any).elements[this.focusY]?.elements.length - 1
       )
     },
     hasPrevious(): boolean {
@@ -143,6 +146,27 @@ export default Vue.extend({
     },
     hasDown(): boolean {
       return this.focusY !== (this as any).elements.length - 1
+    },
+  },
+
+  watch: {
+    elements(newEls) {
+      if (!newEls.length) return
+
+      const found = (this as any).elements.find(
+        (el: any) => el.slug === (this as any).preselectedSlug,
+      )
+      if (found) {
+        this.forceFocusY((this as any).elements.indexOf(found), true)
+      }
+      history.replaceState(
+        {},
+        '',
+        this.$route.path.split('/')[0] +
+          (found && (this as any).preselectedSlug
+            ? '/p/' + (this as any).preselectedSlug
+            : '/'),
+      )
     },
   },
 
@@ -167,28 +191,6 @@ export default Vue.extend({
         this.next()
       }
     })
-
-    // path hash
-    await this.$nextTick()
-    if (!(this as any).preselectedSlug && this.$route.hash) {
-      const hash = this.$route.hash.replace(/^#/, '').replace(/\/$/, '')
-      const found = (this as any).elements.find((el: any) => el.slug === hash)
-      ;(this as any).preselectedSlug = found?.slug
-    }
-    const found = (this as any).elements.find(
-      (el: any) => el.slug === (this as any).preselectedSlug,
-    )
-    if (found) {
-      this.forceFocusY((this as any).elements.indexOf(found), true)
-    }
-    history.replaceState(
-      {},
-      '',
-      this.$route.path.split('/')[0] +
-        (found && (this as any).preselectedSlug
-          ? '/p/' + (this as any).preselectedSlug
-          : '/'),
-    )
   },
   methods: {
     setFocusY(index: number) {
@@ -198,7 +200,7 @@ export default Vue.extend({
 
       setTimeout(() => {
         if (this.focusY !== index) return
-        ;(this as any).preselectedSlug = (this as any).elements[index].slug
+        // ;(this as any).preselectedSlug = (this as any).elements[index].slug
         const hasNext = index !== (this as any).elements.length - 1,
           hasPrevious = index !== 0
 
@@ -224,7 +226,7 @@ export default Vue.extend({
         // @ts-ignore
         behavior: instant ? 'instant' : 'smooth',
       })
-      ;(this as any).preselectedSlug = (this as any).elements[index].slug
+      // ;(this as any).preselectedSlug = (this as any).elements[index].slug
     },
     setFocusX(index: number) {
       this.focusX = index
@@ -251,12 +253,12 @@ export default Vue.extend({
       const prev = this.focusX
       this.forceFocusX = Math.min(
         this.focusX + 1,
-        (this as any).elements[this.focusY].elements.length - 1,
+        (this as any).elements[this.focusY]?.elements.length - 1,
       )
       if (
         this.$refs.main &&
         this.forceFocusX === prev &&
-        (this as any).elements[this.focusY].elements.length - 1 === prev
+        (this as any).elements[this.focusY]?.elements.length - 1 === prev
       ) {
         ;(this.$refs.main as HTMLElement).classList.add('bounceRight')
         setTimeout(() => {

@@ -87,7 +87,7 @@ export function extractDataFrom3Lix(s = '') {
     .replace(/<img /g, `<img loading='lazy' `)
     .replace(/<iframe /g, `<iframe loading='lazy' `)
 
-  const data = extractDataAsObject(s)
+  const data = extractDataAsObject(s) as any
 
   const dataStringRegex = /<code data-id="([^"]*)">(.*)<\/code>/g
   const pageContent = s.replace(dataStringRegex, ``) // regular page content sans data strings
