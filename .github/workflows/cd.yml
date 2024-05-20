@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14]
+        node: [18]
 
     steps:
       - name: Checkout
@@ -21,10 +21,10 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Generate
-        run: NODE_ENV=production yarn generate
+        run: NODE_ENV=production npm run generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
