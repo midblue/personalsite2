@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/cmyk-splitter", {data:[{}],fetch:{},mutations:[]});

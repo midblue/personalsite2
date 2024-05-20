@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/trackbeat", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/different-strokes", {data:[{}],fetch:{},mutations:[]});

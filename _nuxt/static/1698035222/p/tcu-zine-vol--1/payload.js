@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/p/tcu-zine-vol--1", {data:[{}],fetch:{},mutations:[]});
