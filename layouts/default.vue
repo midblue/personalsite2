@@ -45,7 +45,9 @@ export default Vue.extend({
       let data = await axios
         .get(
           `https://us-central1-lix-338122.cloudfunctions.net/${
-            this.$store.state.dev ? 'refresh' : 'doc'
+            // this.$store.state.dev ?
+            'refresh'
+            //  : 'doc'
           }/${contentDoc}`,
         )
         .then((res) => {
