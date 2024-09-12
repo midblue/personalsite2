@@ -76,7 +76,7 @@ import { mapState } from 'vuex'
 export default Vue.extend({
   head() {
     const element = (this as any).elements.find(
-      (el: any) => el.slug && el.slug === (this as any).preselectedSlug,
+      (el: any) => el.slug && el.slug === this.preselectedSlug,
     )
     const title =
       /<h1[^>]*?>([^<]*)/g.exec(element?.elements?.[0]?.text || '')?.[1] ||
@@ -134,9 +134,7 @@ export default Vue.extend({
       return this.$store.state.mobile
     },
     hasNext(): boolean {
-      return (
-        this.focusX !== (this as any).elements[this.focusY]?.elements.length - 1
-      )
+      return this.focusX !== this.elements[this.focusY]?.elements.length - 1
     },
     hasPrevious(): boolean {
       return this.focusX !== 0
@@ -145,7 +143,7 @@ export default Vue.extend({
       return this.focusY !== 0
     },
     hasDown(): boolean {
-      return this.focusY !== (this as any).elements.length - 1
+      return this.focusY !== this.elements.length - 1
     },
   },
 
@@ -188,7 +186,9 @@ export default Vue.extend({
       await this.$nextTick()
       await c.sleep(100)
 
-      const found = (this as any).elements.find(
+      c.log(this.elements.map((el: any) => el.slug))
+
+      const found = this.elements.find(
         (el: any) => el.slug === this.preselectedSlug,
       )
       if (found) {
@@ -212,8 +212,8 @@ export default Vue.extend({
 
       setTimeout(() => {
         if (this.focusY !== index) return
-        // ;(this as any).preselectedSlug = (this as any).elements[index].slug
-        const hasNext = index !== (this as any).elements.length - 1,
+        // ;this.preselectedSlug = this.elements[index].slug
+        const hasNext = index !== this.elements.length - 1,
           hasPrevious = index !== 0
 
         if (hasNext) this.preload(index + 1)
@@ -233,12 +233,12 @@ export default Vue.extend({
         left: 0,
         top:
           ((this.$refs.main as HTMLElement).scrollHeight /
-            (this as any).elements.length) *
+            this.elements.length) *
           index,
         // @ts-ignore
         behavior: instant ? 'instant' : 'smooth',
       })
-      // ;(this as any).preselectedSlug = (this as any).elements[index].slug
+      // ;this.preselectedSlug = this.elements[index].slug
     },
     setFocusX(index: number) {
       this.focusX = index
@@ -248,8 +248,7 @@ export default Vue.extend({
       // scroll 100% down
       if (!this.$refs.main) return
       ;(this.$refs.main as HTMLElement).scrollTop +=
-        (this.$refs.main as HTMLElement).scrollHeight /
-        (this as any).elements.length
+        (this.$refs.main as HTMLElement).scrollHeight / this.elements.length
       this.forceFocusX = -1
     },
     up() {
@@ -257,20 +256,19 @@ export default Vue.extend({
       // scroll 100% up
       if (!this.$refs.main) return
       ;(this.$refs.main as HTMLElement).scrollTop -=
-        (this.$refs.main as HTMLElement).scrollHeight /
-        (this as any).elements.length
+        (this.$refs.main as HTMLElement).scrollHeight / this.elements.length
       this.forceFocusX = -1
     },
     next() {
       const prev = this.focusX
       this.forceFocusX = Math.min(
         this.focusX + 1,
-        (this as any).elements[this.focusY]?.elements.length - 1,
+        this.elements[this.focusY]?.elements.length - 1,
       )
       if (
         this.$refs.main &&
         this.forceFocusX === prev &&
-        (this as any).elements[this.focusY]?.elements.length - 1 === prev
+        this.elements[this.focusY]?.elements.length - 1 === prev
       ) {
         ;(this.$refs.main as HTMLElement).classList.add('bounceRight')
         setTimeout(() => {
@@ -291,7 +289,7 @@ export default Vue.extend({
     preload(index: number) {
       // c.log('preload', index)
       const images = [
-        ...((this as any).elements[index].elements?.[0]?.image || '').matchAll(
+        ...(this.elements[index].elements?.[0]?.image || '').matchAll(
           /src=(?:'|")(.*?)(?:'|")/g,
         ),
       ].map((m) => m[1])
@@ -299,13 +297,13 @@ export default Vue.extend({
         const img = new Image()
         img.src = i
       })
-      if ((this as any).elements[index].elements?.[0]?.image) {
+      if (this.elements[index].elements?.[0]?.image) {
         ;((this.$refs[`row${index}`] as any)?.[0]?.$el as HTMLElement)
           ?.querySelectorAll('img')
           .forEach((img) => {
             img.removeAttribute('loading')
           })
-        // (this as any).elements[index].elements[0].image = (
+        // this.elements[index].elements[0].image = (
         //   this as any
         // ).elements[index].elements[0].image.replace(/loading='lazy'/g, '')
       }
