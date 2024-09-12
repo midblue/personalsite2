@@ -80,8 +80,13 @@ export default Vue.extend({
       (el: any) => el.slug && el.slug === this.preselectedSlug,
     )
     const title =
-      /<h1[^>]*?>([^<]*)/g.exec(element?.elements?.[0]?.text || '')?.[1] ||
-      'Home'
+      document?.title ||
+      (
+        /<h1[^>]*?>([^<]*)/g.exec(element?.elements?.[0]?.text || '')?.[1] ||
+        'Home'
+      ).trim() +
+        ' | ' +
+        'Jasper Stephenson'
     const image =
       /src=(?:'|")([^"']*)/g.exec(element?.elements?.[0]?.image || '')?.[1] ||
       /src=(?:'|")([^'"]*)/g.exec(
@@ -99,7 +104,7 @@ export default Vue.extend({
           .trim()
       : 'Digital Tinkerer, Friendly Ghost.'
     return {
-      title: title + ' | ' + 'Jasper Stephenson',
+      title: title,
       meta: [
         {
           hid: 'description',
@@ -208,6 +213,13 @@ export default Vue.extend({
       this.focusY = index
       this.focusX = 0
       this.forceFocusX = -1
+
+      // set page title to the first element's title | Jasper Stephenson
+      const title =
+        /<h1[^>]*?>([^<]*)/g.exec(
+          this.elements[index]?.elements?.[0]?.text || '',
+        )?.[1] || 'Home'
+      document.title = title + ' | Jasper Stephenson'
 
       setTimeout(() => {
         if (this.focusY !== index) return
