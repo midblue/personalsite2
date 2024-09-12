@@ -80,10 +80,10 @@ export default Vue.extend({
                 .filter((s) => s)
                 .map((content) => {
                   const image = content
-                    .split(/<\/div><div class='cell[^']*'>/g)?.[0]
+                    .split(/<\/div><div class='cell[^>]*?>/g)?.[0]
                     ?.replace(/^<div[^>]*?>/, '')
                   const text = content
-                    .split(/<\/div><div class='cell[^']*'>/g)?.[1]
+                    .split(/<\/div><div class='cell[^>]*?>/g)?.[1]
                     ?.replace(/(<\/div>)+$/g, '')
                   return {
                     image,

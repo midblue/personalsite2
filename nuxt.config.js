@@ -76,7 +76,7 @@ async function getRoutesToGenerate() {
             .filter((s) => s)
             .map((content) => {
               const text = content
-                .split(/<\/div><div class='cell'>/g)?.[1]
+                .split(/<\/div><div class='cell[^>]*?>/g)?.[1]
                 ?.replace(/(<\/div>)+$/g, '')
               return {
                 text,
