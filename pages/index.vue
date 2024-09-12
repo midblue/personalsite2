@@ -150,23 +150,8 @@ export default Vue.extend({
   },
 
   watch: {
-    elements(newEls) {
-      if (!newEls.length) return
-
-      const found = (this as any).elements.find(
-        (el: any) => el.slug === (this as any).preselectedSlug,
-      )
-      if (found) {
-        this.forceFocusY((this as any).elements.indexOf(found), true)
-      }
-      history.replaceState(
-        {},
-        '',
-        this.$route.path.split('/')[0] +
-          (found && (this as any).preselectedSlug
-            ? '/p/' + (this as any).preselectedSlug
-            : '/'),
-      )
+    async elements(newEls) {
+      this.scrollToPreselected()
     },
   },
 
@@ -190,9 +175,36 @@ export default Vue.extend({
         e.stopPropagation()
         this.next()
       }
+
+      this.scrollToPreselected()
     })
   },
   methods: {
+    async scrollToPreselected() {
+      if (!this.elements.length) return
+      if (!this.preselectedSlug) return
+      c.log('preselected', this.preselectedSlug)
+
+      await this.$nextTick()
+      await c.sleep(100)
+
+      const found = (this as any).elements.find(
+        (el: any) => el.slug === this.preselectedSlug,
+      )
+      if (found) {
+        c.log('found entry for', this.preselectedSlug)
+        this.forceFocusY(this.elements.indexOf(found), true)
+      }
+      history.replaceState(
+        {},
+        '',
+        this.$route.path.split('/')[0] +
+          (found && this.preselectedSlug ? '/p/' + this.preselectedSlug : '/'),
+      )
+
+      this.$store.commit('set', { preselectedSlug: null })
+    },
+
     setFocusY(index: number) {
       this.focusY = index
       this.focusX = 0
