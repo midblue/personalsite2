@@ -49,7 +49,7 @@ export default Vue.extend({
   // },
   async mounted() {
     this.$store.commit('set', {
-      preselectedSlug: this.$route.path.replace('/p/', ''),
+      preselectedSlug: this.$route.path.replace('/p/', '').replace(/\/$/, ''),
     })
     this.$router.replace(`/`)
   },

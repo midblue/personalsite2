@@ -27,6 +27,7 @@
         :index="index"
         :class="{ first: index === 0 }"
       />
+      <Loading v-if="!elements.length" />
     </main>
 
     <div class="navigators">
@@ -185,8 +186,6 @@ export default Vue.extend({
 
       await this.$nextTick()
       await c.sleep(100)
-
-      c.log(this.elements.map((el: any) => el.slug))
 
       const found = this.elements.find(
         (el: any) => el.slug === this.preselectedSlug,
