@@ -67,9 +67,10 @@ async function go() {
     const foundContent = content.find((co) => co.slug === post)
     console.log(post, !!generatedContent, !!foundContent)
 
-    const title =
+    const title = (
       /<h1[^>]*?>([^<]*)/g.exec(foundContent?.elements[0]?.text || '')?.[1] ||
       'Home'
+    ).trim()
     const image =
       /src=(?:'|")([^"']*)/g.exec(
         foundContent?.elements[0]?.image || '',
