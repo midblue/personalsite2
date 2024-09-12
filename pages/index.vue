@@ -12,6 +12,10 @@
     />
 
     <main ref="main">
+      <!-- <div v-for="(row, index) in elements">
+        <pre>{{ JSON.stringify(row, null, 2) }}</pre>
+        <br /><br /><br />
+      </div> -->
       <PaneRow
         v-for="(row, index) in elements"
         :key="'row' + index"

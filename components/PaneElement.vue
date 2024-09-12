@@ -62,7 +62,9 @@ export default Vue.extend({
     }
   },
   computed: {
-    ...mapState(['mobile']),
+    mobile() {
+      return this.$store.state.mobile
+    },
     header(): string | undefined {
       return /<h1.*<\/h1>/g.exec(this.text)?.[0]
     },
@@ -72,6 +74,7 @@ export default Vue.extend({
     },
   },
   async mounted() {
+    if (this.index === 0) c.log(this.image, this.text)
     const observer = new IntersectionObserver(
       async (entries) => {
         this.isFocused = entries[0].isIntersecting

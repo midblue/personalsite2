@@ -4,9 +4,7 @@ const axios = require('axios')
 async function go() {
   const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
   let data = await axios
-    .get(
-      `https://us-central1-lix-338122.cloudfunctions.net/refresh/${contentDoc}`,
-    )
+    .get(`https://p.jasperstephenson.com/3lix/doc/${contentDoc}`)
     .then((res) => {
       if (res.status === 500) return
       return res.data
