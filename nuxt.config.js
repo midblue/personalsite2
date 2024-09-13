@@ -7,9 +7,8 @@ export default {
   target: 'static',
   ignore: ['/static'],
 
-  // set environment variables
   env: {
-    CONTENT: process.env.CONTENT,
+    CONFIG: process.env.CONFIG,
   },
 
   head: {

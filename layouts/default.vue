@@ -97,8 +97,6 @@ export default Vue.extend({
           })
           .filter((co) => co) || []
 
-      c.log(content, contentWithElementsBrokenOut)
-
       this.$store.commit('set', { elements: contentWithElementsBrokenOut })
     },
 
