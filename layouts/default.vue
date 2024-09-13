@@ -41,21 +41,21 @@ export default Vue.extend({
   },
   methods: {
     async loadElements() {
-      const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
+      const contentDoc = c.config.contentDoc
       let data = await axios
         .get(`https://p.jasperstephenson.com/3lix/doc/${contentDoc}`)
         .then((res) => {
-          if (res.status === 500) return
+          if (res.status === 500) return c.log('Error loading content doc')
           return res.data
         })
-      if (!data) return
+      if (!data) return c.log('Error loading content doc')
 
       let { content } = c.extractDataFrom3Lix(data)
 
       const contentWithElementsBrokenOut =
         content
           .map((co, index) => {
-            if (!co.color) return
+            // if (!co.color) return
             return {
               slug:
                 index === 0
@@ -67,15 +67,17 @@ export default Vue.extend({
                           .trim(),
                       ),
                     ),
-              color: co.color,
+              color: co.color || '#444',
               thumbnail:
-                co.thumbnail || /<picture.*?<\/picture>/g.exec(co.content)?.[0],
+                co.thumbnail ||
+                /<picture.*?<\/picture>/g.exec(co.content)?.[0] ||
+                null,
               tags: co.tags
-                .split(',')
+                ?.split(',')
                 .map((t) => t.trim().toLowerCase())
                 .filter((t) => t),
               elements: co.content
-                .replace(/<div class='table ?'>/gi, '')
+                ?.replace(/<div class='table ?'>/gi, '')
                 .split(`<div class='row'>`)
                 .filter((s) => s)
                 .map((content) => {
@@ -94,6 +96,8 @@ export default Vue.extend({
             }
           })
           .filter((co) => co) || []
+
+      c.log(content, contentWithElementsBrokenOut)
 
       this.$store.commit('set', { elements: contentWithElementsBrokenOut })
     },

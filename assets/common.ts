@@ -124,3 +124,5 @@ export function sleep(ms: number) {
     }, ms)
   })
 }
+
+export { config } from '../config'

@@ -1,8 +1,9 @@
 const fs = require('fs')
 const axios = require('axios')
+import * as c from '../assets/common'
 
 async function go() {
-  const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
+  const contentDoc = c.config.contentDoc
   let data = await axios
     .get(`https://p.jasperstephenson.com/3lix/doc/${contentDoc}`)
     .then((res) => {
@@ -11,7 +12,7 @@ async function go() {
     })
   if (!data) return
 
-  let { content } = extractDataFrom3Lix(data)
+  let { content } = extractDataFrom3Lix(data) as any
 
   content =
     content
@@ -25,7 +26,7 @@ async function go() {
                   slugify(
                     (/<h1[^>]*?>([^<]*)/.exec(co.content || '')?.[1] || '')
                       .replace(/<[^>]*?>/g, '')
-                      .trim(),
+                      .trim() as any,
                   ),
                 ),
           color: co.color,
@@ -73,9 +74,6 @@ async function go() {
       /src=(?:'|")([^"']*)/g.exec(
         foundContent?.elements[0]?.image || '',
       )?.[1] || ''
-    const url = foundContent
-      ? `https://jasperstephenson.com/p/${foundContent.slug}`
-      : `https://jasperstephenson.com/`
     const description = foundContent
       ? foundContent.elements[0].text
           .replace(/<h1.*<\/h1>/g, '')
@@ -101,7 +99,6 @@ async function go() {
           content: description,
         },
         { hid: 'twitter:image', name: 'twitter:image', content: image },
-        { hid: 'og:url', name: 'og:url', content: url },
       ],
     }
     const headObjectAsTagString =
@@ -124,7 +121,7 @@ go()
 
 function slugify(s = []) {
   if (!Array.isArray(s)) s = [s]
-  return s.map((e) => e.toLowerCase().replace(/[^a-z0-9]/g, `-`)).join(`-`)
+  return s.map((e: any) => e.toLowerCase().replace(/[^a-z0-9]/g, `-`)).join(`-`)
 }
 
 function extractDataFrom3Lix(s = '') {
@@ -157,7 +154,7 @@ function extractDataAsObject(s = '') {
     try {
       value = JSON.parse(value)
     } catch (e) {
-      log(e)
+      c.log(e)
     }
     data[key] = value
   }

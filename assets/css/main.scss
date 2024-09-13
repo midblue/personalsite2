@@ -548,7 +548,7 @@ ul {
 }
 
 .rounded {
-  border-radius: 0.5em;
+  border-radius: var(--borderRadius, 0.5em);
   overflow: hidden;
 }
 

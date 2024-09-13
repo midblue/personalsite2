@@ -22,7 +22,15 @@
         v-if="text"
         :class="{ noImage: !image, first: index === 0 }"
       >
-        <div class="header" v-if="header" v-html="header"></div>
+        <div
+          class="header"
+          :class="{
+            overlap: c.config.overlapTitle,
+            noBackground: !c.config.titleBackgroundColor,
+          }"
+          v-if="header"
+          v-html="header"
+        ></div>
         <div class="textScroller" v-html="textMinusHeader"></div>
       </div>
     </div>
@@ -58,6 +66,7 @@ export default Vue.extend({
   },
   data() {
     return {
+      c,
       isFocused: false,
     }
   },

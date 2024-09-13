@@ -1,10 +1,17 @@
 <template>
   <div
     class="contents"
-    :class="{ mobile }"
-    :style="{ '--highlight-color': elements[focusY] && elements[focusY].color }"
+    :class="{ mobile, noNav: !c.config.showNav }"
+    :style="{
+      '--highlight-color': elements[focusY] && elements[focusY].color,
+      '--borderRadius':
+        c.config.borderRadius === undefined
+          ? undefined
+          : c.config.borderRadius + 'px',
+    }"
   >
     <LeftNav
+      v-if="c.config.showNav"
       :elements="elements"
       :focusY="focusY"
       :focusX="focusX"
@@ -97,9 +104,6 @@ export default Vue.extend({
         (this as any).elements?.[0]?.elements[1]?.image || '',
       )?.[1] ||
       ''
-    const url = element
-      ? `https://jasperstephenson.com/p/${element.slug}`
-      : `https://jasperstephenson.com/`
     const description = element
       ? element.elements[0].text
           .replace(/<h1.*<\/h1>/g, '')
@@ -118,12 +122,12 @@ export default Vue.extend({
         { hid: 'og:title', name: 'og:title', content: title },
         { hid: 'og:description', name: 'og:description', content: description },
         { hid: 'og:image', name: 'og:image', content: image },
-        { hid: 'og:url', name: 'og:url', content: url },
       ],
     }
   },
   data() {
     return {
+      c,
       hash: this.$route.hash.replace(/^#/, '').replace(/\/$/, ''),
       focusX: 0,
       focusY: 0,
@@ -336,6 +340,10 @@ export default Vue.extend({
   display: flex;
   --pane-width: calc(min(100vw, 100 * var(--vw)) - var(--nav-width));
   --pane-height: calc(min(100vh, 100 * var(--vh)));
+
+  &.noNav {
+    --nav-width: 0px;
+  }
 
   &.mobile {
     --nav-width: 0px;

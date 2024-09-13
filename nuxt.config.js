@@ -7,6 +7,11 @@ export default {
   target: 'static',
   ignore: ['/static'],
 
+  // set environment variables
+  env: {
+    CONTENT: process.env.CONTENT,
+  },
+
   head: {
     title: 'Jasper Stephenson',
     htmlAttrs: {
@@ -54,7 +59,7 @@ export default {
 
 async function getRoutesToGenerate() {
   const paths = ['/']
-  const contentDoc = '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I'
+  const contentDoc = c.config.contentDoc
   let data = await axios
     .get(`https://p.jasperstephenson.com/3lix/doc/${contentDoc}`)
     .then((res) => {

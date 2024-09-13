@@ -10,7 +10,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "postgenerate": "node ./generate/copy_docs_to_keep.js && node ./generate/addHeadContent.js",
+    "postgenerate": "ts-node ./generate/copy_docs_to_keep.ts && ts-node ./generate/addHeadContent.ts",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },
@@ -22,6 +22,7 @@
     "nuxt": "^2.15.7",
     "sass": "^1.52.3",
     "sass-loader": "^10.1.1",
+    "ts-node": "^10.9.2",
     "vue": "^2.7",
     "webpack": "^4.46.0"
   },

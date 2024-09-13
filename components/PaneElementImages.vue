@@ -127,7 +127,7 @@ export default Vue.extend({
       height: 100%;
       box-shadow: 0 0.1rem 0.3rem var(--highlight-color, rgba(0, 0, 0, 0.3)),
         0 1rem 4rem var(--highlight-color, rgba(0, 0, 0, 0.3));
-      border-radius: 5px;
+      border-radius: var(--borderRadius, 5px);
       opacity: 0.5;
     }
     // &:after {
@@ -155,7 +155,7 @@ export default Vue.extend({
     display: block;
     max-width: calc(var(--pane-width) * 0.5);
     max-height: calc(max(var(--pane-height) * 0.8));
-    border-radius: 5px;
+    border-radius: var(--borderRadius, 5px);
   }
   .iframeholder {
     min-width: calc(var(--pane-width) * 0.5);

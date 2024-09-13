@@ -36,11 +36,10 @@
   padding: 0.5rem 1rem;
   margin: 0;
   margin-bottom: 2rem;
-  margin-left: -7vw;
   line-height: 1;
   font-size: calc(min(5rem, 5vw));
   max-width: calc(100% + 10vw);
-  border-radius: 5px;
+  border-radius: var(--borderRadius, 5px);
   transition: left 1s ease-out;
 
   p {
@@ -55,6 +54,13 @@
 }
 .focused .postTitle {
   left: -10vw;
+}
+.header.overlap .postTitle {
+  margin-left: -7vw;
+}
+.header.noBackground .postTitle {
+  background-color: transparent;
+  padding: 0;
 }
 
 .mobile {
