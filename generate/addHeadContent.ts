@@ -80,9 +80,9 @@ async function go() {
           .replace(/<[^>]*>/g, ' ')
           .replace(/\s+/g, ' ')
           .trim()
-      : 'Digital Tinkerer, Friendly Ghost.'
+      : c.config.description
     const headObject = {
-      title: title + ' | ' + 'Jasper Stephenson',
+      title: title + ' | ' + c.config.fullName,
       meta: [
         {
           hid: 'description',

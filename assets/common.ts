@@ -111,6 +111,7 @@ function extractDataAsObject(s = '') {
       value = JSON.parse(value)
     } catch (e) {
       log(e)
+      log(value)
     }
     data[key] = value
   }

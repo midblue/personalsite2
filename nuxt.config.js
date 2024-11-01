@@ -12,7 +12,7 @@ export default {
   },
 
   head: {
-    title: 'Jasper Stephenson',
+    title: c.config.fullName,
     htmlAttrs: {
       lang: 'en',
     },

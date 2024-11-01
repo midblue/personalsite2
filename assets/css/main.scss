@@ -482,6 +482,17 @@ ul {
   margin: 0.2em;
   margin-left: 0;
 }
+ul {
+  padding-left: 0;
+  p {
+    display: none;
+  }
+  li {
+    margin-bottom: 0.3em;
+    // no dots
+    list-style-type: none;
+  }
+}
 
 .success {
   color: var(--success);

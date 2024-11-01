@@ -1,6 +1,9 @@
 <template>
   <client-only>
-    <div>
+    <div
+      class="layout"
+      :style="{ '--h1Font': c.config.h1Font, '--bodyFont': c.config.bodyFont }"
+    >
       <InfoTooltip />
       <Lightbox />
       <div>
@@ -30,6 +33,11 @@ import Vue from 'vue'
 import axios from 'axios'
 
 export default Vue.extend({
+  data() {
+    return {
+      c,
+    }
+  },
   created() {
     this.loadElements()
   },
@@ -115,3 +123,12 @@ export default Vue.extend({
   },
 })
 </script>
+<style lang="scss">
+h1 {
+  font-family: var(--h1Font, 'Bungee Outline'), Helvetica, sans-serif !important;
+}
+.layout {
+  --font-stack: var(--bodyFont, 'Asap'), 'Helvetica', sans-serif !important;
+  font-family: var(--font-stack) !important;
+}
+</style>

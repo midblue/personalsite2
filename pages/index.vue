@@ -97,7 +97,7 @@ export default Vue.extend({
         'Home'
       ).trim() +
         ' | ' +
-        'Jasper Stephenson'
+        c.config.fullName
     const image =
       /src=(?:'|")([^"']*)/g.exec(element?.elements?.[0]?.image || '')?.[1] ||
       /src=(?:'|")([^'"]*)/g.exec(
@@ -110,14 +110,14 @@ export default Vue.extend({
           .replace(/<[^>]*>/g, ' ')
           .replace(/\s+/g, ' ')
           .trim()
-      : 'Digital Tinkerer, Friendly Ghost.'
+      : c.config.description
     return {
       title: title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Jasper Stephenson',
+          content: description,
         },
         { hid: 'og:title', name: 'og:title', content: title },
         { hid: 'og:description', name: 'og:description', content: description },
@@ -195,7 +195,6 @@ export default Vue.extend({
     async scrollToPreselected() {
       if (!this.elements.length) return
       if (!this.preselectedSlug) return
-      c.log('preselected', this.preselectedSlug)
 
       await this.$nextTick()
       await c.sleep(100)
@@ -204,7 +203,6 @@ export default Vue.extend({
         (el: any) => el.slug === this.preselectedSlug,
       )
       if (found) {
-        c.log('found entry for', this.preselectedSlug)
         this.forceFocusY(this.elements.indexOf(found), true)
       }
       history.replaceState(
@@ -222,12 +220,13 @@ export default Vue.extend({
       this.focusX = 0
       this.forceFocusX = -1
 
-      // set page title to the first element's title | Jasper Stephenson
+      // set page title to the first element's title | full name
       const title =
         /<h1[^>]*?>([^<]*)/g.exec(
           this.elements[index]?.elements?.[0]?.text || '',
         )?.[1] || 'Home'
-      document.title = title + ' | Jasper Stephenson'
+      if (c.config.fullName.includes(title)) document.title = c.config.fullName
+      else document.title = title + ' | ' + c.config.fullName
 
       setTimeout(() => {
         if (this.focusY !== index) return
