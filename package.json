@@ -10,7 +10,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "postgenerate": "ts-node ./generate/copy_docs_to_keep.ts && ts-node ./generate/addHeadContent.ts",
+    "postgenerate": "ts-node ./generate/copy_docs_to_keep.ts",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },
