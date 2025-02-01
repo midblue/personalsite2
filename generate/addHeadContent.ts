@@ -1,9 +1,19 @@
 const fs = require('fs')
 const axios = require('axios')
-import * as c from '../assets/common'
+// import * as c from '../assets/common'
+
+const config: Config = {
+  fullName: 'Jasper Stephenson',
+  description: 'Digital Tinkerer, Friendly Ghost.',
+  contentDoc: '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I',
+  CNAME: 'www.jasperstephenson.com',
+  showNav: true,
+  overlapTitle: true,
+  titleBackgroundColor: true,
+}
 
 async function go() {
-  const contentDoc = c.config.contentDoc
+  const contentDoc = config.contentDoc
   let data = await axios
     .get(`https://p.jasperstephenson.com/3lix/doc/${contentDoc}`)
     .then((res) => {
@@ -80,9 +90,9 @@ async function go() {
           .replace(/<[^>]*>/g, ' ')
           .replace(/\s+/g, ' ')
           .trim()
-      : c.config.description
+      : config.description
     const headObject = {
-      title: title + ' | ' + c.config.fullName,
+      title: title + ' | ' + config.fullName,
       meta: [
         {
           hid: 'description',
@@ -154,7 +164,7 @@ function extractDataAsObject(s = '') {
     try {
       value = JSON.parse(value)
     } catch (e) {
-      c.log(e)
+      console.log(e)
     }
     data[key] = value
   }
