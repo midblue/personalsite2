@@ -43,7 +43,8 @@ export default Vue.extend({
       script: [
         {
           defer: true,
-          src: 'https://umm.jasperstephenson.com/script.js" data-website-id="c11cd71c-8e14-4a11-bc24-1ad4c6d53507',
+          src: 'https://umm.jasperstephenson.com/script.js',
+          'data-website-id': 'c11cd71c-8e14-4a11-bc24-1ad4c6d53507',
         },
       ],
     }
