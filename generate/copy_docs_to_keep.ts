@@ -16,7 +16,7 @@ console.log('Copied additional files (CNAME, etc) into /dist')
 const axios = require('axios')
 // import * as c from '../assets/common'
 
-const config: Config = {
+const config = {
   fullName: 'Jasper Stephenson',
   description: 'Digital Tinkerer, Friendly Ghost.',
   contentDoc: '1rFcSntbispfYHagAX129_qcoHpbqfmsNn1P67Ncjg4I',
