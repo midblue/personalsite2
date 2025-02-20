@@ -222,7 +222,7 @@ export default Vue.extend({
 
       // set page title to the first element's title | full name
       const title =
-        /<h1[^>]*?>([^<]*)/g.exec(
+        /<h\d[^>]*?>([^<]*)/g.exec(
           this.elements[index]?.elements?.[0]?.text || '',
         )?.[1] || 'Home'
       if (c.config.fullName.includes(title)) document.title = c.config.fullName
