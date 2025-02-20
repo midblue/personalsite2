@@ -75,7 +75,7 @@ export default Vue.extend({
       return this.$store.state.mobile
     },
     header(): string | undefined {
-      return /<h1.*<\/h1>/g.exec(this.text)?.[0]
+      return /<h\d.*<\/h\d>/g.exec(this.text)?.[0]
     },
     textMinusHeader(): string | undefined {
       if (!this.header) return this.text
@@ -191,7 +191,7 @@ export default Vue.extend({
     }
 
     .header {
-      h1 {
+      & > * {
         display: inline-block;
       }
     }
